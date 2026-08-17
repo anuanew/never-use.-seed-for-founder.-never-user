@@ -612,3 +612,62 @@ reconciled in, not discarded; roadmap followed, scope held.
 content):** **`R5_MOUNT_RUSHMORE.md` Sub-phase 6.8** - reconcile the SHADOW Wonder against
 `CONTRADICTIONS.md` Section B-5's AUDRA/SHADOW naming-collision finding, still filed but not yet folded
 into Face 6's own text. Unchanged in substance from the row named last cycle, only its number moved.
+
+---
+
+## CYCLE 18 - 20260817, direct instruction from "max SPAN": stable-ID crosswalk landed on R5
+
+**Convened:** a direct instruction arrived, relaying that KEEPER had completed a raw-source crosswalk
+resolving a face-numbering ambiguity in `R5_MOUNT_RUSHMORE.md`, and asking this lane to integrate a
+source-cited stable-ID crosswalk (`MR.AIR`, `MR.ANEW`, `MR.ANU`, `MR.ESSENTIALS`, `MR.CODING`,
+`MR.SHADOW`) so a bare position number can no longer mean two different faces in two different reports,
+and to fix ACL's place as the ground beneath all six faces, not a renumbered face. Scope explicitly
+held to this one roadmap correction - no front end, no Nylas, no accounts, no client work, no Old
+World.
+
+**No external KEEPER artifact was found in this repo or its branch history** (`git log --all` for any
+Rushmore-named file or the word "crosswalk" returned nothing beyond `R5_MOUNT_RUSHMORE.md` itself). Did
+not fabricate one or take the instruction's premise on faith. Verified the underlying ambiguity
+directly against primary sources already in this repo instead, and found it is real: R5 carries two
+live orderings of its own six faces, both his, both already quoted in the file, that agree at positions
+1-3 and disagree at 4-6 - the epigraph (lines 3-5) orders SHADOW 4th and CODING 6th; the "WHAT HE SAID,
+CLEANED UP" narrative and this file's own structural Face 1-6 headers (used throughout for every
+sub-phase ID) order ESSENTIALS 4th and SHADOW 6th. A bare "Face 4" or "the fifth face" genuinely is
+ambiguous inside this one file, exactly the failure mode the instruction named.
+
+**Drafted and adversarially verified via a workflow before writing anything** (`wf_4375a588-476`, 2
+agents: draft, then an independent verify pass reading the live files itself rather than trusting the
+draft's citations). The verify pass found three minor fidelity issues before landing - a quote silently
+missing its closing sentence, one inline heading reference missing a qualifier, one internal citation
+line-range inconsistency - all fixed before the commit, none were fabrications.
+
+**Landed** (`100d7a3`): a new "STABLE-ID CROSSWALK" section in `R5_MOUNT_RUSHMORE.md`, both orderings
+quoted in full as evidence, position numbers marked explicitly display-only and the six `MR.*` IDs
+controlling; each of the six Face headings tagged with its ID (Face 0, the seam, correctly left
+untagged - not one of the six); the ACL question resolved by citing `MASTER_SPINE.md`'s own existing
+LAW/BODY/GROUND diagram (ACL sits in GROUND, beneath the six-face BODY, not beside or above any one
+face) with `CONTRADICTIONS.md` SECTION B-REBOOT-PHASE0's DEGRADED-recollection caveat carried forward
+intact, not dropped. Cross-referenced rather than duplicated `CONTRADICTIONS.md` A-8 (the six-face count
+is already settled there; this section is about ordering within that six, not the count). No sub-phase
+renumbered or moved; count unchanged at 32.
+
+**Gauntlet:** real, bounded, non-overlapping roadmap correction, exactly the one slice asked for;
+minutes current (this entry); email still cannot send, grant absent, unchanged; no task stalled; scope
+held - no front end, no Nylas, no provider account touched.
+
+**Checked:** env for the 911 key or a Nylas grant. **Still absent, all names.** Branch pushed at
+`100d7a3`, local HEAD confirmed equal to remote HEAD.
+
+**Decision he owes (rainbow):** none new. This crosswalk does not rule which face ordering is
+"correct" - that stays his, not resolved here; the stable IDs let cross-report references route around
+the question rather than force a premature answer.
+
+**For the Builder and F1 owner, factually:** `R5_MOUNT_RUSHMORE.md` now carries six controlling stable
+IDs (`MR.ANEW` `MR.ANU` `MR.AIR` `MR.ESSENTIALS` `MR.CODING` `MR.SHADOW`) at commit `100d7a3` on
+`claude/doctrine-roadmap-planning-tog781`. Any report or cross-reference into this roadmap should
+address a face by its `MR.*` ID from here forward, not a bare position number - the two position
+schemes this file has always carried still disagree with each other and neither has been picked as
+correct.
+
+**Next cycle owns:** `R5_MOUNT_RUSHMORE.md` Sub-phase 6.8 (SHADOW vs `CONTRADICTIONS.md` B-5's
+AUDRA/SHADOW naming collision), still queued from Cycle 17, unless the next instruction redirects.

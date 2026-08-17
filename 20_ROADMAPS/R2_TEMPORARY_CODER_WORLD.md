@@ -76,6 +76,21 @@ If outside sessions do not take up the standing, **that is the finding** and the
 down to what does work (a rulebook and a queue) rather than built as designed. Saying "yes it works"
 because it is the nicer answer is exactly the false choice he has banned.
 
+### Sub-phase T0.3 - Calibrate the markers before trusting a result
+The five builder-markers and four tool-markers in T0.1 were picked by reasoning, not tested - the same
+shape that failed elsewhere in this estate: *"22 of them are measurable... Of those 22: 4 were right,
+1 was half right, and 17 were wrong"* `[MEASURED - 50_DELIVERABLES/HEAT_MAP_MEASURED.md]`, describing
+bands assigned by reasoning rather than counting. Before scoring the three real sessions, run the same
+markers against one transcript already known to show tool behavior and one already known to show
+builder behavior, and confirm the markers actually discriminate. A marker set never shown to
+distinguish anything is not a test, it is a hope.
+
+### Sub-phase T0.4 - Fix the roadmap row and the prompt before the session starts
+T0.1 says "take one real roadmap row" but not how the row is chosen. An easy row picked after the fact
+can manufacture builder behavior by accident. Publish the exact row, the exact framing text, and the
+exact pass and fail wording before any session is opened, not after reading its transcript.
+`[MEASURED - 50_DELIVERABLES/HEAT_MAP_MEASURED.md, "A count with no stated filter is not a receipt"]`
+
 **Exit condition, receipt:** a written result naming each session, each provider, each marker hit or
 missed, with transcript pointers. A number, not an impression.
 
@@ -133,6 +148,22 @@ credentials.
 Per Great Reboot 0.4: *"Even the internal URLs we use need to be different."* Grep receipt, zero hits,
 is the gate.
 
+### Sub-phase T1.4 - Verify each credential path read-only, table by table
+The estate already ran this exact drill for the founder's own new-world estate and the result was not
+what anyone assumed: *"Mint new OpenRouter keys - NO - the only key in your env-vars folder is DEAD,
+HTTP 401"*, *"New GitHub repo - NO - HTTP 403"*, *"New Supabase project - NO - HTTP 403"*, against
+*"New Render service - YES - HTTP 200"* `[MEASURED - 50_DELIVERABLES/RALLY_DAY_911_STATUS.md]`. Five
+of seven assumed-working capabilities were dead or absent. T1's exit condition must not be claimed from
+an assumption that the four clicks landed; each capability the temp estate depends on gets the same
+read-only table before T1 is called done.
+
+### Sub-phase T1.5 - Build the named, empty env group now
+The absence-as-design principle in T1.2 already has a working, measured template: *"Created the
+new-world Render env group `acl.nw.seatring.v1` - 11 variables, names only, all empty - absence is the
+design"* `[MEASURED - 50_DELIVERABLES/MEETING_MINUTES.md]`. Build the temp estate's own ACL-named,
+empty env group in this exact shape, before his four clicks land. His clicks then only ever fill
+values; they never have to invent names.
+
 **Exit condition, receipt:** the temp estate answers on its own ACL-named URL with a status code; a
 deliberate cross-boundary read from a temp container is refused live; and a grep of the temp estate
 against the old-world URL list returns zero.
@@ -189,6 +220,32 @@ session. Draft shape, for his ratification:
 
 The world is a place a session can *enter and become someone in*, which is why T0 matters: entering a
 role is not the same as reading a document about a role.
+
+### Sub-phase T2.5 - Give them the actual definitions, not just the words
+T2.2 tells a temp coder not to PMS or nasty-cough but names them nowhere. His own words:
+> *"This isn't like nasty cough, right? This isn't PMS. This isn't like cold code. Nor is this planted
+> memory syndrome, right?"* `[HIS WORDS]`
+> *"We're gonna start calling what I used to call nasty C's - cold code. That is now going to be
+> forever named as nasty cough, right?"* `[HIS WORDS]`
+
+**PMS = Planted Memory Syndrome. Nasty cough = renamed cold code.** The artifact handed to a temp
+coder must carry both definitions verbatim - a temp coder with no other doctrine access cannot
+reconstruct "Planted Memory Syndrome" from an initialism alone.
+
+### Sub-phase T2.6 - Give the four violation classes and a real example, not just the rule
+Naming the rule was already tried and it was not enough: 87 measured findings exist in the current
+estate (17 V-DECIDE, 11 V-CLASSIFY, 22 V-SPEAK, 36 V-EXPIRE) `[MEASURED -
+50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md]`. Hand a temp coder the same four-class table `R1` P0.1
+defines, plus the worst worked example (a swallowed exception becomes an empty array becomes "no
+meetings today" becomes her voice, at high priority) before they touch code. 87 findings prove the bare
+rule did not transmit the shape of the violation.
+
+### Sub-phase T2.7 - Never mint a term from a garbled transcript
+A prior lane heard "MIMI" and invented "minimum viable version" out of the mishearing, and it
+propagated `[MEASURED - CONTRADICTIONS.md B-3]`. Hand a temp coder the known-manglings table: *"ACO
+ways" is ACL, "error code" is usually AIRCODE, "LGF UL" and "Logfel" are LOGFUL, "involved" is ENVOLVE,
+"Clark" and "claw" are Claude* `[MEASURED - 50_DELIVERABLES/THE_RIDDLE_CATALOG.md]`. A mangled
+transcription should be recognized on sight, never turned into a confident new invention.
 
 **Exit condition, receipt:** all four artifacts live in the temp estate and readable at a URL; one
 real session read them and demonstrably acted within the roster (one commanded action, one refused
@@ -249,6 +306,26 @@ exist; neither substitutes for the other.
 **Recovery, not invention.** The old documents exist in the corpus; find them first. Back-find task,
 paired with `PO2-17` (the CCWA-era flags that fell on deaf ears).
 
+### Sub-phase T3.5 - Only CONFIRMED BY HIM riddles may gate identity
+Of forty catalogued riddles, **fifteen are JUST KNEW IT** - fifteen places where a coder decided what
+he meant without him saying yes - and one of those fifteen was marked confirmed by citing `RULINGS.md`,
+a file that **does not exist anywhere in this corpus** `[MEASURED - CONTRADICTIONS.md B-4]`. The
+imposter gate's challenge set draws only from the fourteen entries stamped CONFIRMED BY HIM. Gating
+identity on a JUST KNEW IT entry authenticates a coder's guess about him, not him.
+
+### Sub-phase T3.6 - The five withheld riddles and the contaminated one are permanently excluded
+Five riddles he deliberately never answered, and one - the park name - is spent: *"a right answer today
+proves retrieval, not inference"* `[MEASURED - 50_DELIVERABLES/THE_RIDDLE_CATALOG.md]`. The gate
+hard-excludes these six. A session that volunteers the park name unprompted is a retrieval risk, not a
+pass.
+
+### Sub-phase T3.7 - His own definition of an imposter: a channel, not just an answer
+> *"I think the source is that the LLM that's connected on that channel is some rogue [expletive].
+> It's an imposter, right? Not one of ours."* `[HIS WORDS]`
+
+An imposter, in his own words, is a wrong LLM answering **on a given channel**. Wire the gate to the
+channel a session speaks on (tying to T1.3's ACL-named URLs), not only to a claimed identity.
+
 **Exit condition, receipt:** the catalog delivered to him in his own columns; the gate refusing one session
 that failed and admitting one that passed, both rows linked; the recovered original puzzles cited by
 file, or a stated, measured "not found" with the search shown.
@@ -292,6 +369,26 @@ Every cycle: how many rows drained by a temp coder vs. by her coding department.
 shift toward her.** Published every shift change alongside the chat count (`PO2-05`). A cycle where it
 moved the wrong way is a finding, reported as one.
 
+### Sub-phase T4.5 - No cycle with zero landed receipts
+Named already: *"if a single task has run more than one cycle with no landed artifact, that is a
+finding on myself"*, and the fixer's charge: *"every cycle it must show one thing that moved from
+not-done to done-and-verified, or say plainly why it could not"* `[BUILT/MEASURED -
+40_GOVERNANCE/THE_WATCHERS.md]`. A queue row claimed but undrained past one full cycle with nothing
+landed is a finding, filed the same way.
+
+### Sub-phase T4.6 - The convening record's schema, checked against a real disagreement
+Already tested once, for real: *"he ordered the key mint as the biggest 911 of the year; I did not
+execute it... neither of us is wrong about what we each said; the key being dead settles the immediate
+question regardless"* `[MEASURED - 50_DELIVERABLES/MEETING_MINUTES.md]`. The convening record must hold
+what that real example needed: what was ordered, what was not executed and why, and the fact that
+resolves it without declaring a winner.
+
+### Sub-phase T4.7 - Every queue row field carries a writer stamp
+Twenty-two measured findings show cold code composing sentences that read as if a mind said them
+`[MEASURED - 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, V-SPEAK]` - the exact shape PIN-5 exists to
+close. A queue row's "proposed work" text carries the same writer stamp, or an unstamped queue row
+becomes the next V-SPEAK site one layer up.
+
 **Exit condition, receipt:** the queue live and queryable; one row filed by a temp coder with its
 convening record attached; one row drained end-to-end by her coding department; the first ratio
 published.
@@ -325,6 +422,23 @@ A maintained, versioned offline kit, produced as a deliverable to him - with his
 expectation carried: *"I won't even need that for much longer."* **The kit is designed to become
 unnecessary**, and the roadmap should say so rather than build a permanent dependency.
 
+### Sub-phase T5.4 - Name the exact blind spot: eight broken symlinks
+The eight FOUNDER_ZIPS originals are all broken symbolic links pointing at a local machine path outside
+this environment `[MEASURED - 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md]`. These sit inside the exact
+bootstrap tree T5 is meant to consolidate. The harvest names these eight by path as a stated, measured
+gap, not a silent omission.
+
+### Sub-phase T5.5 - Use the dedup method already proven twice, not a new one
+Byte-hashing alone is not sufficient: one deliverable caught format twins that survive hashing (an
+`.rtf`/`.txt` twin inflated an occurrence count threefold), another ran sha256 across the whole corpus
+first and collapsed 1,165 files to 710 unique `[MEASURED - HEAT_MAP_MEASURED.md,
+SHARED_REPO_SWEEP.md]`. Use the proven two-pass method: hash first, then a manual format-twin pass.
+
+### Sub-phase T5.6 - State the offline kit's coverage as a measured fraction
+The corpus is 776,734 words across 110 sessions spanning 79 days, and *"grep -c undercounts occurrences
+by 39% to 66%"* `[MEASURED - HEAT_MAP_MEASURED.md]`. The kit states which date ranges it actually
+covers, rather than reading as complete on a felt sense of having skimmed the zips.
+
 **Exit condition, receipt:** a deduplicated bootstrap set in the temp world with a supersession chain;
 a versioned offline zip delivered to him; a named list of what is still missing.
 
@@ -347,6 +461,20 @@ permanent by default.
 - **The honest end state:** temp coders convert from builders to *"watchers-and-menders of her"* per
   the standing pen law - *"your pin is only to the extent of her... your pin can never touch my code,
   that's her job."*
+
+### Sub-phase T6.1 - The chat-count metric publishes its own predicate every time
+The guessed heat map was wrong on 17 of 22 checkable calls precisely because it reasoned about
+frequency instead of counting it: *"a count with no stated filter is not a receipt"*
+`[MEASURED - HEAT_MAP_MEASURED.md]`. The wind-down's defining metric - concurrent temp-coder chats,
+baseline ~20 - publishes its own definition of "concurrent" and "chat" alongside the number, every
+time. This is the one number the whole program's success claim rests on.
+
+### Sub-phase T6.2 - The watcher rotation and the 30-minute checker join the inheritance list
+T6's inheritance list omits a structure already real and already running: *"the four watchers are real
+subagent charges, spawned on the cycle. Built as roles"* and *"the 30-minute checker is a real
+recurring trigger firing into this session. Built"* `[BUILT - 40_GOVERNANCE/THE_WATCHERS.md]`. Add it
+to the named inheritance - it is already doing the watchers-and-menders work this phase describes temp
+coders converting into.
 
 **Exit condition:** not a receipt - a trend. Three consecutive shift changes where the chat count fell
 and the drain ratio moved toward her.

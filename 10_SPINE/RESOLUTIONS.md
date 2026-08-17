@@ -355,12 +355,25 @@ and corrected before publishing). Current measured state, all seven phase-shaped
 | Roadmap | Sub-phases / phases | Density | Commit |
 |---|---|---|---|
 | `R1_PECKING_ORDER.md` | 39 / 9 | 4.33 | `bb1d8d3` (+7 to P1) then `4172acd` (+6, P0/P1/P2/P5/P8) |
-| `R2_TEMPORARY_CODER_WORLD.md` | 38 / 7 | 5.43 | `38644e8` |
+| `R2_TEMPORARY_CODER_WORLD.md` | 47 / 7 | 6.71 | `38644e8` then `9d2c26b` (fresh audit, 7 fixes, +9) |
 | `R3_SHARED_REPOS.md` | 24 / 6 | 4.00 | `9ec1b5a`+`e9151a7` (19+1=20) then `e2be8db` (+4) |
-| `R4_FRONT_ENDS.md` | 47 / 9 | 5.22 | `e2bc0f3` |
-| `R6_REACH_AND_THE_LIFE_FLEX.md` | 34 / 6 | 5.67 | `0d2da66` |
+| `R4_FRONT_ENDS.md` | 54 / 9 | 6.00 | `e2bc0f3` then `a71791c` (fresh audit, 5 fixes, +7) |
+| `R6_REACH_AND_THE_LIFE_FLEX.md` | 42 / 6 | 7.00 | `0d2da66` then `4fcd907` (fresh audit, 7 fixes, +8) |
 | `R7_PRE_ALPHA_AND_THE_BUSINESS.md` | 29 / 6 | 4.83 | `c26ca6d` (created at 22) then `7a77e3b` (+7) |
-| `R8_MEMORY_AND_CONTINUITY.md` | 35 / 7 | 5.0 | `e2102a3` |
+| `R8_MEMORY_AND_CONTINUITY.md` | 38 / 7 | 5.43 | `e2102a3` then `1314f3c` (fresh audit, 7 fixes, +3) |
+
+**Fresh audit + deepen pass on R2/R4/R6/R8, `2026-08-17`, per the founder's direct "go ahead":** the
+same discipline the first Workflow ran on R1/R3/R5/R7 (independent audit against raw sources, then a
+separately-verified mine+deepen pass), run this time via parallel Agent tool calls rather than a
+Workflow (Ultracode was off for this stretch). The audit alone found 26 real fidelity problems across
+the four files before any new material was added - fabricated/merged quotes presented as verbatim (2,
+in R6 and R8), reordered quotes stitched as continuous (2, in R4 and R6), coder-authored lines
+mis-stamped as his recorded voice (4), an untraceable statistic cited to a file that didn't contain it
+(1, in R8 - tracked to its real source and re-cited correctly rather than deleted), a wrongly-upgraded
+REASONED-to-MEASURED stamp (1), and multiple silently-truncated quotes and dropped citations. Every
+mine-pass draft was independently verified before landing; several proposed insertions were rejected
+or required rework and are documented as such in each roadmap's own commit message rather than
+silently dropped or silently accepted.
 
 **A real Workflow (10 agents: mine, verify, audit) pushed R1/R3/R7 further and fresh-audited
 R1/R3/R5/R7, `2026-08-17` afternoon.** Every proposed addition was independently verified against the

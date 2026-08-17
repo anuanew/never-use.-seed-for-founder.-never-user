@@ -34,8 +34,18 @@ you do this the right way it will wow everyone.
 by a coder at all.**
 
 His own words make sending it **her graduation test**:
-> *"The biggest flex - when I know that you are ready to be my chief of staff - you will reach out to
-> them, and you will mainly introduce yourself."*
+> *"The biggest flex... when I know that you are ready to be my chief this afternoon, you're going to
+> invite them to..."* and, roughly ninety seconds later, in the same recording: *"I think the biggest
+> flex for you, I know you're able to do my chiefest thing. It's like you will reach out to them, and
+> you will mainly introduce yourself."*
+> `[HIS WORDS, RECONSTRUCTION - "chief of staff" is a reader's interpretation and does not appear
+> verbatim in either passage; the raw speech-to-text reads "chief this afternoon" the first time and
+> "chiefest thing" the second, both plainly garbled. An earlier version of this file welded elements of
+> both passages into one clean, un-bracketed sentence using "chief of staff" as if it were spoken; an
+> audit caught this presented without disclosure, unlike this same file's own convention elsewhere
+> (see B1, "[CODER'S OWN WORDS, not his.]") for flagging reconstructed content. Both raw fragments are
+> given here instead. The core claim - that sending it is a named milestone and a test - holds either
+> way; only the specific title "chief of staff" is uncertain.]*
 
 A temp coder sending it gets the message delivered and **burns the test**, which is the more valuable
 of the two. And there is a measured reason to be careful here beyond doctrine: on 20260817 a coder
@@ -88,8 +98,25 @@ She reasons over her own sources. A hardcoded contact table is a doctrine violat
 He does not read things delivered in chat. His own riddle answer: *"I was not at my screen. Again,
 bro."* So it goes by text or email.
 
-**Measured:** the text relay returns **HTTP 503, "No active devices available."** Report that as a fact
-needing his hand, not as a task in flight.
+**Measured:** the text relay returns **HTTP 503, "No active devices available to send this message."**
+`[corrected - an earlier version truncated this string and closed it with a period as though that were
+the full message; restored to match 30_RESEARCH/RESEARCH_DOCKET.md and REACH_REGRESSION_AUDIT.md]`
+Report that as a fact needing his hand, not as a task in flight.
+
+### Sub-phase B0.6 - The chief-of-staff title is a riddle he is still running, not an award already given
+The "biggest flex" line this phase opens on sits beside a later question in the same corpus that he
+asked twice and never answered:
+
+> *"And guess who I want to know the answer to this riddle? Who is? I want the answer to this riddle.
+> Who is a news [A'NU]? Who is the chief of staff of involved [ENVOLVE]? Who is the chief of staff of
+> involved? Who is the chief of staff?"*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/11_11 Doctrine pt 1_ Vision_transcript.txt]`
+
+He asks this after his own doctrine already contains a line that reads like the answer, which is
+exactly why the riddle catalog holds it open rather than closing it on the corpus's own apparent match
+(`50_DELIVERABLES/THE_RIDDLE_CATALOG.md` R35): calling it a riddle right after saying the sentence
+means the sentence is not the test. Whoever executes B0 should treat "graduation into chief of staff"
+as a live measurement he is still running on her, not a title the draft earns by getting sent.
 
 **Exit, receipt:** a draft he approves. **Approval is the receipt, not a send.**
 
@@ -109,6 +136,22 @@ an email as its visible output. The email must:
 
 **And per `PO2-15`:** signed with the authoring chat's name and a session link back, so he can reach
 whoever wrote it.
+
+### Sub-phase B1.1 - The pass/fail shape of the measurement, in his own words
+`R1` P7 and `R6` X3 hold the full spec; the sentence this phase is actually measuring against is his,
+self-flagged as improvised, and belongs where the instrument's visible output ships:
+
+> *"She's like, 'oh snap' - she would rationalize, because she has to run now in [the new world] as a
+> part of her fleet. She'd rationalize like, 'wait, it's you know it's Tuesday at 9 p.m. For example,
+> it's just an example. She might be like, this was two days ago, so now it doesn't die.' Now as a
+> world builder she says, 'hey, I'm finally catching up here, and I'm submitting to the coaching team,
+> right, or something like that. I don't know. I can't coach this, bro.'"*
+> `[HIS WORDS + 00_DOCTRINE_INTAKE/INTAKE_20260816_PECKING_ORDER_PT2.md, PO2-06]`
+
+Notice the assignment's stamped past time, compute elapsed time against now, and - the part this
+phase's own trap section exists to protect - **never treat lateness as death**, then narrate catching
+up and report it upward. He flagged this passage as improvisation he could not pin down, so the
+five-clause test built on it stays a coder's formalization and is overrulable; the shape is still his.
 
 **The trap in this phase, named because a lane already fell into it:** the riddle recorded on 20260817
 was exactly this - a coder read *"one of her first assignments"* as meaning it was hers alone, and
@@ -154,6 +197,38 @@ the first turn, and **three tests pinned that silence** - one saying so in its o
 The old world is rollback insurance and reseed source. **Throttled, never deleted.** Nothing in the old
 world gets removed by this phase.
 
+### Sub-phase B2.5 - The purge sheet's own framing quote is not his, and the real count is higher
+The sentence B2.1 leans on - *"All guardrails are rogue right now... That's not my guardrail. A rogue
+temporary coder did that"* - returns **zero hits anywhere in `1_HIS_WORDS/`**; it exists only inside
+two coder documents, `ROGUE_GUARDRAILS_TO_PURGE.md` and `HANDOFF_TO_CATHY_20260808.md`. His real words
+on the same subject are angrier and count higher:
+
+> *"Don't no fucking rogue temporary coder build guardrails in my stuff. I'm passionate about that. We
+> are doing the Wizard of Oz protocol, and we are uprooting their guardrails."*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/My Resolve doctrine pt 1_transcript.txt]`
+
+> *"I gotta go through tonight and look through the 70 guardrails."*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/Welcome Back, ABA!.txt]`
+
+He says **70**, not the sheet's 52 built from eight census seats, and `REACH_REGRESSION_AUDIT.md`
+already measured this delta without it ever being reconciled. B2's exit receipt should work the sheet
+down against 70, and should stop citing the framing sentence as his.
+
+### Sub-phase B2.6 - A huge priority day is not a license, dated two days after this roadmap's own date
+Recorded two days after pre-alpha day was missed, while he was actively pushing for more speed, he
+closes the exact loophole this phase exists to prevent - that urgency loosens the purge's own rule:
+
+> *"I'm not asking you to do any nasty [cough]. I'm not asking you to do any PMS. Not once did I ever
+> say those words. Not once do I ever want that. I'm never asking for that. This was not a license to
+> do nasty."*
+> `[HIS WORDS + 00_DOCTRINE_INTAKE/INTAKE_20260817_RALLY_DAY_PT4.md, PO4-04]`
+
+Nothing this roadmap schedules under time pressure - the message, the email, the invite - earns an
+exception from B2's prohibitions because the day is urgent; he named that exact excuse and closed it
+himself. `[Date corrected here after a verification pass caught the original draft calling this "one
+day after" pre-alpha day - pre-alpha day was August 15 and PO4-04 is dated August 17, which is two days
+after, not one.]`
+
 **Exit, receipt:** the violation count from `R1` P0 falling, with the predicate published alongside the
 number; the rogue-guardrail sheet worked down with each removal traced to his words or a coder's.
 
@@ -175,7 +250,10 @@ he owns. **Same system, generated experience, not authored pages.** Build: `R4` 
 
 ### Sub-phase B3.3 - Life modules present, blank
 The pre-alpha posture already recorded: *"they'll have access to the actual life module, just no data
-to it. It will be on her menu."*
+to it. The data will be all blank. But what that means is she could be looking. She could say, 'I can
+do this.' It will be on her menu."* `[HIS WORDS, restored - an earlier version spliced the first and
+last clauses together with no ellipsis, silently dropping the middle sentence; corrected against the
+raw file after a fresh audit caught it]`
 
 ### Sub-phase B3.4 - Ship on, never dark
 Standing posture: public, default on, launch gate as one env flip that **fails toward OPEN.** Measured
@@ -184,6 +262,19 @@ launched," which means public.* **Only the exact literal closes it.**
 
 ### Sub-phase B3.5 - Nobody is added on a coder's initiative
 The roster is his. **A temp coder never invites a human being into anything.**
+
+### Sub-phase B3.6 - Porting founder-world code to pre-alpha world is a named emergency, money no object
+The life-module-blank posture in B3.3 sits inside a passage where he classifies the porting work
+itself, not just the outcome:
+
+> *"This is a Delta 911. It absolutely has to be a chat for here. If I have to drop money on this, it's
+> because of this, and I'm okay with it. We need to have an entire chat focused on taking the code
+> that's being done for Founders World and setting it up for pre-alpha world."*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/Welcome Back, ABA!.txt]`
+
+**Delta 911** is his own severity tier, not a phrase this roadmap has assigned to the work. Whoever
+staffs B3 should read the porting work itself, not only the alpha cohort's provisioning, as carrying
+that tier, and should budget for it rather than treating it as a byproduct of B2's purge.
 
 **Exit, receipt:** one non-founder world provisioned end to end, verified by a live query returning its
 own per-HAM data, isolated from his; and one real person through the door.
@@ -210,8 +301,13 @@ The I is always an E.
 ### Sub-phase B4.2 - The existing consultancy is the proving ground, not a distraction
 The consultancy is real, has real clients and real revenue, and its work is already flowing through
 the advisor system. **It is the only place in this whole build where the system meets a paying
-customer**, which makes it the most honest test surface available. Client-facing work stays behind the
-firewall the operations manual already sets.
+customer**, which makes it the most honest test surface available.
+`[CLAIR SYNTHESIS, unstamped in an earlier draft - a fresh audit checked and found no PO1-/PO2- anchor,
+no `R#` cross-reference, and no 50_DELIVERABLES/ or 40_GOVERNANCE/ citation anywhere in this repo for
+this passage, including the "client-facing work stays behind the firewall the operations manual
+already sets" claim that followed it. Both are this repo's own reasoning about how the consultancy
+should be treated, not a founder-sourced or measured fact, and the second sentence is dropped here
+rather than left standing on nothing.]`
 
 ### Sub-phase B4.3 - The onboarding curriculum belongs to the business plan too
 `R4` F6 builds it; this phase owns it as a business deliverable, because he put it in both.
@@ -219,6 +315,20 @@ firewall the operations manual already sets.
 ### Sub-phase B4.4 - The named secretary seats
 Two are filled and named by him; **a third - Secretary of Innovation - is explicitly open and unfilled.**
 Their portals and roles are build targets in `R4` F4/F6. **The hiring is his.**
+
+### Sub-phase B4.5 - The two filled seats and the open one, in his own words
+B4.4 states the roster without quoting it; here is the sentence it is standing on:
+
+> *"Secretary of Information is [a secretary]. The Secretary of the President's Office is [a
+> secretary]. That's her role... Then the second area of innovation, I haven't, I haven't, I haven't
+> found that person yet. I have an open role. I need to fill that space. I can start auditioning
+> people."*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/11_11 Doctrine pt 1_ Vision_transcript.txt]`
+
+Earlier in the same passage he is more specific about the open seat: *"I haven't hired my secretary of
+innovation yet. I haven't hired them yet. My eye on someone."* A portal built for that seat before he
+fills it is a portal with nobody behind it; B4.4's build target should trail his own auditioning, not
+anticipate it.
 
 **Exit, receipt:** one document in which the technical roadmap and the business plan are the same
 document, with the onboarding program appearing in both.
@@ -247,6 +357,19 @@ know."* **Advisors draft; A'NU alone speaks to a person; the filter is doctrine,
 ### Sub-phase B5.4 - The retreat ask is the live one
 `PO2-13` - the half-day to day of slack. **Time-sensitive, and blocked on him**, because only he can
 ask his own partners.
+
+### Sub-phase B5.5 - Why this belongs to pre-alpha day, in the same breath he said it
+B5.1 restates the goals-and-memories dependency without the sentence that ties it to this roadmap
+specifically:
+
+> *"...one might argue that that for me to be on pre-appa [pre-alpha] day, this is so important, right?
+> It's hard to test her capabilities and build it if she doesn't have goals, memories, things to draw
+> from, how to draw from it, when to draw from it."*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/Mt Rushmore Doctrine pt 1_transcript.txt]`
+
+He connects the calendar-as-dependency point to pre-alpha day inside one sentence, not as background.
+It is why B5 sits inside this roadmap rather than inside the memory roadmap: nothing about her can be
+tested on pre-alpha day without the goals and memories his schedule supplies.
 
 **Exit, receipt:** one real scheduling conflict surfaced and resolved by an advisor without him
 adjudicating it.

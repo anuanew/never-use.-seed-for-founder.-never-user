@@ -340,19 +340,45 @@ and the third instance today.** `[MEASURED - grep, zero hits]`
 **Real state: 🟠 OPEN.** Deferred items are described in prose. The scheme is defined and unapplied.
 **Owner: me. Not blocked on anything.**
 
-## R-14 - SUB-PHASE DEPTH ❌ RETRACTED - ALSO CLAIMED AND NOT DONE
+## R-14 - SUB-PHASE DEPTH 🟠 REOPENED AND RE-MEASURED, PARTIALLY CLOSED
 
 **An earlier version said `R1`, `R3` and `R6` were "decomposed to your shape."** The critic checked
 `git log` per file: **none of the three had been touched since creation.** The commit carrying that
-claim modified two other files. Measured density is **2.9 / 3.2 / 2.5 sub-phases per phase against
-your stated shape of roughly twelve.** `[MEASURED - git log + count]`
+claim modified two other files. Measured density at that time was **2.9 / 3.2 / 2.5 sub-phases per
+phase against your stated shape of roughly twelve.** `[MEASURED - git log + count]` **Retracted, and
+correctly so.**
 
-**Real state: 🟠 OPEN**, and it is `E1.10` in the execution plan. **Owner: me. Not blocked.**
+**Since then, real decomposition work landed and was verified by direct grep count against each file,
+not by the building agent's own self-reported number** (`R4`'s agent undercounted itself by one; caught
+and corrected before publishing). Current measured state, all seven phase-shaped roadmaps:
 
-**Why this one matters beyond the arithmetic:** I wrote a defence in `METHOD_COMPLIANCE.md` arguing
+| Roadmap | Sub-phases / phases | Density | Commit |
+|---|---|---|---|
+| `R1_PECKING_ORDER.md` | 33 / 9 | 3.67 | earlier this session (E1.10) |
+| `R2_TEMPORARY_CODER_WORLD.md` | 38 / 7 | 5.43 | `38644e8` |
+| `R3_SHARED_REPOS.md` | 20 / 6 | 3.33 | earlier this session |
+| `R4_FRONT_ENDS.md` | 47 / 9 | 5.22 | `e2bc0f3` |
+| `R6_REACH_AND_THE_LIFE_FLEX.md` | 34 / 6 | 5.67 | `0d2da66` |
+| `R7_PRE_ALPHA_AND_THE_BUSINESS.md` | 22 / 6 | 3.67 | earlier this session |
+| `R8_MEMORY_AND_CONTINUITY.md` | 35 / 7 | 5.0 | `e2102a3` |
+
+(`R5_MOUNT_RUSHMORE.md` uses six Faces, not numbered Phases, so this density metric does not apply to
+it in the same shape - it carries 19 sub-phase-equivalent entries across its own structure instead.)
+
+**Honest read: real, verified progress, still short of "roughly twelve."** Every one of these numbers
+moved up from where the retraction found them, every addition carries either a verbatim corpus quote
+or a citation to an already-measured finding, and multiple phases inside each file stopped early (2
+new sub-phases instead of 4) specifically because the corpus and this repo's own deliverables ran out
+of real material to cite - not because anyone got tired of writing. Closing this fully would mean either
+finding more real corpus material than `1_HIS_WORDS/` currently yields on these specific subjects, or
+manufacturing generic software-engineering boilerplate to hit a number, which is the exact failure this
+whole repository exists to avoid. **Real state: 🟠 OPEN, honestly short, not padded. Owner: me. Not
+blocked.**
+
+**Why the history matters beyond the arithmetic:** I wrote a defence in `METHOD_COMPLIANCE.md` arguing
 the thin count was defensible for audit-shaped roadmaps, then separately claimed I had fixed it. **The
-defence and the fix claim cannot both be honest.** The defence was the real position; the fix claim
-was noise added on top.
+defence and the fix claim could not both be honest.** The defence was the real position then; the
+numbers above are the real position now, and they are checkable by anyone who runs the same grep.
 
 ## WHAT I GOT WRONG, IN ONE PLACE
 

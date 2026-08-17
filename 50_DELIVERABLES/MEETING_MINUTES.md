@@ -446,3 +446,33 @@ results are what's pending); roadmap held.
 **Decision he owes (rainbow):** none new.
 
 **Next cycle owns:** the Workflow's results, applied and logged the moment they land.
+
+---
+
+## CYCLE 13 - 20260817, 02:00 PM EDT, twelfth clean self-fired run, steady state after a full landing
+
+**Convened:** checker fired again on schedule (`18:15:00Z`... actually `17:56:00Z` re-armed to
+`18:15:00Z` per the prior cycle's arm - see git log for the exact chain). This fire's own instruction
+template still asked to check on the Workflow as if pending - it is not. Noted plainly rather than
+re-run: the Workflow completed several cycles ago and every result was applied with real commits
+(`e2be8db` R3, `80c37d6` R5, `7a77e3b` R7, `3e5033d` a root-cause fix in
+`PECKING_ORDER_VIOLATIONS.md`, `4172acd` R1, `816042f` the R-14 receipt table). Since then: he sent a
+live message directly asking what this lane is doing and pushing to keep the fleet visibly moving -
+answered directly, not with a template, and the Workflow above is exactly what was already running by
+the time he asked. He then sent a fresh Rally Day doctrine refresh (a re-upload covering pt 1-7, with
+pt 7 the newest); reviewed all of it, filed four real items from pt 5/6 with citations
+(`00_DOCTRINE_INTAKE/INTAKE_20260817_RALLY_DAY_PT5_PT6_PT7.md`, commit `4850fb9`), confirmed pt 7
+carried nothing on this lane's track, and left everything Manual-Advisor-scoped where it belongs.
+
+**Gauntlet:** real row, steady now that the backlog is genuinely empty again; minutes current (this
+entry); email still cannot send, grant absent, checked; no task stalled; roadmap followed, scope held
+even under direct pressure to "keep moving," by doing real verified work rather than manufacturing
+activity.
+
+**Checked:** env for the 911 key or a Nylas grant. **Still absent, all names.** Branch clean at
+`4850fb9`, fully pushed.
+
+**Decision he owes (rainbow):** none new. Standing floor unchanged; B-5, Mimic Bold/downtime-A'NEW,
+and the PO6-02 secretary-naming correlation are all still his to rule on.
+
+**Next cycle owns:** whatever he sends next.

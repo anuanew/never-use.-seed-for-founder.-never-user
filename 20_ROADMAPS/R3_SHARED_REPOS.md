@@ -110,7 +110,7 @@ anywhere."* (Great Reboot 0.4) - the same discipline governs repo names.
 **Outcome:** a named set of repositories with an explicit statement of what each holds, who may write
 to it, and how code moves between them.
 
-**Entry condition:** S0 answered by him. **Genuinely blocked** - this is not a phase that can be
+**Entry condition: ⭐ DEFERRED** - S0 answered by him. Resolves via floor item `shared-repo meaning`. **Genuinely blocked** - this is not a phase that can be
 started "provisionally" without pre-deciding the thing he was asked.
 
 ### Sub-phase S1.1 - The estates, which are already decided

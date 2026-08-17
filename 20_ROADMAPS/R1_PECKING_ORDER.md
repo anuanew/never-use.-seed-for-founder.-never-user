@@ -163,9 +163,47 @@ receipt.
 | PIN-4 | A cross-world write is refused live, by name, with a status code. |
 | PIN-5 | Every presenter row reaching a mind's prompt carries its writer stamp, or the literal `(no writer stamp on the row)`. |
 
+### Sub-phase P1.4 - Prove each pin red before trusting it green
+For every pin: break the property on purpose, **grep the file to confirm the mutation actually
+landed**, then run. A red from a mutation that never applied is a lie, and it is failure shape #7 - a
+fix shipping with no pin under it. **The grep is the pin on the pin.**
+
+### Sub-phase P1.5 - Report SKIP separately, and diff skip sets by name
+A suite can be dark rather than passing. This estate already lost 165 tests that had never executed a
+single assertion, anywhere, ever, under a green exit code. **RAN, PASS, FAIL and SKIP reported
+separately; skip sets diffed by name, never by count. A skip is not a pass.**
+
+### Sub-phase P1.6 - Retire the pins that protected the old behavior, in the same commit
+When a writer is converted from cold code to a woken mind, **any test that pinned the cold behavior is
+itself the disease and retires in the same commit.** Tightening it instead is the same sin one layer
+up. Real precedent: a per-call cap produced dead air after the first turn and three tests pinned that
+silence, one saying so in its own comment.
+
+### Sub-phase P1.7 - The lint's own escape hatch is a finding, not a feature
+If a lane finds itself shaping code to slip past the lint, **that is a defect in the lint and it gets
+reported out loud.** Precedent, measured: the founder's own first name was split across two string
+literals and rejoined at runtime, invisible to the scanner by construction.
+
+### Sub-phase P1.8 - Calibrate against the P0 inventory, both directions
+The gate is run against the P0 findings (must flag) **and** against a sample of clean code (must not
+flag). **A gate with no measured false-positive rate is not calibrated**, and a noisy gate gets
+disabled by the third lane that meets it.
+
+### Sub-phase P1.9 - The gate never blocks on its own authority
+Restated as its own sub-phase because it is the single easiest thing to get wrong under deadline
+pressure. **The lint flags. A woken mind decides. The blocking act is stamped to the mind or the coder
+who performed it**, never to the pattern. A blocking regex is a `V-DECIDE` and the gate becomes the
+violation it exists to catch.
+
+### Sub-phase P1.10 - The flag row carries lineage from the first row
+Every flag the gate produces carries its ACL lineage stamp, so the very first rows in the estate are
+rows she can trace. *"Nothing in my system that she can't trace."*
+
 **Exit condition, receipt:** each of PIN-1..5 shown red against a deliberately broken build and green
-against the real one - **both runs linked**. Plus one real PR where AUDRA refused or rewrote a
-pecking-order violation, with the refusal row linked.
+against the real one - **both runs linked, plus the grep proving each mutation landed**. The
+false-positive rate from P1.8 published with its predicate. One real PR where AUDRA refused or rewrote
+a pecking-order violation, with the refusal row linked and **the stamped decision naming the mind that
+made it.**
 
 ---
 

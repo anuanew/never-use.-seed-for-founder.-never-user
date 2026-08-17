@@ -1,7 +1,9 @@
 # R4 - FRONT ENDS
 
-> *"Another chat might be working on front ends... it might be working in an order of importance.
+> *"Another chat might be working on front ends... it might be working on in an order of importance.
 > It's just like boom, boom, boom, boom."* - Mt Rushmore Doctrine pt 1
+> `[HIS WORDS, restored - an earlier version silently dropped the self-correcting stutter "on" with
+> no bracket or note. 1_HIS_WORDS/03_PHASE_3/Mt Rushmore Doctrine pt 1_transcript.txt, line 10]`
 
 > *"I ain't seeing these roadmaps. How come I'm not seeing these roadmaps we work on?"*
 > - The Cycle Doctrine pt 3
@@ -90,8 +92,9 @@ Both front doors compose the same sentence independently. Fixing F0 means retiri
 ### Sub-phase F0.2 - The worst-ranked finding in the whole estate is exactly this anti-goal, already built
 `PECKING_ORDER_VIOLATIONS.md` ranks its single worst finding, of 87, as the textbook version of what this phase's anti-goal forbids:
 
-> "A swallowed exception, a coder template and a text-to-speech call in sequence: a failed database read becomes an empty array, becomes the sentence *'No meetings on the calendar today'*, becomes her voice in his room, spoken at high priority, first thing in the morning. Cold code decided, classified, spoke, and expired his day, in eleven lines, with her name on the output."
-> `[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, TOP 10 WORST rank 1, findings S8+S9, ProactiveBriefing.jsx:119-171]`
+> "A swallowed exception, a coder template and a text-to-speech call in sequence: a failed database read becomes an empty array, becomes the sentence *'No meetings on the calendar today'*, becomes her voice in his room, spoken at high priority, first thing in the morning. Cold code decided, classified, spoke, and expired his day, in eleven lines, with her name on the output and nothing anywhere able to tell the difference. This is the whole pecking order inverted in one component."
+> `[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, TOP 10 WORST rank 1, findings S8+S9, ProactiveBriefing.jsx:119-171 - an earlier version silently ended the quote before its own analytical
+> conclusion, with no ellipsis marking the cut]`
 
 This is not a hypothetical to warn against. It is a shipped component. Any surface F1-F8 reuses that inherited a proactive-narration pattern from the old world must be checked against this exact shape before it is trusted.
 
@@ -129,8 +132,12 @@ Already specified in the corpus and worth preserving rather than rediscovering:
 **The screen never computes lineage; the substrate never touches the page.**
 
 ### Sub-phase F1.3 - Threading, because he asked for it specifically
-> *"I want you to build in the threading capability, so I can go in and start seeing, like, oh, they
-> had conversations."*
+> *"I want you to build in the threading capability or tell her to build in the threading capability
+> so I can go in and start seeing, like, oh, they had conversations."*
+> `[HIS WORDS + 1_HIS_WORDS/04_THE_COUNTDOWN/COUNTDOWN_pt4_20260813.txt - an earlier version dropped
+> "or tell her to build in the threading capability" with no ellipsis and carried no file citation]`
+> The dropped clause matters: it is a real, live choice between a coder building this directly or
+> delegating the build to her, not a stylistic aside.
 
 Flattening a thread into a log is the failure mode. He also asked for the org chart of live agent
 conversation to be **drillable and to visually match the CIB - never a flat log.**
@@ -179,6 +186,40 @@ Two separate sessions give the Command Center's own loading state two different 
 
 Per the estate's own supersession rule, both are carried and neither is silently blended into one number. What both agree on and what F1 should build regardless of which number wins: **a "ready" control never renders before the wake-up completes.** The same passage also states the surface is "a component, it is a child, a child of the command center," which settles F1.2's view/widget relationship as a containment hierarchy, not a peer relationship.
 
+### Sub-phase F1.9 - "Her side" is a named build target he already rejected once
+> *"Right now we have the her side or something like that, which is corny, by the way... It should be
+> something that's more clear, right? It's like see work that she's done or something like that... I
+> want her to save the output of what she's done there. So if it's an email, you click it, you see the
+> email, and you can edit the email, or you can ask her questions about it. Right? If it's a
+> notification or announcement, you can mark it as red, right? And you can also, for any of this,
+> schedule it as a reminder or snooze it, right?... This chat needs to have the ability to view
+> artifacts, to download artifacts, to edit artifacts, all of that stuff. And when I say artifacts,
+> right, I'm thinking PDF, Excel, Microsoft, DOCX, .mdmark now, CSV, all of the major files... I think
+> that that's truly the command center being added on to that, right?"*
+> `[HIS WORDS + 1_HIS_WORDS/02_PHASE_2/The Cycle Doctrine pt 3.txt]`
+
+Per F1.1's own rule this is a render surface, not a new truth store: view, edit-in-place, download, mark-read, and snooze/schedule are all operations on outputs she already produced elsewhere (an email, a document, a notification), not a second place they are authored. He names the actual file types the render layer has to support - PDF, Excel, DOCX, CSV - which F1's current sub-phases never specify.
+
+### Sub-phase F1.10 - The Command Center's own naming moment, and the chat-introduction requirement F1.3 is missing
+The phase's anchor quote ("I ain't seeing these roadmaps") is the complaint. The same session also
+contains the actual coining of "command center" and the requirement that goes with it, neither quoted
+anywhere in F1:
+
+> *"It's past time, and all chats should know about what these chat is going on. And when a new chat
+> comes in, they should introduce themselves."*
+> `[HIS WORDS + 1_HIS_WORDS/02_PHASE_2/The Cycle Doctrine pt 3.txt]`
+
+> *"I want to turn this chat into the command center, right? For the lack of better words. But I want
+> A and U locked into everything. I want her knowing about everything. I want us to really do real
+> work now."*
+> `[HIS WORDS + same file]`
+
+The first line is a concrete, testable requirement F1.3's threading sub-phase does not currently
+carry: a new thread has to announce itself into the visible thread list, not appear silently. The
+second line is the actual origin of the surface's name and sets its scope test - "locked into
+everything," "knowing about everything" - a stronger, more specific bar than F1's current outcome
+statement.
+
 **Exit condition, receipt:** one authenticated live walkthrough - URL, status codes, and the actual
 navigation - showing the one roadmap, a track opened into signed minutes with source pointers, a
 thread followed without flattening, and reach exercised. **Not a mockup, not a screenshot of a
@@ -190,7 +231,10 @@ mockup.**
 
 **Anchor:** *"It's called a shared repo. **The backgrounds are in the same spot.** It's called a
 shared repo."* And: *"the same button that controls the plus sign that says yes, this is a file
-picker, is the same button in the same code that GMGU is using, or that CCWA is using."*
+picker, is the same button in the same code that G and G U is using, does that make sense, or that,
+or that CCWA is using?"*
+`[HIS WORDS, restored - an earlier version dropped "does that make sense, or that," with no ellipsis.
+1_HIS_WORDS/01_RAW_WORDS/10_20260610est_SWEET_AND_SPICY_pt2.txt]`
 
 **Outcome:** the smallest shared visual and interaction system that carries navigation, threading,
 drilldown, and private per-HAM scope.
@@ -264,6 +308,38 @@ F2.1 fixes glass opacity and blur. It has no color values at all, and he gave so
 
 This is a real, dated design instruction with no receipt anywhere that it was ever applied. It belongs in the shared component system's settled-conventions table alongside the glass canon, not lost as a one-off remark.
 
+### Sub-phase F2.8 - A named, rejected asset: the REC button
+F2.2 states the icon convention in the abstract ("SVG only, never emoji"). He rejected a specific
+existing icon by name and gave the replacement spec:
+
+> *"I don't like the REC button that looks corny, right? Give me a nice premium SVG microphone icon
+> that's nice and premium, kind of like what Apple uses for their on their keyboard setting... I think
+> there was like a bunch of icons there in the bottom left that just need to be polished and look a
+> little bit more nice, a little bit more premium."*
+> `[HIS WORDS + 1_HIS_WORDS/02_PHASE_2/The Cycle Doctrine pt 3.txt]`
+
+This belongs in F2's settled-conventions inventory as a named, specific asset (the mic control on the
+chat input), not folded silently into the general "SVG only" rule F2.2 already states. It is also a
+live, checkable acceptance item: does the shipped mic control read as a REC button or as the described
+premium SVG glyph.
+
+### Sub-phase F2.9 - The missing mechanism under F2.6's Ken Burns/glass frost inventory
+F2.6 names Ken Burns animation and Glass Frost as inventory items but not how a choice persists. He
+specified the persistence architecture in the same session, and it is a scope decision, not an
+implementation detail:
+
+> *"I think that a lot of this stuff should be tied down to user backend. So if you set your
+> background everywhere from you know skyscraper, you're gonna get that everywhere because that
+> setting has been saved and it's been dynamically imported. Or you might choose to just set it for
+> the app that you're on. That's never a problem either. But having the ability to kind of have
+> settings follow the user, so settings should be relegated to the actual backend and dynamically
+> import it into the front end."*
+> `[HIS WORDS + 1_HIS_WORDS/02_PHASE_2/The Cycle Doctrine pt 3.txt]`
+
+Two explicit scopes, both required: a global-across-apps setting and a per-app override, both stored
+server-side against the user and dynamically imported into whichever front end renders, never a
+front-end-local or session-local setting. This is the concrete "how" F2.6 leaves open.
+
 **Exit condition, receipt:** two distinct front ends rendering from one component source; one change
 made once appearing in both; the glass test run and its result recorded with which canon won.
 
@@ -303,6 +379,33 @@ Two separate measured findings show a timer, not a person, ending or reloading a
 > `[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, finding E30, ACEPortal.jsx:15020-15024]`
 
 A desktop or phone shell that silently reloads or times out a live conversation is the same V-EXPIRE class `R1` P0.1 defines. F3's exit condition should include a live check that neither pattern survived into the new shells.
+
+### Sub-phase F3.3 - His own account of `/cip` and `/cib`'s history, and his instruction for rebuilding it
+F3's own intro already flags "/cip and /cib are not registered on the face at all, despite two dozen
+route modules mounting" as a verified-twice 404. He gives the history and the rebuild instruction for
+exactly this surface, in this true order, unquoted anywhere else in this roadmap:
+
+> *"I remember the CIP when we started working on the CIP and the phone launcher, and that was going
+> to be the next big thing... Find out when we created MURU. If you can find when we created MURU,
+> you'll know where all the zips and all the code is, because that was one of the last things that I
+> created on there... We should be replicating the UI, but fixing the bag hold [the back end]. So
+> anything in that UI that seems to be LLM logic or thinking, right? We will basically rebuild to our
+> system."* ...(a separate digression about ACL file naming intervenes, then, later in the same
+> monologue)... *"The UI suck right now. They suck. They look awful. I worked really hard on UIs. The
+> iframe, I have perfected the iframe. That thing was absolutely gorgeous... the theme of how that
+> iframe looked, we were at our peak. We were at our rush hour, our coding campaign. It was perfect.
+> And again, the backend was very very bad. But we're gonna fix that now as we rewire it up."*
+> `[HIS WORDS + 1_HIS_WORDS/02_PHASE_2/The Cycle Doctrine pt 3.txt, restored to its true order - an
+> earlier version presented the second fragment first and the first fragment after, stitched as if
+> continuous]`
+
+Two concrete, actionable instructions for whoever rebuilds `/cip` and `/cib`: (1) locate the archive
+by searching for when "MURU" was created, since he states the zips sit at that point in the timeline;
+(2) replicate only the visual layer of the old iframe UI he calls "gorgeous," never any embedded LLM
+logic or decision-making the old UI baked in, which gets rebuilt fresh against the current system
+instead of ported forward. **This is his own account of the surface's history and his stated intent to
+rebuild it, not a mechanism explaining why the routes currently 404** - that remains the verified-twice
+finding F3's intro already carries.
 
 **Exit condition, receipt:** each shell independently live-verified against the same world.
 
@@ -363,6 +466,38 @@ Distinct from F4.1's three-column embedded law, an old-world design document alr
 > `[CODER DOC, old world + 1 pt 2 TEMP OS New World LLM/.../Ababase/jd's/AGENT_JD_CARA.md; companion spec at APP_JD_CARA.md, self-labeled "Status: NOT BUILT, Q19 reopened"]`
 
 Per F2.2's own rule, an already-settled design should be inherited rather than redesigned. This is real, dated, and never contradicted elsewhere in the corpus: CARA needs a dedicated communications-hub view, separate from the embedded chat button F4.1 already covers, and it has never been built in either world.
+
+### Sub-phase F4.8 - Non-founder worlds get one advisor, not a roster
+F4's entry condition names "Life Advisor live for the Advisor portal specifically" but does not say
+the founder's world and every other world get structurally different advisor rosters. He specifies the
+difference directly:
+
+> *"It's the Life Advisor, and all of the advisors that I've already given you for the founders'
+> world. Now for everybody else' world, right? It's going to be just a life advisor whose goal is to
+> help create new advisors, right? So let me teach you too. Agent birth is going to be highly
+> important. How can I give them a new world if birth ain't up?"*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/Mt Rushmore Doctrine pt 1_transcript.txt]`
+
+The founder's world gets the named, populated advisor roster this phase already builds toward. Every
+other HAM's world gets exactly one advisor whose job is bootstrapping further advisors for that
+person, which makes this sub-phase's real dependency the birth agent, not the advisor content itself.
+A front end built as if every world gets the founder's roster would be building the wrong shape for
+everyone except him.
+
+### Sub-phase F4.9 - CARA needs an internal cross-device coordinator, not just a chat pane
+F4.1's three-column law describes CARA's layout. It does not describe what keeps CARA's state honest
+across a person's devices, which he specifies separately:
+
+> *"I think that there should be an LLM inside of it, watching it and monitoring it... making smart
+> quality optimizations and all of that stuff, right? It should be in there. It should be helping. It
+> should be coordinating amongst like when I get on my phone versus when I'm on my computer versus my
+> iPad, and keeping everything in sync and in coordination."*
+> `[HIS WORDS + 1_HIS_WORDS/02_PHASE_2/The Cycle Doctrine pt 3.txt]`
+
+This is a coordination layer inside CARA specifically, distinct from F3's desktop/phone shell work: F3
+governs where the surface runs, this governs keeping one CARA state honest when the same person opens
+it from more than one device at once. Per F2.3's rule that a shared component must never classify,
+this coordinator's job is sync, not deciding what the person meant on one device versus another.
 
 **Exit condition, receipt:** each surface exercised live with its creation, provider-acceptance,
 delivery, read, and lived facts kept separate; and one advisor completing one real piece of work, not
@@ -478,9 +613,13 @@ transcript and their own account provisioned under their own credentials.
 **The context he gave it in is the whole design, and it would be easy to miss.** He had just spent
 five minutes on his favorite rappers and his favorite food, then said:
 
-> *"I feel like one day AgentFIND is gonna be traversing this, because this is the floor of what
-> AgentFIND traverses... **this underrated little five minutes of my time is gonna come back and
-> really reward me.** That's called the reward system."*
+> *"I feel like one day AgentFIND is gonna be traversing this [expletive], because this is the floor
+> of what AgentFIND traverses... **this underrated little five minutes of my time is gonna come back
+> and really reward me.** That's called the reward system."*
+> `[HIS WORDS, restored - an earlier version silently dropped the cuss word with no bracket, and the
+> raw otter transcription of "AgentFIND" ("AJFIND"/"AJFI and D") is normalized here, matching this
+> repo's established use of "Agent FIND" elsewhere. There is a Pecking Order Doctrine pt 2 & 3_
+> transcript.txt]`
 
 **So the reward is not points, streaks, or badges.** The reward is that the offhand thing you told her
 comes back later as her knowing you. The design task is making that loop *visible* enough that a user

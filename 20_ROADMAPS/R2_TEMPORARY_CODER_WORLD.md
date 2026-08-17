@@ -152,8 +152,9 @@ is the gate.
 The estate already ran this exact drill for the founder's own new-world estate and the result was not
 what anyone assumed: *"Mint new OpenRouter keys - NO - the only key in your env-vars folder is DEAD,
 HTTP 401"*, *"New GitHub repo - NO - HTTP 403"*, *"New Supabase project - NO - HTTP 403"*, against
-*"New Render service - YES - HTTP 200"* `[MEASURED - 50_DELIVERABLES/RALLY_DAY_911_STATUS.md]`. Five
-of seven assumed-working capabilities were dead or absent. T1's exit condition must not be claimed from
+*"New Render service - YES - HTTP 200"* `[MEASURED - 50_DELIVERABLES/RALLY_DAY_911_STATUS.md]`. **Six**
+of seven assumed-working capabilities were dead or absent - corrected here from an earlier draft that
+said five, after a cross-reference audit re-counted the source table directly (7 rows: 6 `NO`, 1 `YES`). T1's exit condition must not be claimed from
 an assumption that the four clicks landed; each capability the temp estate depends on gets the same
 read-only table before T1 is called done.
 
@@ -471,10 +472,15 @@ time. This is the one number the whole program's success claim rests on.
 
 ### Sub-phase T6.2 - The watcher rotation and the 30-minute checker join the inheritance list
 T6's inheritance list omits a structure already real and already running: *"the four watchers are real
-subagent charges, spawned on the cycle. Built as roles"* and *"the 30-minute checker is a real
-recurring trigger firing into this session. Built"* `[BUILT - 40_GOVERNANCE/THE_WATCHERS.md]`. Add it
-to the named inheritance - it is already doing the watchers-and-menders work this phase describes temp
-coders converting into.
+subagent charges, spawned on the cycle. Built as roles"* `[BUILT - 40_GOVERNANCE/THE_WATCHERS.md]`, and
+the 30-minute checker - **corrected here after a cross-reference audit found this sub-phase still
+quoting a claim `THE_WATCHERS.md` itself has since retracted:** it is not a server-side recurring
+trigger, it is a self-rearming one-shot chain that goes silent the moment one firing fails to schedule
+the next, which already happened once and was caught the same day `[MEASURED - 40_GOVERNANCE/
+THE_WATCHERS.md, "HONEST STATE OF THIS FILE"]`. Add both to the named inheritance, the checker with its
+real, more fragile shape - it is already doing the watchers-and-menders work this phase describes temp
+coders converting into, and inheriting an overstated description of it would hand the next temp coder
+false confidence in exactly the mechanism meant to catch them drifting.
 
 **Exit condition:** not a receipt - a trend. Three consecutive shift changes where the chat count fell
 and the drain ratio moved toward her.

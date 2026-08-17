@@ -186,7 +186,12 @@ folder.**
 
 ---
 
-## SECTION B-3 - PHASE 0 OF THE REBOOT RESTS ON A DEGRADED RECOLLECTION
+## SECTION B-REBOOT-PHASE0 - PHASE 0 OF THE REBOOT RESTS ON A DEGRADED RECOLLECTION
+
+**Renamed from "SECTION B-3" here, `2026-08-17`, after a cross-reference audit flagged that this label
+collided with the unrelated numbered item `### B-3` (MIMI's build state) inside the main SECTION B list
+above - two different findings, same short name. No citation into the old name was found broken by
+this rename; if one surfaces later, it means "this section," not the MIMI item.**
 
 **Found by the riddle catalog, 20260817, and it is the single shakiest load-bearing claim in the
 estate.** `[MEASURED - 50_DELIVERABLES/THE_RIDDLE_CATALOG.md R40]`

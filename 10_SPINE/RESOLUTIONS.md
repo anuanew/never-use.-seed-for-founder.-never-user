@@ -375,7 +375,10 @@ presented as his recorded voice, one misattributed phase reference, and one word
 to "pen" that also made R5 internally inconsistent with R2's correct quote of the same line.
 
 (`R5_MOUNT_RUSHMORE.md` uses six Faces, not numbered Phases, so this density metric does not apply to
-it in the same shape - it carries **19** sub-phase-equivalent entries across its own structure instead,
+it in the same shape - it carries **20** sub-phase-equivalent entries across its own structure instead
+(19 -> 20, `2026-08-17`: Sub-phase 6.5, a fifth corpus sense of "Shadow" - a per-HAM Firebase/Vercel
+backup stack, found and verified directly against the raw transcript, landed as a direct-intervention
+increment rather than through the Workflow),
 `[MEASURED - grep -cE '^### Sub-phase' 20_ROADMAPS/R5_MOUNT_RUSHMORE.md]`.)
 
 **Honest read: real, verified progress, still short of "roughly twelve."** Every one of these numbers

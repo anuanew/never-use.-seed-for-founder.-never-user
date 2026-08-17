@@ -507,3 +507,60 @@ sub-phases resolve cleanly, the same discipline already applied to the first Wor
 
 **Not yet landed - in flight.** Results will be applied the same way as the first Workflow: verified
 before commit, real findings logged, nothing claimed until it lands.
+
+---
+
+## CYCLE 16 - 20260817, direct override received mid-flight, one bounded increment landed by hand
+
+**Convened:** a direct, urgent instruction arrived while the second Workflow (`wf_4c218797-d63`, 3
+agents on the R5-deepen + cross-reference task from Cycle 15) was still running: stop treating it as
+something to passively wait on, take control of the exact task myself if needed, finish one real
+bounded increment, verify sources, push one clean update, report factually, name the next concrete row
+- explicitly banning a holding loop. Checked the Workflow's actual state first (`journal.jsonl` +
+agent transcript timestamps): no technical evidence of a genuine stall, only normal corpus-research
+latency. Proceeded per his explicit override anyway rather than arguing the diagnosis - his instruction
+was unambiguous and did not require winning that argument first.
+
+**Did it by hand, in parallel with whatever the Workflow eventually returns:**
+1. Ran the mechanical cross-reference/numbering integrity check myself:
+   `grep -oE '^### Sub-phase [A-Z0-9]+\.[0-9]+'` across `R1`, `R3`, `R5`, `R7`. **Clean** - sequential
+   numbering, no gaps, no real duplicates. One apparent duplicate (`S1.1` in `R3`) investigated by hand
+   and confirmed a regex false positive - a pre-existing `S1.1a` (letter-suffixed) truncated by the
+   pattern, not a defect.
+2. Spot-verified several of today's cross-file citations resolve: S21/D13/S16 in
+   `PECKING_ORDER_VIOLATIONS.md`, PO4-03/PO4-04 in the pt4 intake, `R4` Phase F2 exists,
+   `CONTRADICTIONS.md` Section B-5 exists, `THE_WATCHERS.md`'s HONEST STATE section exists. **All
+   clean.**
+3. Searched the raw corpus directly for R5-relevant material the earlier deepen pass had not reached,
+   found one genuinely new passage in
+   `1_HIS_WORDS/03_PHASE_3/11_11 Doctrine pt 1_ Vision_transcript.txt`, and personally verified it by
+   reading the raw `.txt` myself (not an agent's paraphrase) before using it.
+4. Landed it as **Sub-phase 6.5** in `R5_MOUNT_RUSHMORE.md` (commit `5a6673a`): a fifth, previously
+   uncatalogued corpus sense of "Shadow" - a per-HAM Firebase/Vercel backup stack - directly after the
+   existing Sub-phase 6.4, which already forbids merging the four senses it lists. 6.5 reinforces that
+   same prohibition from a new angle rather than contradicting it. R5 density: **19 -> 20**
+   sub-phase-equivalents, `[MEASURED - grep -cE '^### Sub-phase' 20_ROADMAPS/R5_MOUNT_RUSHMORE.md]`.
+5. Updated `10_SPINE/RESOLUTIONS.md` R-14's density note to carry the new count and the finding.
+
+**Gauntlet:** real bounded increment landed by direct hand, not a holding loop; minutes current (this
+entry); email still cannot send, grant absent, checked; no task stalled - the one flagged as possibly
+stalled was investigated, found not technically stalled, and worked around per explicit instruction
+regardless; roadmap followed, scope held (doctrine/roadmap only, no Manual Advisors, no provider
+mutation).
+
+**Checked:** env for the 911 key or a Nylas grant. **Still absent, all names.**
+
+**Decision he owes (rainbow):** none new this cycle. Standing floor unchanged; B-5, Mimic
+Bold/downtime-A'NEW, and the PO6-02 secretary-naming correlation are all still his to rule on.
+
+**Second Workflow's disposition:** status not forced. It runs subagents only (no git access per
+standing rule), so no file-conflict risk even if it eventually also returns R5/cross-reference
+findings. If/when it lands, its output will be checked against the manual work above and reconciled
+rather than duplicated or silently discarded.
+
+**Next cycle owns / next concrete doctrine row named per his instruction:** `R5_MOUNT_RUSHMORE.md`
+Face 6 (SHADOW) is the thinnest face in the file even after 6.5 and is the one the founder's own most
+recent doctrine keeps adding to (`PO5`/`PO6` intake, this cycle's find) - the next concrete row is
+**Sub-phase 6.6: reconcile the SHADOW Wonder against `CONTRADICTIONS.md` Section B-5's AUDRA/SHADOW
+naming-collision finding**, which is filed but not yet folded into this roadmap's own Face 6 text. That
+is real, sourced, unstarted work already sitting in this repo, not a new search.

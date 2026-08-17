@@ -286,6 +286,23 @@ plan.
 The corpus contains at least four things called Shadow: this wonder, a coder-auditor persona, a cheap
 model seat, and an old-world logging agent. **Explicitly forbidden to merge them.**
 
+### Sub-phase 6.5 - A fifth sense, found directly in the corpus: the per-HAM backup stack
+The count above is now at least five, not four, and this one has never been named in this roadmap
+before:
+
+> *"Then I have the Firebase and Vercel and Memory Chat... it was dedicated to fixing and standing up
+> my backups for a Shadow, which was a Firebase and Vercel [setup]... this would be per HAM, but we're
+> just doing mine right now."*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/11_11 Doctrine pt 1_ Vision_transcript.txt]`
+
+**A per-HAM backup stack, on named providers (Firebase, Vercel), called "a Shadow" - distinct from all
+four senses 6.4 already lists.** It is infrastructure redundancy, not a reviewing mind, and it must not
+be confused with the SHADOW Wonder this Face defines. This also independently confirms 6.4's own
+governing rule from the opposite direction: the corpus keeps generating new, real, unrelated things
+called "Shadow" faster than any one roadmap tracks them, which is exactly why the merge prohibition has
+to hold as new material keeps arriving, not just against the four already catalogued.
+`[MEASURED, new finding - verified against the raw transcript directly, 2026-08-17]`
+
 **Exit, receipt:** SHADOW independently reviews one real choice; its verdict logged separately from the
 primary's; **both provider and model named, and they must differ.**
 

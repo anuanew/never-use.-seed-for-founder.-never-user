@@ -7,7 +7,11 @@
 > - Mt Rushmore Doctrine pt 1, 20260816
 
 He said the method was already in the corpus and that it had never been audited out of it. This file
-is that audit. **Every rule below is his, quoted, with its source.** Nothing here is a coder's idea of
+is that audit. **Almost every rule below is his, quoted, with its source.** A blind critic traced twenty of these
+citations into the corpus and all twenty landed in the named file - **the sourcing is sound.** The
+defect was this header: an earlier version claimed *every* rule was his, while the self-check table at
+the end sources three of its ten rows to "practice" and "standing estate law." Those three are marked
+on their face and are **not his.** Nothing here is a coder's idea of
 good practice, and where a gap exists it is marked as a gap rather than filled in.
 
 Every roadmap in `20_ROADMAPS/` is built to this specification and is checkable against it.

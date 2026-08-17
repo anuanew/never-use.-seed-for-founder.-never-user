@@ -723,3 +723,30 @@ intact.
 
 **Next cycle owns:** whatever the next instruction names. No row is self-queued this cycle beyond what
 was already open before it (Cycle 17/18's other named items, if any remain).
+
+---
+
+## CYCLE 20 - 20260817, 30-minute checker fired stale, target already closed - genuinely steady
+
+**Convened:** the standing 30-minute checker fired on schedule, carrying the prompt armed after Cycle
+18 - it names Sub-phase 6.8 as the next row to do "if there is time." Checked before acting on it: a
+direct founder instruction arrived and was completed in Cycle 19, after this checker was armed but
+before it fired. Sub-phase 6.8 is already landed (`0e56cb0`) and logged (`2f24960`). **Did not redo
+it** - confirmed via `git log` and a direct `grep -cE '^### Sub-phase'` re-count (33, matching Cycle
+19's own receipt) before concluding this checker's own instruction was stale, not before.
+
+**Nothing genuinely new or unblocked exists this cycle.** No new founder instruction since Cycle 19.
+No open task stalled. Reporting the steady state honestly rather than manufacturing a new row to fill
+the cycle, per this checker's own standing instruction not to.
+
+**Gauntlet:** no drift; a stale checker prompt was recognized as stale rather than blindly re-executed;
+minutes current (this entry); email still cannot send, grant absent, re-checked; no task stalled;
+roadmap held, scope held.
+
+**Checked:** env for the 911 key or a Nylas grant. **Still absent, all names.** Branch clean, HEAD
+`2f24960` confirmed equal to remote HEAD before this entry, then this entry's own commit pushed on top.
+
+**Decision he owes (rainbow):** none new.
+
+**Next cycle owns:** whatever the next instruction names. No self-queued row - the last one named
+(Sub-phase 6.8) is closed.

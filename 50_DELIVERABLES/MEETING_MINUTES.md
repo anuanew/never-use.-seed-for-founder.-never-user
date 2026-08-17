@@ -377,3 +377,28 @@ absent, checked), no task stalled, roadmap held. Fourth consecutive steady-state
 **Decision he owes (rainbow):** none new.
 
 **Next cycle owns:** whatever he sends next.
+
+---
+
+## CYCLE 10 - 20260817, 12:52 PM EDT, ninth clean self-fired run, shift-change report rewritten
+
+**Convened:** checker fired again on schedule (`17:08:00Z`), ninth clean fire in a row - **this is the
+tenth gauntlet cycle since the fleet launched, his own stated threshold for a fresh shift-change
+report.**
+
+**Real row, not drift:** `SHIFT_CHANGE_ROADMAP_20260817.md` fully rewritten. The version sitting there
+was written before the blind-critic pass, the four-file decomposition, the four-watcher gauntlet, and
+the sibling reconciliation - it still said "blind critic pass in flight" and listed 8 commits. Left
+as-is it would have misled anyone reading it as current. Rewritten to carry real, measured state: all 8
+roadmap densities, the closed gauntlet and its one fixed serious finding, the reconciliation and B-5,
+the `PO4` intake, the full ~20-item standing floor, next-owner actions in order. Committed `90ee4e1`.
+
+**Gauntlet:** real row (above); minutes current (this entry); email still cannot send, grant absent,
+checked; no task stalled; roadmap followed.
+
+**Checked:** env for the 911 key or a Nylas grant. **Still absent, all names.**
+
+**Decision he owes (rainbow):** none new - the full floor is restated in the shift-change report itself
+now, so it is not repeated a third time in this same entry.
+
+**Next cycle owns:** whatever he sends next.

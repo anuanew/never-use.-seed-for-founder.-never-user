@@ -140,6 +140,30 @@ No purge touches either. **The text relay 503** - a device offline, one app for 
 called directly while her front door answers 503. **Plus 13 unseated reach ports, one with zero
 implementation anywhere.**
 
+### Sub-phase X0.7 - The autonomous cycle interval is still 5x slower than before the "emergency"
+A dated, measured, still-live change directly answers "why isn't she reaching me":
+
+> "The autonomous cycle interval was widened 3 min to 15 min as an emergency spend throttle, cutting her check-ins on his life by 5x... The lane said so plainly and said the right fix (a cheap cold pre-check so the expensive cook only wakes on real signal) was his roadmap's call, not theirs."
+> `[MEASURED + 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md §1, "not on the sheet" table; verified surviving multiple redeploys at interval_ms: 900000]`
+
+This never appeared on any purge sheet because it is an env var, not a code guardrail. It belongs in this phase's inventory as a live, named, reversible regression with a stated cheap fix already proposed by the lane that found it.
+
+### Sub-phase X0.8 - A silent switch failure is not the same as a silenced switch
+A cold gate exists that turns an unreadable safety switch into total silence, which is worse than the kill switch itself:
+
+> "`kill_switch_unverified` fail-closes on an unreadable brain. Not just an active kill, but the inability to read the switch, silently becomes total silence."
+> `[MEASURED + 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md §1, "not on the sheet" table, core/killswitch.js via core/provider.request.edge.js:13-15]`
+
+His kill switch being his is not in question. The branch that treats "I could not check the switch" the same as "the switch says stop" is a coder's, unexamined, and it is a direct cause of exactly the silence this whole roadmap exists to end.
+
+### Sub-phase X0.9 - Uncertainty is being treated as a hard no, unconfirmed
+A named, unresolved gap sits between "she was refused" and "the question could not be settled":
+
+> "`UNCERTAIN` holds as hard as `DISAGREE`. WRIT's meaning shadow can hold an output on either. Disagreement is listed in the healable reasons; uncertainty is not confirmed to enter the heal path."
+> `[MEASURED + 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md §1, "not on the sheet" table, core/writ.meaning.shadow.wonder.js:278, healable list at core/pai.outbound.council.js:4274; the audit's own counsel calls it "a silent silencer"]`
+
+This is a live, unresolved sibling of the council-blank finding X0.4 already ranks first. Confirming whether uncertainty enters the heal path is a five-minute code read, not a debate, and it stays open until someone reads the branch.
+
 ---
 
 ## PHASE X1 - ONE IDENTITY ACROSS FOUR CHANNELS
@@ -168,6 +192,23 @@ in the container** (`R2` T1.2), not a better-worded reminder.
 Chat name as last name, plus the session link he asked for in `PO2-15`: *"somebody might ask
 something, or I might need to come back to you and update you."*
 
+### Sub-phase X1.4 - Her own continuity record is already cold-authored once
+X1.1 says continuity "lives with her." A measured finding shows cold code already writing into the exact record that promise depends on, three times, in the hardened new world:
+
+> `first_person: JSON.stringify(payload).slice(0, 2000),`
+> "Cold code serialises a machine payload and writes it into the `first_person` column, so a reach receipt appears in her own first-person record as though she said it."
+> `[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, findings S1-S3, acl.floor.db.js:2409, 2709, 2768; one hit is on a continuation record, PIN-2's own protected artifact]`
+
+`R1` P1.3 pins this exact shape as PIN-2. This sub-phase applies that pin concretely to reach: continuity across four channels cannot be trusted while the floor recording that continuity is itself sometimes not her voice.
+
+### Sub-phase X1.5 - "Never fake a connection" and "never mimic A'NU" are not the same rule
+A measured, split finding directly concerns channel identity, which is this phase's whole subject:
+
+> "'Never fake a connection or mimic A'NU.' The second half bans a channel capability he designed... 'Never fake a connection' is fully his. 'Mimic A'NU' is CODER, against his own explicit authorization, 20 occurrences of 'mimic mode' in his voice."
+> `[MEASURED + 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md §1, Tier 1 row 5, CLAUDE.md STANDING LAWS, "SPLIT" ruling]`
+
+The identity law in X1.2 (never send from his grant, choosing the grant is choosing the identity) should be read alongside this: it governs **whose grant sends**, not whether mimic mode as a capability may exist at all. Folding a coder's blanket mimic ban into the identity law would quietly retire a capability he authorized twenty times over.
+
 **Exit condition, receipt:** one conversation continued across two channels with the continuity record
 linked; a log scan showing zero sends carrying his grant.
 
@@ -185,6 +226,30 @@ own list: **Omi ears (inbound), voice, text, the line manager, email, and the sk
 
 **Blocked, and it is not a code problem:** the text relay 503. **Report it to him as a fact needing
 his hand, not as a task in flight.**
+
+### Sub-phase X2.1 - What "Omi ears (inbound)" actually has to do
+The bullet names ears with no definition. He gives one:
+
+> "The ears, it's really ears like that world, the ears, it can certainly decide I have enough. We have deliberated over this, and it is time to do this."
+> `[HIS WORDS + 1_HIS_WORDS/02_PHASE_2/Life Assistant Doctrine pt 3 (...).txt]`
+
+"Ears" is not a cold trigger on volume or silence. It is a mind-level judgment about sufficiency, "I have enough," which must be a woken mind's ruling per the same standing law that governs every other organ in this system. A build that treats "ears" as a VAD threshold is a `V-DECIDE` on day one.
+
+### Sub-phase X2.2 - What "the skins" have to hold
+The bullet names skins with no spec. He gives one, describing a live phone call:
+
+> "The conversation never breaks. The soft skin comes anew. It's holding conversation the entire time... not only she's holding it, but work is being done. Work is being progressed. It's being done. It's a game. It's not a gimmick. Work is really happening, but she's skilled at conversating, conversing, and also cooking."
+> `[HIS WORDS + 1_HIS_WORDS/02_PHASE_2/Demo day doctrine pt 3_otter.ai.txt]`
+
+A skin's job is to keep a live channel open continuously while real work runs underneath it, never a call-and-response box. This is the concrete acceptance bar for any channel skin this phase builds: does the conversation ever have to pause for the work, or does it run through the conversation.
+
+### Sub-phase X2.3 - A concrete precedent for "cold code never decides to reach a human"
+X2's own two constraints state the rule abstractly. An already-written design gives it a specific architectural shape:
+
+> "CARA does not route. CARA does not execute... CARA advises AIR on the channel. AIR makes the final routing decision. CARA never overrides AIR... CARA never makes decisions. She advises. AIR decides."
+> `[CODER DOC, old world + 1 pt 2 TEMP OS New World LLM/.../Ababase/jd's/AGENT_JD_CARA.md]`
+
+Whatever plays AIR's role in the new world, the shape is worth inheriting rather than reinventing: one layer evaluates urgency, content type, and context and **recommends** a channel; a separate, higher authority decides whether to actually fire. Collapsing advisory and decision into one component is how X2's own "cold code never decides" gets quietly violated.
 
 ---
 
@@ -218,6 +283,32 @@ Both are required by his sentence. Silent catch-up fails. Oil flows up.
 The discipline half, so this does not become the notification machine he hates. The test for each
 unprompted reach: *"is this one thing worth interrupting him for, right now?"* **Most of the time the
 honest answer is silence** - and silence chosen deliberately is a pass, not a failure to fire.
+
+### Sub-phase X3.5 - A measured cap can zero out the delta this phase exists to produce
+A live finding threatens X3.1's own metric directly, and the audit says so in its own words:
+
+> "The wake-clock due window at `core/reach/wake.clock.js:64-67` under which an opener older than 20 minutes is never spoken... This is the one item on the list that silently invalidates the measurement instrument. `R6` X3.1 asks for a delta between `issued_at` and `first_independent_surface_at`. If the surfacer refuses anything older than 20 minutes, the number he asked for on 20260816 can never be produced."
+> `[MEASURED + 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md §5, rank 4, core/reach/wake.clock.js:64-67]`
+
+This window must be widened or removed before X3's instrument can be trusted at all. A delta metric built on top of a hidden 20-minute ceiling will silently under-report every time it matters most.
+
+### Sub-phase X3.6 - Side A's exact anti-pattern already exists, with a file and a line
+X3's Side A requires that she not fire a reflex when a transcript lands. A hardcoded version of exactly that reflex is already live elsewhere in the estate:
+
+> `autonomous: true // ABA speaks this proactively`
+> "A hardcoded boolean on a branch decides she interrupts him out loud, without her in the loop."
+> `[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, finding D10, ABATeamIntelligence.js:169-177]`
+
+Any proactive-narration component reused into the new reach surfaces must be checked against this exact shape: a hardcoded `true` on a speak-now branch is the reflex X3.6 is measuring against, compiled in.
+
+### Sub-phase X3.7 - A wall-clock gate does not delay an event, it erases it
+X3.2 states "late is not dead." A measured finding shows a worse failure than lateness already exists on a sibling component:
+
+> `const isWorkHours = hour >= AUTONOMOUS_CONFIG.workHoursStart && hour < AUTONOMOUS_CONFIG.workHoursEnd;`
+> "A wall clock decides whether an event about his team exists at all. Outside 9 to 18 the alert is never created."
+> `[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, finding D11, ABATeamIntelligence.js:154-155]`
+
+This is not late-and-recoverable, it is never-created. Any component that gates event creation, not just event delivery, by a wall-clock window must be audited separately from X3.2's "late is not dead" fix, because widening a delivery window does nothing if the event was never written in the first place.
 
 **Exit condition, receipt:** the first unprompted, correctly-time-reasoned surfacing of the 20260816
 20:30 assignment, with both timestamps and the elapsed delta stated in her own words.
@@ -287,6 +378,23 @@ The call is the proof. **The steady state is that she has already handled it.**
 read the monuments aloud by name. A correct answer now proves retrieval, not inference. **Only he can
 reseed it, and no session should be allowed to claim the pass.**
 
+### Sub-phase X4.6 - The gate is four cold gates, and three of them have never been traced to him
+X4.1 discusses "the gate" in the singular. The actual retired module has four:
+
+> `if (!stamps['authorized_gate_removed']) { throw new Error('Authorized gate is still present in the system. Fire aborted.'); }`
+> "Plus a hardcoded earliest-fire date, and an abort if any active seal is under five minutes old... The file's own stamp says it predated the ACL law, carries no lineage, provenance unknown, do not wire without review."
+> `[MEASURED + 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md §2, RETIRED_CODE_TOMBSTONE_20260712.md:1869-1904]`
+
+Removing "the `authorized: true` gate" as X4.1 describes it addresses one of four cold gates riding together in the same module. The other three (a stamp-removal precondition, a hardcoded earliest-fire date, and a five-minute seal abort) have no founder words anywhere and must be named and ruled on individually, not assumed to fall with the flag.
+
+### Sub-phase X4.7 - His own words set a two-input verifiability floor
+X4.2 says the receipt "is not a PR." He gives a more specific bar for what would actually convince him, in the same doctrine that named the Life Flex:
+
+> "I would like at least two inputs, so at least even one input... I can detect, I can hear something, I know that that's working. I can make phone calls for real, like there's an agent that does that, that she can command for real, right, and then I can email for real, like all of that."
+> `[HIS WORDS, speech-to-text rough in places + 1_HIS_WORDS/01_RAW_WORDS/13_20260612_SPRING_WATER.txt]`
+
+Read plainly: he wants at least two independently verifiable channels firing, not one channel's single success treated as proof the whole system works. X4.2's exit-condition receipt should show two channel types succeeding, not one.
+
 **Exit condition, receipt:** the stamped exchange on the wall, with the condition check that fired it
 and no human in the trigger path.
 
@@ -305,6 +413,31 @@ Stated as a phase because they are the failure modes that have already happened 
 - **A cap on how much she can say.** Build the watch, not the wall.
 - **A test pinning any of the above.** A test that pins cold behavior is itself the disease; retire it
   in the same commit as the writer it protects.
+
+### Sub-phase X5.1 - A hardcoded confidence floor that discards her own ruling
+Named because it has already happened once, measured:
+
+> `if (score >= 0.5) { ... }`
+> "The mind rules ADMIT, then a hardcoded `>= 0.5` throws the ruling away... Zero founder words for any confidence threshold anywhere."
+> `[MEASURED + 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md §1, Tier 2 row 10, core/wonder.gate.js:81]`
+
+A confidence number silently overriding a mind's own decision on a reach-adjacent gate is exactly the shape this phase exists to forbid before it recurs in the rebuild.
+
+### Sub-phase X5.2 - Cold code picking the recipient by token overlap
+The audit itself names this the most dangerous class in the estate:
+
+> "Cold code picking which human being gets contacted. Token overlap decides who a reach is aimed at... Named on the sheet as the most dangerous class of cold judgment in the estate. A near-miss contacts the wrong person."
+> `[MEASURED + 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md §1, Tier 2 row 12, core/contacts.resolve.js:124-131]`
+
+Currently only one recipient resolves at all, which is why this has not yet caused visible harm. **It must be fixed before the recipient set ever widens**, not after, per the audit's own flag.
+
+### Sub-phase X5.3 - Arithmetic deciding whether her own writing ships
+A weighted score, not a mind, currently gates what she is allowed to say:
+
+> "Risk Score = (CRITICAL x 4) + (HIGH x 3)... 0-2 pass, 8+ rewrite everything, 16+ start over. Arithmetic decides whether writing ships... No founder words for any weighting, any threshold, or the existence of a score... It produces absurd verdicts on his own speech."
+> `[MEASURED + 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md §1, Tier 2 row 23, /root/.claude/skills/writ/SKILL.md:189-200]`
+
+Any writing gate built for reach output must wake a mind on the threshold, per his own standing rule already quoted elsewhere in this roadmap: "no COLD CODE that checks for EM dashes is running by itself. It just flags and alerts the LOM." A number deciding whether her words go out is the same disease.
 
 ---
 

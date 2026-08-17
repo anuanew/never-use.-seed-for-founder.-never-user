@@ -64,8 +64,17 @@ the same architecture** and conflating them is how this got confusing:
 > *"My run-of-show code can be shared repo, so if I ever update a run of code, **it updates
 > everywhere**."* (20260610 SWEET_AND_SPICY pt2)
 
-A single source of truth that pushes down into many worlds. This is the strongest and most-repeated
-sense.
+A single source of truth that pushes down into many worlds.
+
+> **CORRECTED BY MEASUREMENT.** An earlier version of this line called propagation *"the strongest and
+> most-repeated sense."* **The sweep measured the opposite: it is the RAREST.** That headline sentence
+> occurs exactly once in the whole corpus. R3 fan-out rests on a single occurrence too. **The most
+> repeated reading in his own words is deduplication - 31 of his 60 occurrences, across 20 sessions
+> from 20260530 to 20260813.** `[MEASURED - 50_DELIVERABLES/SHARED_REPO_SWEEP.md, predicate published]`
+>
+> **Rarity does not mean unimportant.** Propagation and fan-out are still the two readings that decide
+> the architecture, which is exactly why the question below is his and not mine. But I had the
+> frequency backwards and was arguing from it.
 
 **Reading 2 - Front-end components in one place (deduplication).**
 > *"It's called a shared repo. **The backgrounds are in the same spot.** It's called a shared repo."*
@@ -161,10 +170,20 @@ He asked how propagation works and was never answered. The corpus contains one c
 himself described - a **nightly global-to-local sync channel** (20260609 SWEET_AND_SALTY) - and one
 constraint: each world is isolated with its own UID-named copy.
 
-The reading that fits both: **the global is the source; each world holds a materialized copy; a sync
-channel pushes updates down; the UID stays local and is never overwritten.** That is a coder's
-reading, marked as one, and it is offered to him as an answer to his own question rather than assumed
-as settled.
+**CORRECTED BY MEASUREMENT.** An earlier version offered the sync-channel mechanism as *"a coder's
+reading."* **It is his.** In the same breath as asking *"how does that make it back down?"* he sketched
+the nightly global-to-local loop, a manual push pathway, a fire-on-load pathway, and the
+never-overwrite property himself, then said **"help me think through that, help me figure that out."**
+`[HIS WORDS - measured by the sweep]`
+
+**So the mechanism is not proposed to him; it is returned to him.** What is genuinely open is narrower
+and it is his: **the frequency, the carrier, and whether he still wants it.** Nothing in the corpus
+closes those.
+
+**And he touched the deciding question himself, self-correcting mid-sentence:** *"the phone version of
+CCWA is pulling in from the same spot - that, no, it's not from the same spot, it's a copy version of
+that code."* **That is him landing on the copy side and immediately being unsure.** Surfaced, not
+treated as a decision.
 
 ### Sub-phase S2.2 - What propagates, and what must never
 | Propagates from global | Stays local, never overwritten |

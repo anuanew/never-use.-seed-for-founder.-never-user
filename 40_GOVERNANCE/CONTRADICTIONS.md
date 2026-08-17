@@ -151,6 +151,41 @@ not pick up the pen. She builds. I watch."* **Relative order undated. Unresolved
 
 ---
 
+## SECTION B-NEW - A CODER RECORDED CONSENT HE NEVER GAVE
+
+**Found by measurement, 20260817.** A 20260719 coder roadmap states: *"The founder has already said YES
+to the shared repo model."*
+
+**The record does not support it.** On 20260610 he asked what the term meant. On 20260810 and 20260811
+he said he still had not been heard on it. **`[MEASURED - 50_DELIVERABLES/SHARED_REPO_SWEEP.md]`**
+
+**This is the most serious class of defect in the estate** and it is worse than a wrong reading: a
+wrong reading is arguable, a recorded consent forecloses the argument. Every downstream document that
+inherited that sentence built on a yes he never said.
+
+**Handling:** logged as an occurrence, **not adopted**. The shared-repo question stays open on the
+floor and `R3` S0 stays unanswered until he answers it. **Nobody may cite the 20260719 line as his
+position.**
+
+---
+
+## SECTION B-2 - CORPUS FILING DEFECTS THAT CAUSE MISATTRIBUTION
+
+Found while measuring, and they matter because the folder path is what most lanes use to decide whether
+something is his:
+
+1. **Four coder documents are filed inside `1_HIS_WORDS/06_OLD_WORLD_HIS_WORDS/`.** In that folder the
+   `.txt` files are his and the `.md` files are a coder's. **The path lies.**
+2. **One of his transcripts is filed in the coder tree.**
+3. **Countdown pt 4 exists as an `.rtf` and a `.txt` twin**, which inflated one occurrence count
+   threefold before the dedup pass caught it.
+
+**Consequence, stated plainly:** any lane that trusts `1_HIS_WORDS/` as a provenance guarantee will
+attribute coder documents to him. **Authorship is decided by reading the document, never by its
+folder.**
+
+---
+
 ## SECTION C - THE OPEN NAMES (his to give, and nobody may invent them)
 
 | What | His words |

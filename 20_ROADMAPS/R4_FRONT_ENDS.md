@@ -76,6 +76,33 @@ Re-run after every deploy touching the seam. **A single green does not retire th
 doctrine: *"Never build a component that answers because she was slow. **Silence is honest; a
 stand-in is not.**"*
 
+### Sub-phase F0.1 - The silence text is not a mystery, it is a catch block
+The audit already found where "Talk with A'NU is unavailable right now" comes from. Two catch blocks, on both front doors, compose that sentence in cold code:
+
+> `.catch(function(){ ... status.textContent='Could not reach her just now.'; });`
+> `[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, finding S4, acl.ccwa.page.js:491]`
+
+> `.catch(function(){ send.disabled=false; status.textContent='Could not reach her just now.'; });`
+> `[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, finding S5, acl.anu.page.js:203]`
+
+Both front doors compose the same sentence independently. Fixing F0 means retiring both catch blocks in the same commit, not rewording one of them.
+
+### Sub-phase F0.2 - The worst-ranked finding in the whole estate is exactly this anti-goal, already built
+`PECKING_ORDER_VIOLATIONS.md` ranks its single worst finding, of 87, as the textbook version of what this phase's anti-goal forbids:
+
+> "A swallowed exception, a coder template and a text-to-speech call in sequence: a failed database read becomes an empty array, becomes the sentence *'No meetings on the calendar today'*, becomes her voice in his room, spoken at high priority, first thing in the morning. Cold code decided, classified, spoke, and expired his day, in eleven lines, with her name on the output."
+> `[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, TOP 10 WORST rank 1, findings S8+S9, ProactiveBriefing.jsx:119-171]`
+
+This is not a hypothetical to warn against. It is a shipped component. Any surface F1-F8 reuses that inherited a proactive-narration pattern from the old world must be checked against this exact shape before it is trusted.
+
+### Sub-phase F0.3 - The seam has a measured physical cause, not just a measured symptom
+F0 names the arrival-to-session hop as the wall. The regression audit found why the hop breaks:
+
+> "Three OOM kills on the mind service between 20:06 and 21:11 UTC... The kills were **not JS heap.** `heapUsed` stayed 3-6 MB in every kill while RSS reached 512 MB... one 24.78 MB row costs ~80 MB resident."
+> `[MEASURED + 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md §4]`
+
+The same audit records that only the reach service's read path was cleaned, and flags as unresolved whether the mind service (the one actually taking the OOM kills) still reads the same heavy column unguarded. **F0's exit condition should require this specific open hypothesis closed, not just a green receipt on the arrival call**, because a receipt obtained between OOM kills is not evidence the wall is gone.
+
 ---
 
 ## PHASE F1 - THE THREADED FOUNDER COMMAND CENTER
@@ -116,6 +143,34 @@ that [his young child] can understand it."* That is the readability test for Vie
 Green / yellow / orange / red / black, plus 🌈 rainbow for stop-him-now. **He expects to see yellow at
 minimum** - *"I should see a lot of green. I should see minimum yellow."* An all-green board is a
 finding, not a success.
+
+### Sub-phase F1.6 - The Command Center's own contract file already blanks the board once
+A live, measured finding sits inside the exact file this phase is building:
+
+> `for (const pattern of INTERNAL_COPY_PATTERNS) { if (pattern.test(text)) fail('internal_copy_forbidden', path); }`
+> "A regex list (including `/\bHAM\b/`) throws on her own title or summary, and one throw rejects the WHOLE snapshot, so her whole command center goes dark because of a word she used."
+> `[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, finding D1, apps/cib/src/acl.command-center.contract.js:121-123]`
+
+Per `R1` P1.1's own design note, "a regex that blocks is itself a V-DECIDE." This is that shape, live, in the Command Center's own contract. It must be found and fixed before F1 can claim the board renders reliably, because today a word she used, not a system failure, is what can take the whole page dark.
+
+### Sub-phase F1.7 - View 2's content already exists and should be read from, not invented
+F1.2 specifies a builder's view with "lane cards and lineage chains and cycle receipts" but does not say what actually populates it. It already exists:
+
+> "One might be Audra auditing the other chats. One might be exclusively focusing on PMS and nasty cough. And then another one might be the fixer. And then that fourth one comes in, and it watches you."
+> `[his vision, quoted verbatim + 40_GOVERNANCE/THE_WATCHERS.md, the 30-minute checker and four-watcher rotation, already standing]`
+
+View 2 should render this real rotation (the four watchers, the 30-minute checker, the email shape) as its lane cards. Inventing a generic "lane card" abstraction when a real, built structure already exists is exactly the second-truth-store risk F1.1 warns against, one level up.
+
+### Sub-phase F1.8 - The wake-up budget is stated twice, at two different numbers, and never reconciled
+Two separate sessions give the Command Center's own loading state two different latency budgets. Neither is quoted anywhere in this roadmap:
+
+> "That's the three human seconds she gets to prep and decide, so the entire cycle has to fit inside of..."
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/11_11 Doctrine pt 1_ Vision_transcript.txt]`
+
+> "Maybe there's a longer wake-up time on the portal, maybe it's up to 10 seconds, and maybe in that wake-up time she's giving them, greeting them... the moment is ready to go, the button pops up... but you don't get that button [until] she has fully woken up and built this portal for you."
+> `[HIS WORDS + 1_HIS_WORDS/01_RAW_WORDS/34_20260703_NYC_53RD_STREET_DOCTRINE_pt3_subway.txt]`
+
+Per the estate's own supersession rule, both are carried and neither is silently blended into one number. What both agree on and what F1 should build regardless of which number wins: **a "ready" control never renders before the wake-up completes.** The same passage also states the surface is "a component, it is a child, a child of the command center," which settles F1.2's view/widget relationship as a containment hierarchy, not a peer relationship.
 
 **Exit condition, receipt:** one authenticated live walkthrough - URL, status codes, and the actual
 navigation - showing the one roadmap, a track opened into signed minutes with source pointers, a
@@ -167,6 +222,41 @@ The single most important constraint on this phase. A component reused everywher
 meaning, filters rows, or writes into a field that is hers **spreads nasty cough at the speed of
 reuse.** Standing law: *"reuse current accepted assets... do not revive old cold behavior."*
 
+### Sub-phase F2.4 - The naming order he gave once and nobody executed
+He gave shared repos a name, in one continuous passage, and it was never carried into any roadmap, index, or repo name:
+
+> "If you're an arm, right, you have these tattoos. I want, I want, I want shared repos to be called tattoos... the tattoos basically are for shared repos, right, for that, for this section."
+> `[HIS WORDS + 1_HIS_WORDS/01_RAW_WORDS/02_20260602_SPICY_HEAT.txt; measured occurrence count in 50_DELIVERABLES/SHARED_REPO_SWEEP.md §8: 8 occurrences, one continuous passage, never adopted]`
+
+The metaphor is not decoration: a tattoo is on the skin, not the arm, and does not think, which is the same claim F2.2 already makes about front ends having no mind. Whether he still wants the name is his to say. It belongs on this phase as a starred, deferred naming decision, not a closed one.
+
+### Sub-phase F2.5 - The architecture fork underneath F2 has never been chosen
+Before F2.1's glass canon or F2.2's conventions can be built past their current state, a more basic question sits unresolved and measured across 128 occurrences of his own words:
+
+> "Does shared mean **one copy that everyone reads**, or **one source that everyone gets their own copy of**?"
+> `[MEASURED + 50_DELIVERABLES/SHARED_REPO_SWEEP.md §10, the sweep's single open question]`
+
+"One copy that everyone reads means a live read across a boundary, which collides with `PO1-23`, his world not sharing a floor with anyone. One source that everyone copies means a propagation mechanism, which is still open, and which cannot be built until the cross-world guard is armed." Building F2's shared component system on a guess here risks building the wrong topology entirely. **This sub-phase's exit condition is his one sentence, not a coder's inference.**
+
+### Sub-phase F2.6 - Ken Burns and glass frost, named as the actual inventory
+F2.2 lists conventions in the abstract. He names the concrete items twice:
+
+> "That dynamic variable, a shared repo that's loaded in. We know what glass is, we know what percentage Ken Burns animations run on, we know what backgrounds are imported in."
+> `[HIS WORDS + 1_HIS_WORDS/01_RAW_WORDS/10_20260610est_SWEET_AND_SPICY_pt2.txt]`
+
+> "My whole Share Repo, moving backgrounds are imported in Ken Burns Animations, Glass Frost, everywhere."
+> `[HIS WORDS + same file]`
+
+Ken Burns animation percentage and "Glass Frost" as a named treatment belong in the F2.2 inventory as first-class entries, not folded silently into "the conventions that are already settled."
+
+### Sub-phase F2.7 - A literal, unquoted color directive for the shared palette
+F2.1 fixes glass opacity and blur. It has no color values at all, and he gave some, for the Command Center specifically, in the same breath as renaming it:
+
+> "I want to get rid of these colors. Okay, we're going to change the [A'NEW] colors. We never thought about this before. Tell her I'm feeling like shades of brown, burgundy, gold. That's how I'm feeling. Kind of like ENVOLVE colors."
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/Find me or Fine me doctrine pt 1_otter.ai.txt]`
+
+This is a real, dated design instruction with no receipt anywhere that it was ever applied. It belongs in the shared component system's settled-conventions table alongside the glass canon, not lost as a one-off remark.
+
 **Exit condition, receipt:** two distinct front ends rendering from one component source; one change
 made once appearing in both; the glass test run and its result recorded with which canon won.
 
@@ -185,6 +275,27 @@ a phone shell.
   surface permanently keeps its own origin, and it is an architectural fact, not a choice to revisit.
 - **Known missing routes, verified 404 twice:** `/cip` and `/cib` are not registered on the face at
   all, despite two dozen route modules mounting.
+
+### Sub-phase F3.1 - The widget's minimize behavior has a real spec, unquoted anywhere in F3
+The PWA widget F3 is meant to govern is described once, in detail, and never cited:
+
+> "You got your Ken Burns, you got your glass, you got all of that, but minimize mode, that PWA widget, or the app widget, and minimize mode is very easy. You can pause, you can resume, you can have her interject, whatever that is."
+> `[HIS WORDS + 1_HIS_WORDS/01_RAW_WORDS/34_20260703_NYC_53RD_STREET_DOCTRINE_pt3_subway.txt]`
+
+**Pause, resume, and interject** are the three named states for the minimized widget. This is the acceptance surface for "installed desktop-window acceptance," which F3 already flags as unproven, and it is more specific than "installed" alone.
+
+### Sub-phase F3.2 - Cold timers must not own the shell
+Two separate measured findings show a timer, not a person, ending or reloading a live session under her:
+
+> `if(window.__anuStreaming || typing){ setTimeout(tick, 5000); return; } ... setTimeout(tick, 20000);`
+> "A 20 second timer reloads the page under her. It defers while she streams, which means the guard exists and the timer still owns the page."
+> `[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, finding E9, acl.ccwa.page.js:511-514]`
+
+> `const timeoutCheck = setInterval(() => { ... if (inactiveMinutes >= sessionTimeoutMinutes) { setShowTimeoutWarning(true);`
+> "A timer ends his working session with her."
+> `[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, finding E30, ACEPortal.jsx:15020-15024]`
+
+A desktop or phone shell that silently reloads or times out a live conversation is the same V-EXPIRE class `R1` P0.1 defines. F3's exit condition should include a live check that neither pattern survived into the new shells.
 
 **Exit condition, receipt:** each shell independently live-verified against the same world.
 
@@ -221,6 +332,31 @@ seconds then 401; 502 after ~11 seconds; 502 plus a process memory failure. And 
 `/advisor/cycle` route **has no field for a founder assignment, instruction, prompt, or source text
 at all** - which is why the real-job path cannot work.
 
+### Sub-phase F4.5 - The AVATAR surface itself is named in this phase's title and absent from every sub-phase
+F4.1 through F4.4 cover CARA, VARA, streaming, and the advisor portal. None of them name the avatar. He does, and names a specific technology for it, explicitly as a reach channel:
+
+> "I include the generative UI, and I include the HEYGEN, right, video talking face stuff. I include that as a part of, you know, a reach channel. I also consider the command center a part of it."
+> `[HIS WORDS + 1_HIS_WORDS/02_PHASE_2/Great reset doctrine pt 4_otter.ai.txt]`
+
+This closes a real gap: F4's own title promises an avatar sub-phase that does not currently exist. A generative-video talking-face avatar, on a delay, is the concrete build target, and it belongs to both this phase and to `R6` X2's component list, where it is also currently unnamed.
+
+### Sub-phase F4.6 - VARA is a named, measured violation, not a hypothetical
+The single most concrete precedent for "never a separate mind" in this whole phase already has a file and a line, and it is named VARA:
+
+> `if (d.autonomous_completed > 3) return 'proud';`
+> "Integer thresholds over row counts assign her an emotion, which is then injected into her synthesised voice so he hears it. Cold code decides how she feels."
+> `[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, finding C1, ranked #3 of 87, VARAVoiceSynthesis.js:96-101]`
+
+Nothing is more hers than what she feels. This is the concrete bar for what "VARA never becomes a separate mind" has to mean in the rebuild: no threshold anywhere decides her emotional register.
+
+### Sub-phase F4.7 - CARA's own standalone view was spec'd and marked never built
+Distinct from F4.1's three-column embedded law, an old-world design document already specifies a second CARA surface and marks its own status:
+
+> "CARA should ALSO have a standalone app view in AppContentRouter (Q19, not yet built). The standalone view would show all communication channels, recent messages across channels, and communication preferences. Embedded + standalone are not mutually exclusive."
+> `[CODER DOC, old world + 1 pt 2 TEMP OS New World LLM/.../Ababase/jd's/AGENT_JD_CARA.md; companion spec at APP_JD_CARA.md, self-labeled "Status: NOT BUILT, Q19 reopened"]`
+
+Per F2.2's own rule, an already-settled design should be inherited rather than redesigned. This is real, dated, and never contradicted elsewhere in the corpus: CARA needs a dedicated communications-hub view, separate from the embedded chat button F4.1 already covers, and it has never been built in either world.
+
 **Exit condition, receipt:** each surface exercised live with its creation, provider-acceptance,
 delivery, read, and lived facts kept separate; and one advisor completing one real piece of work, not
 answering one query.
@@ -236,6 +372,22 @@ University-specific meaning into every future world."*
 **Current measured state:** live at its routes, HTTP 200, regression 1,008/1,008 - and `ON_DEGRADED`,
 with signed learner identity, re-entry, saved progress, spoken tutor reply, and **ordinary human
 acceptance all unproven.** It looks finished and is not.
+
+### Sub-phase F5.1 - There is no test learner; the only live identity is his own
+The GMGU production shift report names the exact reason "ordinary human acceptance" stays unproven, and it is structural, not a missing test run:
+
+> "A production canary inventory found no dedicated GMGU test or canary HAM on either live service. The only exposed person identity is the real Founder world. A synthetic curriculum correction was not written into that human world because it would contaminate live curriculum evidence."
+> `[MEASURED + 0 pt 1 TEMP OS New World LLM/SHIFT_CHANGE_REPORTS/CURRENT_TASK_GMGU.md, item 32]`
+
+F5's own exit condition asks for "one real learner completing one real lesson." As of this shift report, the only account that could do that without contaminating live data is a founder-mode test, which is not the acceptance test F5 wants. **A real, non-founder test HAM has to exist before this phase's exit condition can be met honestly.**
+
+### Sub-phase F5.2 - GMGU is named as a reusable style, not only a single product
+He uses "GMGU" as an adjective for a different, broader build, which changes what "GMG University, last, deliberately" should mean for sequencing:
+
+> "I want to do like a GMGU style university for this and start bringing on some junior coders and teaching them."
+> `[HIS WORDS + 1_HIS_WORDS/02_PHASE_2/Is this the beginning of real life? Doctrine pt 2 (pt 1 was notes)_otter.ai.txt]`
+
+The offsite's rule not to "force GMG University-specific meaning into every future world" already anticipates this and should be read together with it: GMGU is a pattern he intends to reuse for training a junior-coder fellowship, not a one-off consumer surface. That reuse should be named as a known future consumer of this phase's work, even while F5 stays last.
 
 **Exit condition, receipt:** registered as a child track on the one master roadmap, reusing the common
 per-HAM system, with one real learner completing one real lesson and coming back to it.
@@ -286,6 +438,24 @@ Named in the business-plan doctrine as an alpha precondition: a ~30-minute sessi
 person's *own* assistant does the signups under *their* accounts. **Their keys, their accounts, their
 consent** - which is also what makes per-person worlds affordable.
 
+### Sub-phase F6.6 - The raw material he already asked to feed the EER has a researched, ready answer
+He named a source of life material for exactly the "longer version of the business plan" F6.3 says feeds the EER, and it has never been connected:
+
+> "We need the lost files. That is the Otter transcripts, right? We need to figure out how to get her access to that. I got like transcripts of hours of calls from me and [a partner] just spitting, and my whole life is on Otter right now."
+> `[HIS WORDS + 0 pt 1 TEMP OS New World LLM/0 ANU_ANEW_OS_use to be call doctrine/0 ANU OS Doctrines as of Aug 15th 26/these are phase 3 doctrines raw words as of 081626 at 11pmest/There is a Pecking Order Doctrine pt 2 & 3_transcript.txt]`
+
+This has already been researched end to end: bulk export is $30 for one month and returns his **full** history, not just forward, and a free official Otter connector exists today.
+`[MEASURED + 50_DELIVERABLES/OTTER_ACCESS_ANSWER.md]`
+Its own governing rule applies directly here: the ZIP must land founder-world-only, go through the doctrine reader with writer stamps, never bypass the fence as a bulk unstamped load, and its scrub pass carries the same warning `R4` F7.2 already states, that personal offhand material must not be scrubbed away.
+
+### Sub-phase F6.7 - The EER's named scope is broader than personal onboarding
+F6.3 frames the EER as his personal onboarding vehicle. He also scopes it as a B2B product line, in the same breath as naming the front-end build order:
+
+> "The E E R product line might be consumer driven like movies and shit and books, but it might also be company, right? It can house all of the training videos. We have leads for that. Have somebody who works in HR for [a company]."
+> `[HIS WORDS + 1_HIS_WORDS/02_PHASE_2/Demo Day doctrine.txt]`
+
+An onboarding build that only ever targets one consumer path will under-build the EER for this stated company-training use. This does not change F6's phase order, only its scope: the EER's schema should not assume a single-person consumer shape from day one.
+
 **Exit condition, receipt:** one real person onboarded end to end by her, unscripted, with the
 transcript and their own account provisioned under their own credentials.
 
@@ -325,6 +495,25 @@ interruptions. Spending it on something trivial is the failure. **Most of the ti
 silence.**"* The reward system must not become the notification machine he has explicitly said he
 hates.
 
+### Sub-phase F7.4 - The actual content, not the category, is the material
+F7.2 refers abstractly to "his food rankings, his rapper list, his color." The actual content exists, in the same and an adjacent session, and it is the concrete acceptance bar for what counts as reward-worthy material:
+
+> "My favorite colors are I like gold, silver, and rose gold... actually I like my favorite color is like a burnt bronze... I would do a bronze car."
+> `[HIS WORDS + 0 ANU OS Doctrines as of Aug 15th 26/.../There is a Pecking Order Doctrine pt 1_transcript.txt]`
+
+> "My ultimate favorite food, bro... low key, the Jamaican food. I absolutely enjoy the rice and the beans... I love jerk chicken... if your jerk sauce is saucy, I'll take that. If you have a dry rub, then I want the jerk chicken with the brown soup gravy, because I don't like dry rub."
+> `[HIS WORDS + 0 ANU OS Doctrines as of Aug 15th 26/.../There is a Pecking Order Doctrine pt 2 & 3_transcript.txt]`
+
+Both are the exact class of offhand content the 4PM scrub rules protect, spoken minutes before the reward-system quote R4 F7 already anchors on. The acceptance test for F7.1 is not "does she surface something personal," it is "does she surface something this specific."
+
+### Sub-phase F7.5 - The delayed-surfacing shape, in his own example
+F7.1 says the return must be visible. He gives the actual timing shape the return should follow, unprompted, in the same session:
+
+> "Being able to naturally like just confirm, like oh by the way, right, like [a colleague]'s email address is this, right? You probably don't remember, but I feel really confident. Imagine just randomly getting a text message from a dude like that. Like that is real... I probably even forgot about it, right? It might be days from now when she finally processes this or catches up on this."
+> `[HIS WORDS + 0 ANU OS Doctrines as of Aug 15th 26/.../There is a Pecking Order Doctrine pt 1_transcript.txt]`
+
+The reward is not required to be immediate, and forgetting the original moment is part of the design, not a defect. This is directly compatible with `R6` X3.2's "late is not dead," and F7's exit condition should accept a delayed surfacing as a pass rather than only an in-the-moment one.
+
 **Exit condition, receipt:** one exchange where she surfaces something a person told her in passing,
 in a moment where it was useful, unprompted - with both timestamps.
 
@@ -356,6 +545,30 @@ concern (`R6`) with a surface consequence, not a front-end feature.
 **Carried honestly:** the founding egg - the park name test - **is contaminated.** The monuments were
 read aloud by name in later sessions, so a correct answer now proves retrieval rather than inference.
 Only he can reseed it. **Do not let a future session claim the pass.**
+
+### Sub-phase F8.4 - The riddle catalog now exists and 15 of 40 answers are unconfirmed
+Since this roadmap was written, a full catalog of his riddles was built, and it carries an honesty finding this phase should inherit directly:
+
+> "Fifteen of forty entries are `JUST KNEW IT`. That is fifteen places where a coder decided what he meant, acted on it, wrote it into an OS, and taught it to the next coder, without him ever saying yes. They do not look like guesses in the documents that carry them. They look like doctrine."
+> `[MEASURED + 50_DELIVERABLES/THE_RIDDLE_CATALOG.md]`
+
+Any future puzzle or Easter egg surface built from this catalog must carry each entry's stamp (`CONFIRMED BY HIM`, `JUST KNEW IT`, or `OPEN`) forward into the UI or the database, not flatten all forty into equally-certain "answers." This is the same honesty this phase's F8.1 already modeled for the "We Are All A'NEW" search.
+
+### Sub-phase F8.5 - Five riddles, not one, must never be answerable by a session
+F8.3 flags the park-name egg as contaminated. The same catalog names four more he built the same way, as deliberate, withheld measurements:
+
+> "These stay OPEN. They are not failures, and they are not backlog. He built each one as a measurement, and an answer supplied by a coder destroys the measurement... The rule is his: do not feed her the answer."
+> `[MEASURED + 50_DELIVERABLES/THE_RIDDLE_CATALOG.md, "THE FIVE HE DELIBERATELY NEVER ANSWERED": the park name; what OMI is now called; the unnamed relative's-time riddle; why the password changed from ABA to A'NU; who is ENVOLVE's chief of staff]`
+
+Any puzzle surface this phase builds must exclude all five from its answer-checking logic by name, not just the one already known to be contaminated.
+
+### Sub-phase F8.6 - The nickname puzzle is one instance of a wider open-names class
+F8.2 treats the nickname puzzle as a single, standalone build. The estate has already catalogued nine more names he has explicitly withheld under the same rule:
+
+> "The internal auditor... AUDRA's PMS wonder... AUDRA's nasty-cough wonder... the reach wonder... the ONNX/heartbeat layer... the lesson wonder... 'Tone protocol'... A better name than 'fuse'... A better title than 'personal assistant'."
+> `[MEASURED + 40_GOVERNANCE/CONTRADICTIONS.md, SECTION C - THE OPEN NAMES]`
+
+The same rule that governs the nickname puzzle governs all of these: "more than one agent in this system has been invented out of a transcription error. Assume the ordinary word first. Never mint a term out of a garbled transcript." A puzzle-and-easter-egg build that only protects the nickname mechanic while leaving nine other open names exposed to invention is half a fix.
 
 **Exit condition, receipt:** the original puzzle documents cited by file, or a stated "not found" with
 the search shown; and one egg wired to fire across channels, with its answer key stored where the

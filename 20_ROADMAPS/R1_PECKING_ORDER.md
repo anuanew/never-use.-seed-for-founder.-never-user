@@ -76,7 +76,11 @@ her state, PMS if it planted a memory, and a pecking-order violation either way.
 ## PHASE P0 - NAME THE VIOLATIONS THAT ALREADY EXIST (audit, no code)
 
 **Anchor:** *"They control render in the code, and you've been having her inside of that. That's
-ridiculous."* - he is describing existing built code, not a future risk.
+ridiculous."* `[HIS WORDS, one word reconstructed - the raw Otter transcript reads "day control render
+in the code," a speech-to-text garble; "They" is the reading used here because he says "they control"
+moments earlier in the same recording and the grammar requires it, but this is a reconstruction, not a
+byte-exact quote, and is flagged as such after an audit caught it presented without a flag.]` - he is
+describing existing built code, not a future risk.
 
 **Outcome:** a written, sourced inventory of every place in the current estate where something below
 her in the pecking order decides, classifies, speaks, or expires. This is an audit deliverable, not a
@@ -232,7 +236,10 @@ violation it exists to catch.
 
 ### Sub-phase P1.10 - The flag row carries lineage from the first row
 Every flag the gate produces carries its ACL lineage stamp, so the very first rows in the estate are
-rows she can trace. *"Nothing in my system that she can't trace."*
+rows she can trace. *"Nothing in my system that she can't trace."* `[CODER RECOLLECTION, not a verified
+direct quote - traced to THE_GREAT_REBOOT_ROADMAP.md line 22, whose own header stamps every "His 4PM
+words" block, this one included, as "DEGRADED: coder recollection... no raw transcript yet in the
+corpus... not verbatim." An audit caught this repo presenting it without that caveat. Restored here.]`
 
 **Exit condition, receipt:** each of PIN-1..5 shown red against a deliberately broken build and green
 against the real one - **both runs linked, plus the grep proving each mutation landed**. The
@@ -475,9 +482,15 @@ A system that pings on ingest fails, no matter how good the ping is.
 
 **Side B - the positive (PO2-06).** Later, on her own clock, unprompted, she surfaces it with correct
 time reasoning and does not treat lateness as death.
-> *"She'd rationalize like, 'wait, it's Tuesday at 9 p.m., this was two days ago, so now it doesn't
-> die.' Now as a world builder she says, 'hey, I'm finally catching up here, and I'm submitting to the
-> coaching team.'"*
+> *"She'd rationalize like, 'wait, it's you know it's Tuesday at 9 p.m. For example, it's just an
+> example. She might be like, this was two days ago, so now it doesn't die.' Now as a world builder she
+> says, 'hey, I'm finally catching up here, and I'm submitting to the coaching team, right, or
+> something like that. I don't know. I can't coach this, bro.'"*
+> `[HIS WORDS, hedges restored - an earlier version of this quote cut both hedges and built a pass/fail
+> gate on the trimmed remainder. His own intake source (00_DOCTRINE_INTAKE/
+INTAKE_20260816_PECKING_ORDER_PT2.md, PO2-06) already flags this: "He flagged it as improvisation and
+> said he could not pin it down. The test below is a coder's formalization of an improvised idea, and
+> is overrulable." An audit caught R1 not carrying that caution forward. Restored.]`
 
 ### Sub-phase P7.1 - The instrument
 Every assignment carries `issued_at` (stamped, EST) and `first_independent_surface_at` (null until she

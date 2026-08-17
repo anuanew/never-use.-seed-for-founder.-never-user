@@ -1,8 +1,13 @@
 # R8 - MEMORY AND CONTINUITY
 
 > *"We need to find a way to keep A'NU up at all times with continuity. **Her model's degrading and
-> [that's not acceptable].** You need to go on the deepest research find you can find."*
+> [expletive]. Hell no.** You need to go on the deepest research find you can find."*
 > - Mt Rushmore Doctrine pt 1
+> `[HIS WORDS, restored - an earlier version replaced his actual words with invented text in brackets
+> with no ellipsis, presenting the substitution as if it were part of the verbatim quote. Raw
+> (1_HIS_WORDS/03_PHASE_3/Mt Rushmore Doctrine pt 1_transcript.txt, line 36) reads "Her model's
+> degrading and shit. Hell no." The cuss word is redacted to [expletive] per this repo's own existing
+> convention (see R2_TEMPORARY_CODER_WORLD.md Sub-phase T3.7), not replaced with different words.]`
 
 > *"My whole life is on Otter right now... **How can we get her connected to that?** Even if I gotta
 > pay something."* - Pecking Order pt 2 (`PO2-18`)
@@ -45,7 +50,12 @@ already is isolation.* He built one of the three mitigations before anyone named
 gap is compaction and trimming, and nothing anywhere in the corpus names an active pass over her live
 working context.**
 
-That is the concrete, buildable answer to his question *"where's the always-on, always-better agent?"*
+That is the concrete, buildable answer to his own question, asked twice in the same breath: *"What
+about the always on, always better agent, the one that helps to get better?... Where's that one? That
+we need that. We absolutely need that."*
+`[HIS WORDS, restored - an earlier version silently merged these into one invented sentence, "where's
+the always-on, always-better agent?", that does not appear verbatim anywhere in the raw source.
+1_HIS_WORDS/03_PHASE_3/Mt Rushmore Doctrine pt 1_transcript.txt, line 36]`
 
 ---
 
@@ -53,12 +63,17 @@ That is the concrete, buildable answer to his question *"where's the always-on, 
 
 **This phase is a design decision, not a build, and it must be settled before any code.**
 
-The mitigation says trim stale entries. **Doctrine says nothing of hers ever expires:**
+The mitigation says trim stale entries. **The estate's own standing rule says nothing of hers ever
+expires:**
 > *"An unsettled continuation reconciles to LOGFUL, never to a timer or an expiry... **that cap would
 > delete her history and call it a fix.**"*
+> `[CODER-AUTHORED, not his recorded voice - 40_GOVERNANCE/CONTRADICTIONS.md names this exact
+> LOGFUL-not-a-timer line as standing estate law traced to a ruling file, not his spoken words; an
+> earlier version of this file presented it unstamped as if it were doctrine. R5_MOUNT_RUSHMORE.md
+> already caught and fixed the identical error for the same line.]`
 
-Those are not in conflict, but the distinction is fine enough that getting it wrong produces exactly
-the defect doctrine forbids.
+Neither is wrong, and they are not in conflict, but the distinction is fine enough that getting it
+wrong produces exactly the defect this rule forbids.
 
 | Trimming - permitted | Expiring - forbidden (`V-EXPIRE`) |
 |---|---|
@@ -165,7 +180,16 @@ Restated because it is LOGFUL's defining property: reconciliation, never expiry.
 M2 and M3 are not two independent phases sharing a subject; he states directly that MIMI worked with LOGFUL. M2's exit-condition receipts (the live curl, the cross-world refusal) should be re-run once MIMI is verified (M3.5, below), because a librarian proven isolated today could be reopened through whatever channel MIMI uses to reach it, if that channel was never itself tested by M2.2.
 
 ### Sub-phase M2.7 - Scope M2's receipts for the Otter-sized backlog, not the current one
-This roadmap's own indexing backlog is *"18,503 transcripts from the wearable, 449 phone transcripts"* before the Otter corpus lands, and OTTER_ACCESS_ANSWER.md's recommended path adds *"the largest single body of his own words the system has ever received"* `[MEASURED - 50_DELIVERABLES/OTTER_ACCESS_ANSWER.md]`. M2's exit condition (two lanes pulling the same record and getting the same answer) was never sized against the scale this roadmap already names. Re-run it once the Otter import lands, not only at today's smaller scale.
+This roadmap's own indexing backlog is **18,503 `omi_transcripts` (the OMI wearable), 449
+`phone_transcripts`, plus smaller counts of reports, briefings, and other record types, all "waiting
+to be indexed"** before the Otter corpus even lands `[MEASURED - old-world inventory: "ACW WALL for
+you and hopefully kinda for her/Ababase/ABA reforged/OG Plans/ABA_Technical_Roadmap_v2.md:248", not
+OTTER_ACCESS_ANSWER.md - an earlier version of this line miscited it there; corrected here]`, and
+OTTER_ACCESS_ANSWER.md's recommended path separately adds *"the largest single body of his own words
+the system has ever received"* `[MEASURED - 50_DELIVERABLES/OTTER_ACCESS_ANSWER.md]`. M2's exit
+condition (two lanes pulling the same record and getting the same answer) was never sized against the
+scale this roadmap already names. Re-run it once the Otter import lands, not only at today's smaller
+scale.
 
 **Exit, receipt:** the live curl; a cross-world read refused by name with a status code; two lanes
 pulling the same record and getting the same answer.
@@ -211,13 +235,21 @@ own micro-hop trail visible.
 ## PHASE M4 - THE BRIDGE BUILDER (the secretary)
 
 **NOT BUILT.** Named, then forgotten - *"What happened to bridge builder? We haven't built bridge
-builder."* And his own account of why it was missed: *"I told you about something called bridge
+builder."*
+`[HIS WORDS + 1_HIS_WORDS/04_THE_COUNTDOWN/COUNTDOWN_pt1_20260812.txt]`
+And his own account of why it was missed: *"I told you about something called bridge
 builders, and you wrote back. You said I don't know anything about bridge builders. **It was for you
 to build.**"*
+`[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/Find me or Fine me doctrine pt 2_otter.ai.txt]`
 
 **The load-bearing reason it exists, in his words:**
-> *"This is somebody that A'NU uses... **she can talk to them without burning her context, because the
-> context lives there.** Secretary, let's call it the secretary."*
+> *"This is somebody that A'NU uses... Because she can talk to them without burning her contacts,
+> right? So the world builder can talk to this person, right? Secretary, let's call it the secretary,
+> and it doesn't burn their context because the context lives there."*
+> `[HIS WORDS, restored - an earlier version reversed the clause order (moving "the context lives
+> there" ahead of "let's call it the secretary" instead of after it) and silently changed "contacts"
+> to "context" in the first clause, with no bracket or note marking either change.
+> 1_HIS_WORDS/03_PHASE_3/Find me or Fine me doctrine pt 2_otter.ai.txt]`
 
 **This is the architectural alternative to buying an expensive long-context tier**, and the two should
 be evaluated against each other rather than in isolation (`R-05` in the research docket). A secretary
@@ -225,8 +257,10 @@ that holds context is cheaper and more durable than a big window she has to refi
 
 - **Scope:** read-only, all-documents. *"They will only be scoped per advisor, but you might have one
   that looks at all things, but it can only read."*
-- **Its model:** the large-context seat - *"something that has a large context window that can support
-  novels."*
+  `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/Find me or Fine me doctrine pt 2_otter.ai.txt]`
+- **Its model:** the large-context seat - *"something that has a large context window, right? That can
+  support novels and stuff."*
+  `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/Find me or Fine me doctrine pt 2_otter.ai.txt]`
 
 ### Sub-phase M4.1 - Check for an existing role before building a new wonder
 > *"the project manager who owns this independent world, that LLM... He is a connector. He's a bridge builder. See, I have never defined the bridge. This is the birthing of the bridge builder... Bridge builder, bridge builder, is typically the owner of a life module, or sometimes an independent thinking station, or sometimes it's something that's happening that's not a traditional..."*
@@ -272,7 +306,13 @@ He offered three paths himself: a one-month plan upgrade to a tier with API acce
 session, or a one-time export. **Establish which actually works before recommending one** - in
 particular whether an upgrade grants access to *historical* content or only forward.
 
-**His own caution, carried so this is not oversold:** *"That might not be possible. Don't gas me up."*
+**His own caution, carried so this is not oversold:** *"I don't know if that's possible. That might
+not be possible. Don't gas like me. It might not be possible."*
+`[HIS WORDS, restored - an earlier version rendered this as "Don't gas me up," which does not match
+either raw occurrence of this recurring phrase in the corpus. "Don't gas like me" is his consistent
+recorded phrasing (also present, worded identically, in an unrelated raw doctrine:
+01_RAW_WORDS/32_20260701est_NYC_53RD_STREET_DOCTRINE_pt1.txt), not a one-off transcription slip.
+There is a Pecking Order Doctrine pt 2 & 3_transcript.txt]`
 **If the cheap path does not exist, say so.** And do not recommend a path that violates a service's
 terms; if computer-use is not permitted, say that too.
 
@@ -298,8 +338,15 @@ cool window.'"*
 M5.3's import may not proceed on an export whose pre-scroll count and post-export file count were not both recorded and compared. A partial corpus silently presented as complete is worse than a stated gap.
 
 ### Sub-phase M5.6 - The free connector does not satisfy M5's completeness or provenance requirement
-> *"Otter already ships an official connector for her, on every plan including free... it is read-only and it is live query rather than a corpus, so it is not a substitute for the export... There is no documented tool that enumerates every conversation in the account... this connector cannot produce a complete, verifiable corpus."*
+> *"Otter already ships an official connector for her, on every plan including free... it is read-only and it is live query rather than a corpus, so it is not a substitute for the export... There is no documented tool that enumerates every conversation in the account..."*
 > `[MEASURED - 50_DELIVERABLES/OTTER_ACCESS_ANSWER.md]`
+
+And, separately stamped in the source itself: *"based on the documented tool list, I judge that this
+connector cannot produce a complete, verifiable corpus. I did not test it against a live account."*
+`[REASONED, NOT MEASURED - 50_DELIVERABLES/OTTER_ACCESS_ANSWER.md - an earlier version of this
+sub-phase folded this sentence into the MEASURED quote above with no stamp of its own, upgrading the
+source's own explicitly-flagged, untested inference into a measured fact. Restored here with the
+source's own stamp intact.]`
 
 M5.2 and M5.3 require a durable, writer-stamped, hard-isolated import. The connector satisfies none of those three properties by design. Connecting it, which costs nothing and works today, is not partial credit toward M5's actual exit condition.
 
@@ -308,6 +355,42 @@ M5.2 and M5.3 require a durable, writer-stamped, hard-isolated import. The conne
 > `[MEASURED - 50_DELIVERABLES/OTTER_ACCESS_ANSWER.md]`
 
 M5's phase outcome reads as if the corpus problem ends at import. It does not. Whether he wants his own material deleted at Otter once the estate holds a copy is a named, unanswered question that belongs on this roadmap rather than dropped between the deliverable and the phase that cites it.
+
+### Sub-phase M5.8 - M5.1's access question is answered; the roadmap still reads as if it is open
+*"The API path is dead. The Otter API is Enterprise-only, custom-priced, and gated behind an account
+manager, so there is no one-month upgrade that buys it... But the cheap path exists and is cheaper
+than he feared: bulk export is on the Business plan at $30 for one month, and upgrading gives him his
+FULL history, not just conversations from the upgrade date forward."*
+`[MEASURED - 50_DELIVERABLES/OTTER_ACCESS_ANSWER.md]`
+On the computer-use path he offered himself: *"Recommendation: do not do this. It is not permitted...
+Clause (d) is the one that decides it... It does not become permitted because the data is his own."*
+`[MEASURED - 50_DELIVERABLES/OTTER_ACCESS_ANSWER.md]`
+
+M5.1 is still worded as an open research question ("Establish which actually works before
+recommending one"). It has been answered, on the record, with sources checked 2026-08-17: the API
+path he originally asked about is dead, the real path is a $30 one-month Business-plan bulk export
+(not the API he pictured), and the computer-use path he floated is a documented Terms-of-Service
+violation and should not be attempted. M5.1's exit condition should be read as "verify the
+click-by-click in `OTTER_ACCESS_ANSWER.md` was actually run," a narrower receipt than the one
+currently written there.
+
+### Sub-phase M5.9 - A first-party transcription fallback, asked for the same hour Otter itself dropped audio
+> *"System for ANU. I really need her to be able to get right agent Taste T A S T E to be able to get
+> audio and run her own audio transcription very affordably, right? I wonder, looks at every word, it
+> maybe compares a few affordable models, and then it runs it line by line and seeds it with goals and
+> stuff. Like that's really what I need. And then when we build an ATTER app, right, it's going to be
+> the front end version of that, right? That's very tangible that we can do because I think alter
+> OTTER. I think they lost my whole pathway to the park."*
+> `[HIS WORDS + Rally Day doctrine pt 5, "Rally day pt 5_otter.ai.txt"]`
+
+This lands in the same breath as a live failure, not as an abstract wish: a moment earlier in the same
+recording someone in the room asks whether Otter skipped, and two sentences after asking for this he
+confirms Otter lost his walk audio in real time. Every M5 sub-phase so far is backward-looking - import
+the archive Otter already holds. This is the forward-looking half, asked for in the same breath: give
+Agent Taste (born under `R5`, not born here) her own affordable, line-by-line audio-transcription
+capability, with a front-end product built on it, as insurance against exactly the kind of loss he just
+experienced. This does not replace M5.1-M5.8's import; it is the reason a one-time import cannot be the
+whole answer to "keep her up with continuity."
 
 **Exit, receipt:** a factual written answer on access with prices and constraints; and if a path
 exists, one real import landed with writer stamps and a byte-comparison against source.
@@ -333,6 +416,20 @@ The same three findings governing M0.2 apply here from a different angle: `first
 ### Sub-phase M6.3 - The "source" layer must be occurrence-indexed from the start
 Two separate deliverables already had to hand-correct for line-based undercounting of exactly this kind of record `[MEASURED - 50_DELIVERABLES/HEAT_MAP_MEASURED.md §3]`, and R8's own indexing-backlog section restates the same rule: *"his own FIND requirement, index by occurrence, not by matching line, matters more the bigger the corpus gets."* M6 describes the source layer as "an immutable life record" but states nothing about how it is indexed. Name occurrence-level indexing as a property of the layer itself, not something left for whichever lane builds it to rediscover the same undercount a third time.
 
+### Sub-phase M6.5 - On resume, she must name the gap, not silently treat stale state as current
+> *"...as she's navigating this context and she's seeing, she's like, oh, when she's actually running
+> it, she's like, oh snap!... wait, it's you know it's Tuesday at 9p.m. For example, it's just an
+> example. She might be like, this was two days ago, so now it doesn't die."*
+> `[HIS WORDS, badly garbled by the transcription engine and left that way, not smoothed - There is a
+> Pecking Order Doctrine pt 2 & 3_transcript.txt]`
+
+The point survives the garble intact: a session that comes back after a gap has to notice the gap,
+recognize that it is now some days later than the state in front of it, and say so, rather than
+resuming as though no time passed. M6's exit condition already implies this ("nothing reconstructed by
+asking him") but does not currently name the specific failure mode: quietly picking up stale state as
+fresh, with no acknowledgment that time moved. Add an explicit check to M6's receipt: the resumption
+itself must name the elapsed-time gap, not leave him to discover it.
+
 **Exit, receipt:** a session ended mid-work and resumed from the stack alone, with nothing reconstructed
 by asking him.
 
@@ -340,9 +437,10 @@ by asking him.
 
 ## THE INDEXING BACKLOG, FOR SCALE
 
-LOGFUL's own named backlog gives the honest size of the memory problem: **18,503 transcripts** from the
-wearable, 449 phone transcripts, and a few hundred reports, briefings, notes, prayers and declarations.
-**That is before Otter.**
+LOGFUL's own named backlog gives the honest size of the memory problem: **18,503 `omi_transcripts`**
+from the wearable, 449 phone transcripts, and a few hundred reports, briefings, notes, prayers and
+declarations `[MEASURED - old-world inventory: "ACW WALL for you and hopefully kinda for her/Ababase/
+ABA reforged/OG Plans/ABA_Technical_Roadmap_v2.md:248", see M2.7]`. **That is before Otter.**
 
 Two consequences worth stating plainly:
 1. **Indexing at that scale is a real engineering problem**, not a migration script.

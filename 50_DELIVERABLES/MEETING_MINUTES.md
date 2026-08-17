@@ -216,3 +216,30 @@ and the new Mimic Bold/downtime-A'NEW open name both still his to rule on.
 
 **Next cycle owns:** whatever he sends next; absent that, the four still-open minor citation-hygiene
 notes from the PMS watcher's report, at low priority.
+
+---
+
+## CYCLE 3 - 20260817, 10:59 AM EDT, the checker's second self-fired run
+
+**Convened:** the re-armed checker fired again on schedule (`15:11:00Z`) - second clean fire in a row
+since the chain was caught silent.
+
+**The six-question gauntlet:**
+1. **Real row or drift?** Real - two of the four moderate findings the PMS watcher named last cycle and
+   left open ("at low priority") were genuinely on this lane's own track (citation precision in this
+   repo's own governance files), so picked up rather than left for an unspecified future.
+2. **Minutes current?** Yes - this entry.
+3. **Email, staged, correct routing, never his grant?** Still cannot send - grant absent, checked again.
+4. **Any task over one cycle, nothing landed?** No.
+5. **Following the roadmap?** Yes, and staying inside the scope narrowed to this lane this same session.
+6. **Landed with a receipt?** `RESOLUTIONS.md` R-14's density table now cites real, independently-traced
+   commit hashes instead of "earlier this session" for `R1`/`R3`/`R7`, including the honest finding that
+   `R7` has not actually been touched since its original creation - its density was never a result of
+   this session's work and the table no longer implies otherwise. `R5`'s "19" figure now states its
+   exact grep predicate. Committed `1e85472`.
+
+**Checked:** env for the 911 key or a Nylas grant. **Still absent, all names.**
+
+**Decision he owes (rainbow):** none new.
+
+**Next cycle owns:** the remaining low-priority citation-hygiene notes, or whatever he sends next.

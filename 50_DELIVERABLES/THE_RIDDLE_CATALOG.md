@@ -452,13 +452,18 @@ corpus. **Do not invent one.** [CODER'S READING; corroborated in `OPEN_GAPS_2026
 > changed. He knows the names.]
 
 **VERIFIED against the raw transcript, `2026-08-17`, after a self-audit flagged the broken grammar
-("...when I'm [a relative] helps me...") as a possible silent word deletion.** Byte-compared against
-source: the raw line reads *"That's why it falls when I'm Pam helps me to get my Drew time on my D R
-E W time on..."* ending *"I'm filling in for Aunt Pam."* The redaction is an exact 1:1 substitution -
-`Pam` to `[a relative]` (twice, matching "Aunt Pam" at both ends of the passage) and `Drew` to `[a
-name]` (three times, including the spelled-out "D R E W"). **The broken grammar is his, not an editing
-artifact** - it is in his own raw dictated speech, not introduced by this repo. The footnote's claim
-holds. `[MEASURED, not just re-asserted]`
+("...when I'm [a relative] helps me...") as a possible silent word deletion, and CORRECTED, `2026-08-17`,
+same day, after the PMS/nasty-cough watcher caught that this note's first draft had pasted both raw
+private names into this file in cleartext while verifying that the quote above had redacted them -
+a real redaction failure, self-caused, in the one section meant to prove the rule was followed.
+Fixed here; the two names are not reproduced anywhere in this correction.** Byte-compared against
+source: the raw line names two private individuals, in the exact positions the quote above marks
+`[a relative]` and `[a name]`. The redaction is an exact 1:1 substitution - the real name behind
+`[a relative]` appears twice in the raw line (matching "Aunt [a relative]" at both ends of the
+passage) and the real name behind `[a name]` appears three times, including a spelled-out
+letter-by-letter version. **The broken grammar is his, not an editing artifact** - it is in his own
+raw dictated speech, not introduced by this repo. The footnote's original claim holds; this note's
+own first draft did not. `[MEASURED, not just re-asserted]`
 
 **2. WHAT THE CODER THOUGHT THE BLANK WAS**
 Nothing was ever entered.

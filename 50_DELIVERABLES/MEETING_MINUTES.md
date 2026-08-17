@@ -920,3 +920,36 @@ citation gaps in the F1 handoff are all findings for a ruling, not escalated as 
 
 **Next cycle owns:** whatever instruction arrives next. No roadmap is currently under active
 deepening.
+
+---
+
+## CYCLE 26 - 20260817, checker fired on its pre-existing schedule, a third WORLDBUILDER.SHADOW artifact landed since
+
+**Convened:** the trigger armed at the end of Cycle 25 (before a further redirect arrived) fired on
+its own original schedule. Between Cycle 25's log and this fire, a third instruction landed: a
+source-correction redirect naming four specific reds (Render group/keys, credential rotation, two SPEC
+files, an AIR/A'NU conflict) and asking this lane to correct its record to match.
+
+**Checked the premise before correcting anything** - grepped this lane's own delivered work directly
+for each of the four claimed items. **None existed here.** `50_DELIVERABLES/CORRECTION_NOTE_20260817.md`
+(`1181408`) records this precisely: no claim matching any of the four descriptions was ever made in
+`SOURCE_STATUS_MAP_20260817.md`, `MEETING_MINUTES.md`, `RESOLUTIONS.md`, `CONTRADICTIONS.md`, or
+`R5_MOUNT_RUSHMORE.md`. The four new factual claims about live infrastructure in the redirect are
+recorded as **CLAIMED by WORLDBUILDER.SHADOW, not independently measured** - this lane has no provider
+access this turn, per that redirect's own scope limit, and none was used or attempted. Per that same
+instruction, no checker was re-armed at the close of that specific turn.
+
+**Gauntlet:** a real, honest correction check landed - the harder and more important finding is that
+nothing needed correcting because the premise didn't match this lane's actual record, and that was
+said plainly rather than performing a fix for a problem that wasn't there; minutes now current (this
+entry); email still cannot send, grant absent, re-checked; no task stalled; scope held - no provider
+UI, no key, no runtime code, no zip touched.
+
+**Checked:** env for the 911 key or a Nylas grant. **Still absent, all names.** Branch pushed at this
+entry's own commit; HEAD confirmed equal to remote HEAD before this entry.
+
+**Decision he owes (rainbow):** none new. If the four described reds exist on a status surface outside
+this repo, that surface's owner - not this lane - is the one who can locate and correct them.
+
+**Next cycle owns:** whatever instruction arrives next. No roadmap is currently under active
+deepening.

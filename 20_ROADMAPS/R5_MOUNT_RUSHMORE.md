@@ -162,11 +162,17 @@ Taste and Agent Keeper together. **I birth them together. They're separate.**"*
 
 ### The roster, with honest state
 
-| Essential | What it does | State |
+> **WRITER STAMP ON THIS TABLE, and it matters.** A coder assigning states to her organs in a clean
+> grid is a coder classifying her. Per *carry, never classify*, **every row below carries who claimed
+> the state, not just the state.** The claims are the estate's own audit and shift reports; **I curled
+> nothing.** Where a claim has no independent receipt the row says so. `[MEASURED — the claims;
+> REASONED, NOT MEASURED — that any of them is currently true]`
+
+| Essential | What it does | State, and **who claims it** |
 |---|---|---|
 | **TASTE** | Reads and rationalizes every word of doctrine into goals and modules. *"This is a wonder show. This is not no nasty cough show."* | PARTIAL — a slice merged; the manual protocol has no receipt. **At least three conflicting JDs exist** |
 | **KEEPER** | Runs Taste inside her, plus coding-department awareness and self-knowledge. Audits the roadmap against the doctrine | PARTIAL — and its own audit says *"Keeper is not yet a living wonder auditing its own doctrine; a cold agent is doing the audit tonight because Keeper has not been birthed"* |
-| **LOGFUL** | Librarian and historian. Every unsettled continuation reconciles here. Becomes keeper of **everybody's** doctrine (`PO1-20`) | BUILT — on a single commit hash, **never independently curled**. See `CONTRADICTIONS.md` B-1 |
+| **LOGFUL** | Librarian and historian. Every unsettled continuation reconciles here. Becomes keeper of **everybody's** doctrine (`PO1-20`) | **BUILT (CLAIMED — NEVER CURLED)** — claimed by the estate's Keeper audit on one commit hash; that audit's own words: *"this audit did not independently curl it."* **No receipt. Not green.** Curl is `R8` M2.1. See `CONTRADICTIONS.md` B-1 |
 | **SPAN** | The roadmap wonder. Reorganizes rather than executes in order. Births the Researcher | **NOT BUILT.** No lane, PR, or board row names her |
 | **The Researcher** | Deep research, delivered as receipts | Contradicted — his words say unbirthed, a roadmap says merged |
 | **STAMP** | Entrance, exit, notes — verbatim, unsummarized — on every exchange, plus every decision **not** to act | NOT BUILT as a wonder; the convention is in informal practice |

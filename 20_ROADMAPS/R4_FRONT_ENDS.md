@@ -157,9 +157,16 @@ Per `R1` P1.1's own design note, "a regex that blocks is itself a V-DECIDE." Thi
 F1.2 specifies a builder's view with "lane cards and lineage chains and cycle receipts" but does not say what actually populates it. It already exists:
 
 > "One might be Audra auditing the other chats. One might be exclusively focusing on PMS and nasty cough. And then another one might be the fixer. And then that fourth one comes in, and it watches you."
-> `[his vision, quoted verbatim + 40_GOVERNANCE/THE_WATCHERS.md, the 30-minute checker and four-watcher rotation, already standing]`
+> `[his vision, quoted verbatim + 40_GOVERNANCE/THE_WATCHERS.md, the four-watcher rotation - built as
+> roles]`
 
-View 2 should render this real rotation (the four watchers, the 30-minute checker, the email shape) as its lane cards. Inventing a generic "lane card" abstraction when a real, built structure already exists is exactly the second-truth-store risk F1.1 warns against, one level up.
+View 2 should render this real rotation (the four watchers, the email shape) as its lane cards. **The
+30-minute checker belongs on the same card, but rendered honestly** - it is a self-rearming one-shot
+chain with no server-side cron, not a guaranteed-recurring process, and it has already gone silent once
+`[MEASURED - 40_GOVERNANCE/THE_WATCHERS.md, "HONEST STATE OF THIS FILE"]`. A lane card that shows it as
+simply "running" would repeat the same overclaim this sub-phase's earlier draft made before an audit
+caught it. Inventing a generic "lane card" abstraction when a real, built structure already exists is
+exactly the second-truth-store risk F1.1 warns against, one level up.
 
 ### Sub-phase F1.8 - The wake-up budget is stated twice, at two different numbers, and never reconciled
 Two separate sessions give the Command Center's own loading state two different latency budgets. Neither is quoted anywhere in this roadmap:

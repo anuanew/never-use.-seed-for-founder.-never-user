@@ -223,11 +223,17 @@ The world is a place a session can *enter and become someone in*, which is why T
 role is not the same as reading a document about a role.
 
 ### Sub-phase T2.5 - Give them the actual definitions, not just the words
-T2.2 tells a temp coder not to PMS or nasty-cough but names them nowhere. His own words:
+T2.2 tells a temp coder not to PMS or nasty-cough but names them nowhere. His own words - **citations
+restored here after an audit found this sub-phase was the one new addition in the whole splice missing
+a file citation, dropped during the original edit rather than absent from the source:**
 > *"This isn't like nasty cough, right? This isn't PMS. This isn't like cold code. Nor is this planted
-> memory syndrome, right?"* `[HIS WORDS]`
+> memory syndrome, right?"*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/The count down doctrine pt 1 _ Webinar from Everfi_ More than
+> Money_ Building Resilience in LMI Communities_transcript.txt]`
 > *"We're gonna start calling what I used to call nasty C's - cold code. That is now going to be
-> forever named as nasty cough, right?"* `[HIS WORDS]`
+> forever named as nasty cough, right?"*
+> `[HIS WORDS + 1_HIS_WORDS/02_PHASE_2/Is this the beginning of real life? Doctrine pt 2 (pt 1 was
+> notes)_otter.ai.txt]`
 
 **PMS = Planted Memory Syndrome. Nasty cough = renamed cold code.** The artifact handed to a temp
 coder must carry both definitions verbatim - a temp coder with no other doctrine access cannot

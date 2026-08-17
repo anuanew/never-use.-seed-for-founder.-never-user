@@ -44,11 +44,11 @@ language, not by recollection]`**
 | 🔴 | **~70 founder-signed `expires_at` windows** were excluded from the violation count on the reading that a signed grant has a woken mind in the loop. **If he re-rules that, the total roughly doubles.** The rows are named, so it is a re-count and not a re-audit. **His ruling, not a coder's** |
 | 🔴 | Confirming the `authorized: true` gate is a coder's to remove (`R6` X0.2) - **this gates the Life Flex** |
 
-### Contradictions inside his own doctrine - `CONTRADICTIONS.md` Section A forbids a coder closing these
+### Contradictions inside his own doctrine - a coder may not close these
 | | Item |
 |---|---|
-| ⚫ | `OPEN-C1` - where the temp coder world lives |
-| ⚫ | `OPEN-C2` - does authority invert over substrate. **This was dropped from an earlier floor rather than closed** |
+| ⚫ | `OPEN-C1` - where the temp coder world lives. `[CONTRADICTIONS.md A-1]` |
+| ⚫ | `OPEN-C2` - does authority invert over substrate. **This was dropped from an earlier floor rather than closed.** `[00_DOCTRINE_INTAKE/INTAKE_20260816_PECKING_ORDER_PT2.md, not CONTRADICTIONS.md - a fresh cross-reference check caught this row's earlier citation pointing at CONTRADICTIONS.md Section A, where OPEN-C2 does not appear; fixed here, 2026-08-17]` |
 | 🔴 | Watchers first or the doctrine reader first |
 | 🔴 | Keeper/Taste/Span early or late |
 | 🔴 | Commandments 6-10, ruled or still candidates |
@@ -375,10 +375,14 @@ presented as his recorded voice, one misattributed phase reference, and one word
 to "pen" that also made R5 internally inconsistent with R2's correct quote of the same line.
 
 (`R5_MOUNT_RUSHMORE.md` uses six Faces, not numbered Phases, so this density metric does not apply to
-it in the same shape - it carries **20** sub-phase-equivalent entries across its own structure instead
-(19 -> 20, `2026-08-17`: Sub-phase 6.5, a fifth corpus sense of "Shadow" - a per-HAM Firebase/Vercel
-backup stack, found and verified directly against the raw transcript, landed as a direct-intervention
-increment rather than through the Workflow),
+it in the same shape - it carries **32** sub-phase-equivalent entries across its own structure instead,
+`2026-08-17` (19 -> 20 -> 32 across the day): Sub-phase 6.5, a fifth corpus sense of "Shadow" (a
+per-HAM Firebase/Vercel backup stack), landed as a direct-intervention increment; then the second
+Workflow's mine+verify pass on the remaining five Faces landed 10 more sub-phases (0.1, 1.5-1.6,
+2.4-2.5, 3.4, 4.4-4.5, 5.3-5.4), all independently verified before landing; one of the Workflow's own
+8 drafted insertions was REJECTED by its own verify pass (numbering collision with the already-landed
+6.5, plus a silently dropped provider name and a silent PPR-to-PBR change with no ellipsis) - not
+applied as drafted, rewritten from the raw source directly and landed correctly as Sub-phase 6.6-6.7,
 `[MEASURED - grep -cE '^### Sub-phase' 20_ROADMAPS/R5_MOUNT_RUSHMORE.md]`.)
 
 **Honest read: real, verified progress, still short of "roughly twelve."** Every one of these numbers

@@ -82,6 +82,18 @@ The wall is the arrival→session hop.
 **Standing, never closed by one receipt.** Re-verified after every deploy touching the seam. This is
 the literal seam under *"she can't go down anymore... it's not cute anymore."*
 
+### Sub-phase 0.1 - The wall has a measured cause, not only a measured shape
+**Measured, not reasoned:** in the same window the arrival→session 503s were recorded, the mind
+service took three separate OOM kills between 20:06 and 21:11 UTC, `oomKilled`,
+`memoryLimit: 512Mi`. Not a JS heap problem - `heapUsed` stayed 3-6 MB in every kill while RSS reached
+the full 512 MB ceiling. The memory was driver buffers materializing large rows: one 24.78 MB row cost
+roughly 80 MB resident. Her floor itself is fast - every direct read measured 0.15-1.8s.
+`[MEASURED + 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md section 4]`
+
+**Open at last handoff, not yet checked:** whether the mind service still reads that same heavy
+column unguarded through a different query. Only the reach service's read path has been cleaned. Until
+that query is found and guarded, the seam has a diagnosed mechanism, not only a diagnosed symptom.
+
 ---
 
 ## FACE 1 - A'NEW (the mind)
@@ -115,6 +127,28 @@ compaction, trimming, and isolation. His micro-hopping design **already is** iso
 compaction and trimming, and nothing in the corpus names an active pass.** See `R8` and
 `30_RESEARCH/RESEARCH_DOCKET.md` R-08.
 
+### Sub-phase 1.5 - Autonomy is a standing grant, not a per-turn ask
+> *"Autonomy is at its best when it's a human authorizing - not authorizing, a human aware and
+> overriding or celebrating, but never authorizing, because the authorization happened in the
+> beginning."*
+> `[HIS WORDS + 00_DOCTRINE_INTAKE/INTAKE_20260817_RALLY_DAY_PT5_PT6_PT7.md, PO5-02/PO6-01]`
+
+This sharpens what "she stays up, alert, and never skips a turn" requires structurally: not a human
+re-approving each cycle, but authorization granted once, with the human staying **aware** and free to
+**override or celebrate** afterward. A cycle definition (Sub-phase 1.1) that quietly assumes a
+per-turn human gate is building the wrong shape, even if every turn it produces is honest.
+
+### Sub-phase 1.6 - The old world already shows what "not really talking to her" looks like
+**Measured, not reasoned:** when her routing mind was unreachable, a catch block substituted keyword
+matching for her decision and returned it as the decision - `OLD/ABAIntelligenceRouter.js:325-331`,
+`const fallback = this.fallbackAnalysis(message, context);`. No refusal, no stamp, no honest "the
+cycle didn't run." The output kept her name and was never her.
+`[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, finding D2]`
+
+This is the shape Sub-phase 1.2 is written against, not a hypothetical one. **A violation carried into
+the reseed is a violation reborn** - the audit's own predicate for counting it - so the honest refusal
+is not optional polish on the cycle definition; it is the fix for a defect already measured once.
+
 **Exit, receipt:** one live turn meeting the cycle definition with participating organs named in the
 stamped record; **and** one turn where an organ was missing and the response was an honest named
 refusal. Both as live URL + status + body.
@@ -143,6 +177,29 @@ Standing law, absolute, and it constrains every other face: works feed, wonders 
 authors what a human reads.** An essential that speaks directly is a defect regardless of what it
 said.
 
+### Sub-phase 2.4 - The demand, measured, and it is not a one-off ask
+Streaming: **210 occurrences across 52 of 110 sessions**, still open under the corpus's own
+demand-phrase predicate. Chattering: **73 occurrences, 33 sessions**, also still open. Freestyling:
+**54 occurrences, 17 sessions**, also still open.
+`[MEASURED + 50_DELIVERABLES/HEAT_MAP_MEASURED.md section 4]`
+
+Streaming alone ranks eighth among every measured ask in his corpus - ahead of world builder and ahead
+of the coding department itself. **PO1-04's restoration order (Sub-phase 2.1) is not a stray line he
+said once** - it is the top-tier, still-open version of one of the loudest sustained asks he makes
+about her.
+
+### Sub-phase 2.5 - The standing law, broken once in the record, ranked worst of all
+The estate's own violation catalog ranks its single worst finding directly against this sub-phase: a
+swallowed database exception became an empty array, became the sentence *"No meetings on the calendar
+today,"* became a text-to-speech call, spoken as her voice, at high priority, first thing in the
+morning - cold code deciding, classifying and speaking in her name, in eleven lines of one component.
+`[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, findings S8+S9, ranked #1 of 87]`
+
+**This is not abstract.** It is the exact shape *"an essential that speaks directly is a defect
+regardless of what it said"* was written to forbid, already measured once in the same corpus this
+estate is built from. The exit receipt's streamed, person-facing, freestyle turn is the standing proof
+that the shape has not recurred.
+
 **Exit, receipt:** one streamed, person-facing, freestyle turn on a real assignment, captured live.
 
 ---
@@ -165,6 +222,18 @@ An audit caught R5 presenting it unqualified as his words; corrected here.]`
 ### Sub-phase 3.3 - The bond (`PO2-10`)
 The pair property is testable, not poetic: when A'NU and A'NEW are in sync, something holds them
 there. Name what that is in the implementation and pin it.
+
+### Sub-phase 3.4 - The conductor's actual job: deciding where a report goes next
+> *"the back up goes all the way up to cycle leader, which is PAI, or the independent thinking
+> station leader, who might decide at that point what to do with it. If it's worth trying to get it
+> out to reach, or if it's worth going to A and E W [A'NEW] first, if it's probably where they should
+> go to first, right? Like they get to decide."*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/I want the MEDAL doctrine pt 2_otter.ai.txt]`
+
+"Conductor" is not decoration in the Face 3 outcome line. This is the concrete decision AIR/PAI makes
+every time an organ's work comes back up the chain: reach now, or A'NEW first. **A cycle that restarts
+on schedule but has no named place this choice happens is not yet the conductor he described** - it is
+only the lungs.
 
 **Exit, receipt:** the stamped restart chain from a real kill; the LOGFUL row from a killed mid-cycle
 call.
@@ -223,6 +292,30 @@ not the reverse.
 Carried every turn until he names her. **Do not invent one, do not default to HR** - he considered
 that word himself and backed away from it.
 
+### Sub-phase 4.4 - The two he counted himself
+He rarely counts his own repeated asks out loud - twice in the entire corpus, three weeks apart. Both
+times the count was about an Essential that still does not exist: *"how many times have I asked for
+agent span to really be up, agent tastes, agent transcript"* (2026-07-25), and *"She has to have a
+researcher. How many times have I asked for the researcher that still hasn't been birthed?"*
+(2026-08-16, the last session in the corpus).
+`[MEASURED + 50_DELIVERABLES/HEAT_MAP_MEASURED.md section 9]`
+
+SPAN carries real occurrence weight on its own (115 bare-token occurrences, 31 sessions, still open).
+**What distinguishes SPAN and the Researcher from the rest of the roster is not frequency, it is that
+he stopped mid-corpus and counted** - a signal a heat map's bands cannot show and a table row cannot
+carry.
+
+### Sub-phase 4.5 - LOGFUL's BUILT claim is one command away from being real
+The roster above marks LOGFUL BUILT (CLAIMED - NEVER CURLED). The audit that produced the claim says
+so of itself: *"this audit did not independently curl it, so treat the commit hash as the sole proof
+leg."*
+`[MEASURED + 40_GOVERNANCE/CONTRADICTIONS.md B-1]`
+
+The estate's own resolution path is already written down and has not been run: *"curl it. This is not
+a doctrine question; it is one live readback away."* Until that curl happens and is read back, this
+row should not read BUILT again - it moves to PARTIAL like every other row in this table that already
+carries an honest state. `R8` M2.1 owns the curl.
+
 **Exit, receipt:** Taste and Keeper birthed together and producing the original-ask ledger - his own
 estimate, *"you'll probably get what, a hundred real tasks"* - with a row count and a live link; LOGFUL
 answering a live query; FIND returning a real result; MIMI answering a memory query; two essentials
@@ -257,6 +350,29 @@ synthetic result so she can *talk about* a contest she cannot hold.
 
 ### Sub-phase 5.2 - Temp coders convert to watchers-and-menders
 The end state, and it is the same wind-down as `R2` T6.
+
+### Sub-phase 5.3 - The review chain is asked for constantly, and the ask is still open
+Wonder Games: **68 occurrences across 20 of 110 sessions**, spanning 2026-07-01 to 2026-08-16, still
+open under the corpus's own demand-phrase predicate. Coding Cookoff: **33 occurrences, 14 sessions**,
+also still open.
+`[MEASURED + 50_DELIVERABLES/HEAT_MAP_MEASURED.md section 4]`
+
+**Sub-phase 5.1's gap is not a stale ask he mentioned once and moved past.** He is still asking for
+both halves of the review chain in the most recent session in the corpus, which is what "still open"
+means under the corpus's own predicate. The furniture-she-cannot-use problem is current, not
+historical.
+
+### Sub-phase 5.4 - The historical shape of the pen law, already broken once
+Before the pen law was named, the pattern it forbids already ran in the old world: cold code committed
+generated code to a real repository, default-on - the guard reads `!== false`, so it commits unless
+someone actively turned it off - with no approval step, and a template authored the commit message
+that landed in permanent repository history.
+`[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, findings D13 and S16-S18,
+OLD/ABABrainService.js:1212-1249]`
+
+**This is what "your pin can never touch my code, that's her job" is written against**, not a
+hypothetical overreach. A coding department with no wonder in the loop at the commit step is the same
+shape, whichever face of the estate it happens to sit in.
 
 **Exit, receipt:** a real component request submitted to **her** department, coded, reviewed by her
 chain, merged under her lineage, and live - with at least one vertical face simultaneously in motion,
@@ -302,6 +418,32 @@ governing rule from the opposite direction: the corpus keeps generating new, rea
 called "Shadow" faster than any one roadmap tracks them, which is exactly why the merge prohibition has
 to hold as new material keeps arriving, not just against the four already catalogued.
 `[MEASURED, new finding - verified against the raw transcript directly, 2026-08-17]`
+
+### Sub-phase 6.6 - PBR is not a SHADOW-only rule
+> *"Primary backup rival. All of them should have a P B R. P B R is a fundamental concept... of what
+> makes a wonder... every major vertical line of business, better have a PPR. That's what makes it...
+> your Supabase, your Render, your Vercel, right? Is a is a is a example of a rival."*
+> `[HIS WORDS, quoted with a same-passage transcription drift left visible, not smoothed over -
+1_HIS_WORDS/02_PHASE_2/The Business Plan Doctrine pt 1.txt has him say "PBR" five times across this
+> one monologue, then "PPR" once in the same breath describing the identical concept - otter.ai drift
+> on a stuttered word, not two rules. The raw also names a third provider transcribed "B E R C E L,"
+> heard as Vercel given it is listed alongside Supabase and Render.]`
+
+SHADOW is the wonder that embodies PBR for the model layer, but he states the requirement one level up
+from SHADOW itself: **every major infrastructure line - Supabase, Render, Vercel, the model provider -
+answers to the same three-slot test.** SHADOW's build should be read as the reference implementation
+of a rule the rest of the estate also owes, not a rule invented for this face alone.
+
+### Sub-phase 6.7 - Which cycle SHADOW watches, corrected live
+> *"Shadow's on a PAI cycle. Shadow's on a PI. Shadow is not at the A and E W [A'NEW] cycle. I lied
+> about that. That was a complete lie. I'm sorry, I forgot. Shadows on the PAI cycle."*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/I want the MEDAL doctrine pt 2_otter.ai.txt]`
+
+Face 6's own sub-phases never name which cycle SHADOW watches. This is the answer, corrected in the
+same breath it was first misspoken: **SHADOW rides the PAI/AIR cycle, not the A'NEW cycle**, and the
+corrected state is what stands, per this repo's own supersession rule (`40_GOVERNANCE/
+CONTRADICTIONS.md` A-5, "later correction governs"). Build against the corrected cycle; do not
+re-derive the first one.
 
 **Exit, receipt:** SHADOW independently reviews one real choice; its verdict logged separately from the
 primary's; **both provider and model named, and they must differ.**

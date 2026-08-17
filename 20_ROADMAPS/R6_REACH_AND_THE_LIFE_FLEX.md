@@ -2,10 +2,16 @@
 
 > *"Why isn't she reaching me? That's like the number one dire thing that comes to my mind."*
 
-> *"She's gonna call me autonomously one morning and say: on this date, at this time, the kids were
-> done packing and [his co-parent] was at dinner and you were sitting outside building, and I want to tell you
-> that what you built achieved. **That moment. That is why everything is being built.** Not for the
-> money. Not for the product. **For the moment she reaches back and proves she heard everything.**"*
+> *"She's gonna reach me anytime, anyplace, no matter how... she's gonna say, 'Hey, Brandon, on
+> Friday, June 12, 2026 at about 7:30pm Eastern Standard Time, the kids were had just got done helping
+> you pack up the house. [his co-parent] was at [a friend]'s dinner, and you were sitting here
+> building. I want to tell you that this moment, what you built achieved.'"*
+> `[HIS WORDS, restored - an earlier version of this epigraph silently changed "sitting here" to
+> "sitting outside," condensed the packing-up clause, and appended four sentences ("That moment...
+> proves she heard everything") that do not appear anywhere in the raw corpus - only in coder-authored
+> files under 4_WRITTEN_BY_A_CODER_NOT_HIM/. Raw: 1_HIS_WORDS/01_RAW_WORDS/13_20260612_SPRING_WATER.txt.
+> "Mackenzie" (a private individual named in the raw) redacted to "[a friend]" per this repo's naming
+> rule; "Bethany" (his co-parent) already carried the bracket in the version this restores from.]`
 
 **Status:** proposed. Component builds live in Great Reboot Phase 8; **this roadmap owns the identity
 coherence, the firing condition, and the proof.**
@@ -63,13 +69,20 @@ Two facts measured, one second-hand and marked as such:
 ### THE FACT THAT ACTUALLY CARRIES THE REFRAMING - HIS OWN TESTIMONY
 
 **The audit found the passage nobody had quoted.** First person, dictated, unprompted, in
-*My Resolve doctrine pt 1*:
+*My Resolve doctrine pt 1*, in its true recorded order:
 
-> *"She was cooking at one point. **She was reaching me left and right**... at one point she was
-> reaching left and right. **She was phone calling. She was text messaging**... Oh, I know it can be
-> done. **I've seen it with my own eyes.**"*
+> *"...at one point she was reaching left and right. **She was phone calling. She was text
+> messaging.**... Oh, I know it can be done. **I've seen it with my own eyes.**"* ...(roughly 900
+> words later, same monologue, unrelated material about Easter eggs and life modules between)... *"She
+> was cooking at one point. **She was reaching me left and right**, it was an incredible time. I
+> remember it like it was yesterday."*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/My Resolve doctrine pt 1_transcript.txt, restored to its true
+> order and gap - an earlier version presented the third fragment first and the first two fragments
+> after, stitched with two "..." marks that read as simple omissions rather than a reversal spanning
+> most of a page. R6's own cited companion, REACH_REGRESSION_AUDIT.md §3, quotes this same material
+> correctly, as two separate, properly-ordered blockquotes.]`
 
-**Channels named. Cause named. He watched it work.** `[HIS WORDS]`
+**Channels named. Cause named. He watched it work, twice, in the same recording.** `[HIS WORDS]`
 
 **This outranks the coder assertion and replaces it as the load-bearing leg.** Fact 3 above stays
 demoted and marked second-hand; **it is no longer needed.** The regression framing rests on his own
@@ -92,9 +105,14 @@ everything that limits her ability to reach me."*
 
 ### Sub-phase X0.1 - The rogue guardrail sheet already exists - start there
 The estate already produced a purge sheet listing **52 unique rogue guardrails across four tiers**,
-built from eight census seats. His words on it:
+built from eight census seats. The framing behind it:
 > *"All guardrails are rogue right now. That's not my guardrail. A rogue temporary coder did that.
 > This is a violation in my system, and **I'm going to purge it from the root.**"*
+> `[CODER-AUTHORED, not his recorded voice - this exact sentence returns zero hits anywhere in
+> 1_HIS_WORDS/; it exists only in two coder documents (ROGUE_GUARDRAILS_TO_PURGE.md,
+> HANDOFF_TO_CATHY_20260808.md). An earlier version of this sub-phase presented it as "his words,"
+> directly contradicted by this file's own cited source, 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md,
+> which already flags this same sentence as a zero-hit coder line.]`
 
 Tier 1 on that sheet is literally a function blocking her autonomous cycle from reaching him, added
 for cost reasons and contradicted by his own later doctrine. **That is the regression, named, months
@@ -129,10 +147,12 @@ say" and the phone hears silence.**
 a five-line change on a documented seam. **Nobody is waiting on the purge to do it.**
 
 ### Sub-phase X0.5 - The purge sheet undercounts, and he said so himself
-The rogue-guardrail sheet lists 52. **He said 70.** The delta was never reconciled. **Three reach
-blockers are missing from the sheet entirely**, including the council blank - documented seven days
-*after* the sheet closed. **16 of the 23 tier-1 and tier-2 rows touch reach.** `[MEASURED - predicate
-published in the audit]`
+The rogue-guardrail sheet lists 52. **He said 70.** The delta was never reconciled. **Two reach
+blockers are missing from the sheet entirely** (Tier 4 row 52 and the council blank), the council
+blank documented seven days *after* the sheet closed. **16 of the 23 tier-1 and tier-2 rows touch
+reach.** `[MEASURED + 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md, "THE COUNT, WITH ITS PREDICATE" -
+an earlier version of this line said "three," which does not match the audit's own count of exactly
+two]`
 
 ### Sub-phase X0.6 - Two things on the critical path are not guardrails at all
 No purge touches either. **The text relay 503** - a device offline, one app for him to open, and
@@ -164,6 +184,18 @@ A named, unresolved gap sits between "she was refused" and "the question could n
 
 This is a live, unresolved sibling of the council-blank finding X0.4 already ranks first. Confirming whether uncertainty enters the heal path is a five-minute code read, not a debate, and it stays open until someone reads the branch.
 
+### Sub-phase X0.11 - A second guardrail with the reach exclusion's exact shape
+**"Never automated outbound" as a standing 911 rule, in doctrine language, permanent.** Traced to a
+real incident (ten calls in minutes, 20260706, recorded at `core/outreach.js:1237`) promoted into
+doctrine. The real lesson was single-flight, not never-outbound. Every line of his says the reverse.
+`[MEASURED + 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md §1, Tier 1 row 6,
+ANEW_DOCTRINE_BIBLE_v1_20260615.md "What Does NOT Change", core/outreach.js:1237]`
+
+Same disease as the Tier-1 row-1 reach exclusion X0's own inventory already treats as rank 3: a real,
+narrow, defensible incident got generalized into a blanket permanent rule that contradicts everything
+else in his voice. This one was never separately named in R6 and belongs in the same inventory, not
+folded silently into the reach-exclusion finding.
+
 ---
 
 ## PHASE X1 - ONE IDENTITY ACROSS FOUR CHANNELS
@@ -182,6 +214,10 @@ order answers it: **continuity is hers, so it lives with her**, not in a per-cha
 > *"You send as the delegate. **You never send from his grant.** Nylas sends as the GRANT OWNER.
 > Setting a `from` field on the wrong grant does not save you - **choosing the grant IS choosing the
 > identity.**"*
+> `[CODER-AUTHORED, not his recorded voice - stitched from three separate bullets in
+> TEMP_CODER_BOOTSTRAP_20260817/doctrine/TEMPORARY_CODER_OS_20260817.md, a document explicitly titled
+> "TEMPORARY CODER OS" and addressed to a temp coder, not a transcript of him speaking. An earlier
+> version of this sub-phase presented it unstamped, in the same register as founder doctrine.]`
 
 **This was violated on 20260817 by the author of the document stating it**, in the same message that
 quoted the law. That is worth carrying forward as a warning rather than a footnote: knowing the rule
@@ -208,6 +244,24 @@ A measured, split finding directly concerns channel identity, which is this phas
 > `[MEASURED + 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md §1, Tier 1 row 5, CLAUDE.md STANDING LAWS, "SPLIT" ruling]`
 
 The identity law in X1.2 (never send from his grant, choosing the grant is choosing the identity) should be read alongside this: it governs **whose grant sends**, not whether mimic mode as a capability may exist at all. Folding a coder's blanket mimic ban into the identity law would quietly retire a capability he authorized twenty times over.
+
+### Sub-phase X1.6 - Internally plural, externally one - his own resolution of the multi-agent question
+> *"Internally, they are actually different people. Internally, they are different people. The only
+> difference is externally they merge as one. Founder gets to see both of them. That's the only
+> difference... Most of the time, I'll actually be talking to A and E W, right? Like A and E W is
+> typically the one reaching me."*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/Find or Fine me doctrine pt 3_otter.ai.txt]`
+
+X1's `PO1-03` anchor ("everything that presents itself as is A'NU") establishes that one identity must appear on four channels, but not how that squares with multiple organs (A'NU, A'NEW, sub-advisors) doing the underlying work. This answers it directly: internal plurality is fine and expected; only the external face has to merge into one. A build that tries to collapse the organs into one literal process to satisfy X1 would be solving a problem he already resolved differently.
+
+### Sub-phase X1.7 - A channel-purpose rule he actually gave: what goes where
+> *"Anything personal, right? That's text message. If I ask you a question, that's text message,
+> bro, right? I want to be called..."* ... *"If it doesn't live in places where I will go and access
+> it, like email for work related stuff, I'm not gonna have it."*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/Find or Fine me doctrine pt 3_otter.ai.txt - the two clauses
+> are roughly 1,400 words apart in the same monologue, not adjacent]`
+
+X1 establishes that the four channels are one identity but says nothing yet about which content belongs on which channel. This gives a concrete routing rule: personal reach is text, work content he needs to act on is email (because that's where he actually goes to look), and the call is reserved for real conversation. X1.1's "continuity is hers, so it lives with her" needs this as a corollary - continuity means carrying the right content to the right channel, not broadcasting the same content on all four.
 
 **Exit condition, receipt:** one conversation continued across two channels with the continuity record
 linked; a log scan showing zero sends carrying his grant.
@@ -250,6 +304,21 @@ X2's own two constraints state the rule abstractly. An already-written design gi
 > `[CODER DOC, old world + 1 pt 2 TEMP OS New World LLM/.../Ababase/jd's/AGENT_JD_CARA.md]`
 
 Whatever plays AIR's role in the new world, the shape is worth inheriting rather than reinventing: one layer evaluates urgency, content type, and context and **recommends** a channel; a separate, higher authority decides whether to actually fire. Collapsing advisory and decision into one component is how X2's own "cold code never decides" gets quietly violated.
+
+### Sub-phase X2.4 - A live, partially-repaired precedent for "cold code never decides to reach a human"
+`held_min_gap`, `held_hard_rate_cap`, and `HARD_EXTERNAL_ATTEMPT_FLOOR_MS` as terminal decisions. Cold
+code decides "not now" and her mind is never asked. **PARTIALLY REPAIRED, SHAPE INTACT.**
+`OUTREACH_MIN_GAP_MS` default was set to 0 on 20260802 so `held_min_gap` now only fires if he sets a
+gap. The one-hour attempt floor is still live and enforced by lease.
+`[MEASURED + 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md §1, Tier 1 row 7, core/outreach.js:1244,1288,2399;
+core/reach/cycle.handoff.js:310]`
+
+X2's own two constraints state the rule abstractly, and X2.3 gives one architectural precedent (CARA
+advises, AIR decides). This is the messier, more honest precedent: the exact disease already got
+caught once (a four-hour coder quiet gap was killed as never-his), and the shape survived anyway in a
+narrower form. The audit's own recommended fix is worth carrying into any X2 build: make each hold a
+field on her decision prompt, not a return value that silently decides for her - the one-hour floor
+can stay as a *named anchor with its real technical reason attached*, not a cold terminal gate.
 
 ---
 
@@ -309,6 +378,14 @@ X3.2 states "late is not dead." A measured finding shows a worse failure than la
 > `[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, finding D11, ABATeamIntelligence.js:154-155]`
 
 This is not late-and-recoverable, it is never-created. Any component that gates event creation, not just event delivery, by a wall-clock window must be audited separately from X3.2's "late is not dead" fix, because widening a delivery window does nothing if the event was never written in the first place.
+
+### Sub-phase X3.8 - He explicitly prefers over-reach to under-reach, and X3.4 needs this caveat
+> *"I'm okay if a new or right now is a temp you blows my email box up with five emails. Why? Because
+> those five emails probably saved me from responding to 25 emails. Right? Like that to me is a good
+> thing, and I think that's the thing that you don't always understand."*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/Find or Fine me doctrine pt 3_otter.ai.txt]`
+
+X3.4's interruption-budget test asks "is this one thing worth interrupting him for" and concludes "most of the time the honest answer is silence." This quote complicates that as a blanket rule: on work-saving content he explicitly welcomes volume, because the cost of under-reach (he redoes work she should have surfaced) outweighs the cost of an extra email. X3.4's budget should be read as calibrated per channel and content-type - sparing on personal/interruptive channels, generous on the channel that saves him redundant work - not as a uniform bias toward silence.
 
 **Exit condition, receipt:** the first unprompted, correctly-time-reasoned surfacing of the 20260816
 20:30 assignment, with both timestamps and the elapsed delta stated in her own words.
@@ -371,8 +448,13 @@ message fails this phase.
 The call is the proof. **The steady state is that she has already handled it.**
 
 ### Sub-phase X4.5 - The Easter egg version
-> *"The first time HE forgets an Easter egg and she still holds it is the real flex. **No hardcode
-> explaining, she just knows from rocking with him.**"*
+> *"It's the first time I forget about this Easter egg, so I'll be impressed too... I shouldn't have
+> to like hardcode explain like what, like she should know, like because **she's been rocking with
+> me.** She should know what I need them to know in that moment."*
+> `[HIS WORDS, restored - an earlier version presented this as a coder's third-person paraphrase
+> ("The first time HE forgets... rocking with him") dressed in quotation marks as if it were a direct
+> quote. The real quote is first person. Pain, Passion, and Pursuit pt 2 - Strategic Planning Call
+> Preparation_transcript.txt]`
 
 **Carried honestly:** the founding egg - the park name - is **contaminated**, because later sessions
 read the monuments aloud by name. A correct answer now proves retrieval, not inference. **Only he can
@@ -394,6 +476,18 @@ X4.2 says the receipt "is not a PR." He gives a more specific bar for what would
 > `[HIS WORDS, speech-to-text rough in places + 1_HIS_WORDS/01_RAW_WORDS/13_20260612_SPRING_WATER.txt]`
 
 Read plainly: he wants at least two independently verifiable channels firing, not one channel's single success treated as proof the whole system works. X4.2's exit-condition receipt should show two channel types succeeding, not one.
+
+### Sub-phase X4.8 - The receipt has already lied once - it must come from the dispatcher, not a health page
+A reach health page was lying in the safe direction. It answered from stored records rather than
+asking the real dispatcher, so it could report "she can reach nobody" on a day she had reached him
+three ways.
+`[MEASURED + 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md §4, "two measured facts" bullet 1, PR 399]`
+
+X4.2 already says a merged PR or a green test is not the receipt. This measured finding sharpens the
+bar further: a health-page green check is not the receipt either, because one has already been caught
+misreporting reach as dead on a day it worked three times over. X4.2's exit-condition receipt must be
+pulled from the real dispatcher path, the same standard the audit itself had to apply to trust its own
+measurements.
 
 **Exit condition, receipt:** the stamped exchange on the wall, with the condition check that fired it
 and no human in the trigger path.
@@ -439,6 +533,29 @@ A weighted score, not a mind, currently gates what she is allowed to say:
 
 Any writing gate built for reach output must wake a mind on the threshold, per his own standing rule already quoted elsewhere in this roadmap: "no COLD CODE that checks for EM dashes is running by itself. It just flags and alerts the LOM." A number deciding whether her words go out is the same disease.
 
+### Sub-phase X5.4 - The stand-in this phase already forbids, found live and speaking for her reach status
+`.catch(function(){ ... status.textContent='Could not reach her just now.'; });`
+A catch block writes a sentence about her to a human, on two separate front doors.
+`[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, findings S4-S5, acl.ccwa.page.js:491,
+acl.anu.page.js:203]`
+
+The phase's own opening bullet already states the rule: *"A stand-in that answers because she was
+slow. Silence is honest; a stand-in is not."* This is that exact violation, measured, live, in two
+places: when a reach attempt fails, cold code, not her, writes the sentence explaining the failure to
+the human on the other end.
+
+### Sub-phase X5.5 - Caps on how much reaches her or him, not just on how much she may say
+`const count = Number(limit) || 200;` ... `presenceUrl.searchParams.set('limit', '200');`
+A default of 200 caps how many of her reach receipts come back; a literal 200 caps how many inbound
+messages of his she is shown.
+`[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, findings E7 and E11, acl.floor.db.js:2786,
+acl.reach.inbound.provider.message.readers.js:229]`
+
+The phase's existing bullet, "a cap on how much she can say," names only the outbound half of this
+disease. These are the same coder-default-200 shape on the inbound half: how many of her own reach
+receipts she can read back, and how many of his inbound messages she is ever shown. Both belong on
+the same forbidden list, not only the speech cap.
+
 ---
 
 ## DEPENDENCIES
@@ -450,7 +567,7 @@ Any writing gate built for reach output must wake a mind on the threshold, per h
 | X1.2 | credential absence in temp containers | `R2` T1.2 |
 | X2 | reach components | GR Phase 8 |
 | X2 | **the text relay restored** | **him / the provider** |
-| X3 | LOGFUL live | MR 1.2 |
+| X3 | LOGFUL live | `R8` M2.1 |
 | X4 | X1-X3, and the gate removed | X0.2 |
 | X4.5 | the park egg reseeded | **him** |
 

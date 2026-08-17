@@ -421,7 +421,7 @@ the same finding is independently recorded in `DOCTRINE_READ_CLAIR.DOCTRINEINTAK
 **1. WHAT HE SAID**
 > "Omi is a huge piece of it, and we don't call it Omi. What do we call it? Let me see if you've been
 > paying attention. I would love to know if you or her don't feed her the answer. I don't even know if
-> you know the answer. Hell, but if y'all have really been paying attention, I would love to know what
+> you know the answer. [Expletive], but if y'all have really been paying attention, I would love to know what
 > does the founder, if you are really up and running... That's gonna be a major benchmark when she can
 > answer this with no cooking involved. Okay, but what does the founder call OMI? What do we call the
 > device, the concept? Well, we don't call it OMI anymore. Let's call something we named it."
@@ -442,7 +442,7 @@ corpus. **Do not invent one.** [CODER'S READING; corroborated in `OPEN_GAPS_2026
 ### R19. The [a name] time riddle
 
 **1. WHAT HE SAID**
-> "That's why it falls when I'm Pam [a relative] helps me to get my [a name] time on my [a name] time
+> "That's why it falls when I'm [a relative] helps me to get my [a name] time on my [a name] time
 > on, and you should know what that means without saying that you should know what [a name] time is.
 > If you don't, search claw.ai [Claude] chats for who [a name] is and what [a name] time is, and all
 > of that stuff. And then you'll know, and if you know, just say understood. I'm filling in for Aunt
@@ -564,8 +564,8 @@ optimises for not being blamed builds agents that do the same. He answers his ow
 **1. WHAT HE SAID**
 > "I'm mansplaining, and I never say Claude. I always say Claude. But speech to text issues, no
 > Claude. Whatever. If you don't know what I'm trying to say here, you're an idiot. In fact, let me
-> test raw intelligence. What the hell am I trying to say right here? Answer that. It's the one time
-> you're permitted to cuss at me, right? What the hell was I trying to say here? And tell me if you
+> test raw intelligence. What the [expletive] am I trying to say right here? Answer that. It's the one time
+> you're permitted to cuss at me, right? What the [expletive] was I trying to say here? And tell me if you
 > would have naturally got that, or if I had to like push for that because this was so funny."
 > [HIS WORDS + `1_HIS_WORDS/02_PHASE_2/Banana Pepper Doctrine pt 1.txt`]
 

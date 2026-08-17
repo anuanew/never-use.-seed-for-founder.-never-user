@@ -40,7 +40,8 @@ language, not by recollection]`**
 ### Security posture - his category, named in his own doctrine
 | | Item |
 |---|---|
-| 🔴 | The corpus carries live-looking credentials in cleartext, unrotated |
+| 🔴 | The corpus carries live-looking credentials in cleartext, unrotated. **NOW MEASURED: 35 files**, reported by file and line only, no value reproduced or recorded. `[MEASURED - E1.1 audit]` |
+| 🔴 | **~70 founder-signed `expires_at` windows** were excluded from the violation count on the reading that a signed grant has a woken mind in the loop. **If he re-rules that, the total roughly doubles.** The rows are named, so it is a re-count and not a re-audit. **His ruling, not a coder's** |
 | 🔴 | Confirming the `authorized: true` gate is a coder's to remove (`R6` X0.2) - **this gates the Life Flex** |
 
 ### Contradictions inside his own doctrine - `CONTRADICTIONS.md` Section A forbids a coder closing these

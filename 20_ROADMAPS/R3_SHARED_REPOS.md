@@ -131,6 +131,17 @@ Independent of S0, three estates are already settled by doctrine:
 | **Alpha cohort (5-6)** | `PO1-23` - *"maybe that's actually alpha testing between five, these six"* | shared floor, per-HAM |
 | **Temp coder world** | `PO2-01`, `OPEN-C1` | separate estate (working posture) |
 
+### Sub-phase S1.1a - ⭐ BLIND SPOT: the reseed source cannot currently be read
+**Measured, and it matters for Great Reboot Phase 10.** All eight archives in the founder-zips drop are
+**broken symlinks to a local machine path. Zero bytes readable.** Several are described elsewhere as
+the builds the reseed copies from.
+
+**So the reseed has an unread source.** Nothing can be audited out of it, no violation carried in it can
+be found, and no claim about its contents is checkable. `[MEASURED - E1.1 audit]`
+
+**Resolves via: him, or whichever machine holds the originals.** It is a file-availability problem, not
+a permissions one.
+
 ### Sub-phase S1.2 - The old world is read-only from the moment the new one exists
 The old world (`anew`, `aibebase`, `ababase`, `AbaServer`) is **reseed source, never build target.**
 His posture on it is specific and already stated: not deleted, throttled.

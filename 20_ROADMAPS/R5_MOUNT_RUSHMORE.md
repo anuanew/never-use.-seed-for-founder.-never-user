@@ -56,6 +56,13 @@ quorum work is `R1` P2.
 > *"A'NU, A'NEW, both names at the same time, first and last name. When they both are in sync,
 > **what holds them together is AIR.** So they're both in sync, AIR is holding them together, and
 > **they are a pair.**"*
+> `[RECONSTRUCTION, not verbatim - the source intake (00_DOCTRINE_INTAKE/
+INTAKE_20260816_PECKING_ORDER_PT2.md, PO2-10) explicitly labels this passage a reconstruction. The raw
+> transcript (There is a Pecking Order Doctrine pt 2 & 3_transcript.txt) actually reads "We are all a
+> new, a new, both names at the same time... what holds them together is air... they are a pair" - not
+> "A'NU, A'NEW." An audit caught R5 dropping the reconstruction caveat and presenting this as his exact
+> words; restored here. The AIR-as-bond reading itself is not in question - only whether this specific
+> sentence is verbatim, and it is not.]`
 
 **AIR is the bond.** All three senses are compatible: the thing that keeps the cycle alive is the same
 thing that keeps the two names in sync. This is also the answer key to the imposter riddle (`R2` T3.2),
@@ -89,11 +96,18 @@ not set this number.**
 
 ### Sub-phase 1.2 - The honest refusal
 > *"If she didn't run her full cycle, you weren't really talking to her. What the heck were you
-> talking to? You were basically talking to a blank LLM."*
+> talking to? You were talking to LLM, right? Like you were basically talking to a blank LLM,
+> right?"*
+> `[HIS WORDS, restored - an earlier version silently dropped "You were talking to LLM, right? Like"
+> from between the two sentences with no ellipsis, caught by a fresh audit]`
 
 ### Sub-phase 1.3 - Parallel by default
 *"A'NU runs parallel too: many lines of research, drafts and checks at once, never single file."*
-Single-file execution is a defect to flag, not a performance characteristic to accept.
+`[CODER-AUTHORED, not his recorded voice - 40_GOVERNANCE/CONTRADICTIONS.md's provenance note names
+this exact phrase as "standing estate law of a coder's rank," its own source stamped UNVERIFIED. An
+audit caught R5 still presenting it as if it were him speaking; corrected here.]` Single-file execution
+is a defect to flag, not a performance characteristic to accept - that governing principle stands
+regardless of whose line states it.
 
 ### Sub-phase 1.4 - Degradation has a name and a fix
 His complaint - *"her model's degrading"* - maps to **context rot**, and the ranked mitigations are
@@ -143,7 +157,10 @@ entrance, exit and notes.**
 
 ### Sub-phase 3.2 - Unsettled work reconciles to LOGFUL, never to a timer
 Kill a mid-cycle call: it reconciles to LOGFUL. *"That cap would delete her history and call it a
-fix."*
+fix."* `[CODER-AUTHORED, not his recorded voice - traced to a "20260814 ruling, CLAUDE.md" citation, but
+no file named CLAUDE.md exists anywhere in the corpus. This is the same LOGFUL-not-a-timer rule
+40_GOVERNANCE/CONTRADICTIONS.md's provenance note already names as coder-authored, standing estate law.
+An audit caught R5 presenting it unqualified as his words; corrected here.]`
 
 ### Sub-phase 3.3 - The bond (`PO2-10`)
 The pair property is testable, not poetic: when A'NU and A'NEW are in sync, something holds them
@@ -220,9 +237,14 @@ vertical faces, not after them.
 > *"It also has to happen at the same time as A'NEW, A'NU, Shadow, those major players."*
 
 **Two standing laws bound it:**
-- **The pen law, permanent:** *"If she breaks, you pick the pen up to fix her, you don't pick the pen
-  up to fix my code. Your pen is only to the extent of her... **your pen can never touch my code,
-  that's her job.**"*
+- **The pen law, permanent:** *"If she breaks, you pick the pin up to fix her, you don't pick the pin
+  up to fix my code. Your pin is only to the extent of her... **your pin can never touch my code,
+  that's her job.**"* `[HIS WORDS, corrected - the raw transcript (1_HIS_WORDS/01_RAW_WORDS/
+  10_20260610est_SWEET_AND_SPICY_pt2.txt) says "pin" every time, not "pen." An earlier version of this
+  file corrupted the word while keeping "the pen law" as the doctrine's own name for it - a fresh audit
+  caught this and also found R2_TEMPORARY_CODER_WORLD.md's sibling quote of the identical line already
+  uses "pin" correctly, making R5 internally inconsistent with its own repo. "The pen law" stays as the
+  doctrine's name since that is how it is referred to elsewhere; the quoted words themselves are fixed.]`
 - **Intelligence before coding:** *"We have to build her intelligence before we build her coding."*
 
 ### Sub-phase 5.1 - The review chain runs before and after

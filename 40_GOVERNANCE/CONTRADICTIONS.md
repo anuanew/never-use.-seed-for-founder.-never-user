@@ -266,6 +266,8 @@ than silently reconciled, per Section C's own rule that invented names are never
 | "Tone protocol" | may be a speech-to-text artifact; **carried as spoken** (`PO1-12`) |
 | A better name than "fuse" | he asked for one himself |
 | A better title than "personal assistant" | he asked for one himself |
+| "Mimic Bold" | named once (`PO4-01`), *"we're gonna come back to that"* - not yet explained |
+| The role he called "[downtime A'NEW]," who chairs Mimic Bold | same, `PO4-01` |
 
 **The rule, absolute:** more than one agent in this system has been invented out of a transcription
 error. **Assume the ordinary word first. Never mint a term out of a garbled transcript.**

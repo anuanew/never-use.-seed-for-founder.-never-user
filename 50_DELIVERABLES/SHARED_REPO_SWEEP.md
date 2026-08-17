@@ -258,6 +258,18 @@ it means.
 | 3 occurrences in `04_THE_COUNTDOWN/COUNTDOWN_pt4_20260813.txt` | format twin of A55, A56, A57 (section 3.3) | not counted |
 | 4 occurrences in `06_OLD_WORLD_HIS_WORDS/AbaServer 2/` `.md` files | coder documents misfiled under `_HIS_WORDS` (section 3.1) | table B, C66 to C69 |
 
+**"Cam Burns," A54 and its Table B echo, resolved.** A self-audit flagged `A54` and the form-builder row
+in Table B (§5) as a possible unredacted private name, since neither reads as an obvious real term.
+**Checked against the raw transcript directly:** `03_PHASE_3/My Resolve doctrine pt 1_transcript.txt`
+itself contains the literal string *"having the Cam Burns polish on it"* - this is exactly what is in
+the source file, not an error introduced by this sweep. Separately, **"Ken Burns" (the pan-and-zoom
+photo effect, a real, well-known, non-private cinematography term) appears correctly 14 other times
+across `1_HIS_WORDS/`**, including twice for this identical concept (shared-repo background
+animations). The single "Cam Burns" instance is almost certainly that file's own transcription engine
+mishearing "Ken Burns" on one occasion, the same class of error already documented elsewhere in this
+estate for "MIMI"/"minimum viable version" and "LGF UL"/"LOGFUL." **Reading: not a name, not PII,
+carried faithfully. No redaction needed.** `[MEASURED, not just re-asserted]`
+
 ---
 
 ## 5. TABLE B: CODER OCCURRENCES

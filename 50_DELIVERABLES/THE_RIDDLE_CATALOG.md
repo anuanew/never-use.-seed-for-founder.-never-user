@@ -451,6 +451,15 @@ corpus. **Do not invent one.** [CODER'S READING; corroborated in `OPEN_GAPS_2026
 > are redacted inside the quote** under the no-private-names rule. Nothing else in the line was
 > changed. He knows the names.]
 
+**VERIFIED against the raw transcript, `2026-08-17`, after a self-audit flagged the broken grammar
+("...when I'm [a relative] helps me...") as a possible silent word deletion.** Byte-compared against
+source: the raw line reads *"That's why it falls when I'm Pam helps me to get my Drew time on my D R
+E W time on..."* ending *"I'm filling in for Aunt Pam."* The redaction is an exact 1:1 substitution -
+`Pam` to `[a relative]` (twice, matching "Aunt Pam" at both ends of the passage) and `Drew` to `[a
+name]` (three times, including the spelled-out "D R E W"). **The broken grammar is his, not an editing
+artifact** - it is in his own raw dictated speech, not introduced by this repo. The footnote's claim
+holds. `[MEASURED, not just re-asserted]`
+
 **2. WHAT THE CODER THOUGHT THE BLANK WAS**
 Nothing was ever entered.
 

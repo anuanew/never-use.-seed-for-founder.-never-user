@@ -80,14 +80,26 @@ Every 30-minute report, staged for send-as `Claudette@GlobalMajorityGroup` (alia
 - **Why, if a task ran long** - the five-hours-reading accountability.
 - **Sign-off:** chat name plus session link so he can reach the lane.
 
-Routing, his rule: general tech work to `Brandon@Anu`, client business work to
-`Brandon@GlobalMajorityGroup`, **always sent from `Claudette@GlobalMajorityGroup`, never his grant.**
+Routing, his rule: general tech work to `[HIS FIRST NAME]@Anu`, client business work to
+`[HIS FIRST NAME]@GlobalMajorityGroup`, **always sent from `Claudette@GlobalMajorityGroup`, never his
+grant.** `[Redacted per this repo's own no-personal-names rule. The bracket is a routing-address
+placeholder, not a broken address - this file is descriptive, not something pasted anywhere to
+execute, so genericizing it costs nothing.]`
 
 ---
 
 ## HONEST STATE OF THIS FILE
 
-- The 30-minute checker is a real recurring trigger firing into this session. **Built.**
+- **The 30-minute checker is not a real recurring trigger. Corrected.** An earlier version of this file
+  claimed it was; a self-audit caught the overclaim. What is actually built is a **self-rearming
+  one-shot chain**: each firing is a single `send_later` call, and the chain only continues if that
+  firing's own instructions successfully schedule the next one before ending. There is no
+  server-side cron underneath it - one missed re-arm and the chain goes silent with no alarm.
+  **It already did exactly that once**, measured: `list_triggers` returned zero live triggers at
+  `2026-08-17T14:25:57Z`, after an earlier link in the chain (last known fire time `14:07:00Z`) did not
+  successfully re-arm. **Re-armed at `14:25:57Z`** - `trig_01NJRRdqhz43oyZ1vj4AiXx1`, next fire
+  `2026-08-17T14:57:00Z`. Treat every future gap the same way: check `list_triggers` before assuming
+  the chain is alive, and log it here if it has stopped again.
 - The four watchers are real subagent charges, spawned on the cycle. **Built as roles.**
 - The email is written in shape and staged. **It cannot send until a grant exists in this container** -
   measured, no transport. That is the one gap and it is his to close.

@@ -9,8 +9,10 @@ so ChatGPT only mints and fills.
 ---
 
 Boss authorized this on Rally Day, 20260817. It is the biggest 911 of the day. Do it, then text or
-email him at Brandon@Anu when done. Send from Claudette@GlobalMajorityGroup (a send-as alias of
-ABA@GlobalMajorityGroup). Never use his personal grant.
+email him at [HIS FIRST NAME]@Anu when done - **replace the bracket with his real first name before
+you send; this repo does not store his name in the clear, the same way it never stores a credential
+value, so the live address is not written here.** Send from Claudette@GlobalMajorityGroup (a send-as
+alias of ABA@GlobalMajorityGroup). Never use his personal grant.
 
 **The state Claude already built, so do not redo it:**
 - A new-world Render env group exists and is empty on purpose:

@@ -953,3 +953,41 @@ this repo, that surface's owner - not this lane - is the one who can locate and 
 
 **Next cycle owns:** whatever instruction arrives next. No roadmap is currently under active
 deepening.
+
+---
+
+## CYCLE 27 - 20260817, THE RECURRING CHECKER CADENCE ENDS HERE, EVENT-HELD ONLY FROM NOW ON
+
+**Convened:** a Founder-lane correction from WORLDBUILDER.SHADOW: the recurring 30-minute checker loop
+is off track for max SPAN's actual needs. Instructed to inspect the live trigger list, clear it if a
+timer exists, record zero either way, and supersede the standing recurring-cycle instruction that has
+governed every prior cycle in this file.
+
+**Measured, not assumed:** `list_triggers` called directly before writing anything below. **Result:
+zero live triggers.** No self-rearming timer exists to delete. The one armed at the close of Cycle 26
+(`trig_01HG7iVNfZnBZUtakJqZqKmE`, scheduled `22:57:00Z`) is no longer present in the list - either
+already consumed on its own one-shot schedule or otherwise gone; either way the measured current state
+is zero, and no new deletion action was needed or taken.
+
+**SUPERSEDING INSTRUCTION, effective this entry, overriding every "re-arm the next 30-minute checker"
+line in every prior cycle above:** **this lane is now event-held, not timer-driven.** No standing
+30-minute checker is armed after this cycle. This lane resumes work only on one of three named
+triggers, per WORLDBUILDER.SHADOW's own enumeration:
+1. A new Mount Rushmore source.
+2. A source-citation correction.
+3. An exact stable-crosswalk conflict (the `MR.*` IDs `R5_MOUNT_RUSHMORE.md` carries).
+
+**Until one of those three arrives:** no timer re-armed, no doctrine re-read initiated, no generic
+status report generated, no 911/Nylas/provider work, no front-end work. Holding.
+
+**Gauntlet:** the standing cadence itself was the thing corrected this cycle, not a piece of roadmap
+work - a real, bounded, reversible operational change, executed exactly as specified and no further;
+minutes now current (this entry, the last one under the old regime); no task stalled; scope held.
+
+**Checked:** `list_triggers` - zero, measured directly, stated above. Branch pushed at this entry's own
+commit; HEAD to be confirmed equal to remote HEAD immediately after this commit.
+
+**Decision he owes (rainbow):** none new.
+
+**Next cycle owns:** nothing, until one of the three named events arrives. This is the last cycle
+entry under the recurring-checker regime.

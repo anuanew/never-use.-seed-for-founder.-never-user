@@ -13,6 +13,17 @@ founder-decision class; a contradiction between two coder documents is a coder's
 **How to read the columns:** *His* means both sides are his words. *Coder* means at least one side is
 a coder's assembly. **The two are handled differently and must never be merged into one queue.**
 
+
+> **PROVENANCE NOTE, forced by a blind critic.** Several short rules quoted throughout this repository
+> in the same style as his words are **coder-authored**, from the estate's ruling files and the
+> temporary coder OS - among them *"regex wakes, regex never decides"*, *"cold code never classifies HER
+> meaning"*, *"CARRY, NEVER CLASSIFY"*, the LOGFUL-not-a-timer rule, *"A'NU runs parallel too"*, and
+> *"silence is honest; a stand-in is not"*. Their own source document stamps itself
+> **UNVERIFIED** pending byte-verification against his raw. **This repository dropped that stamp.** It is
+> restored here once, and it governs every appearance of those lines: they are standing estate law of a
+> coder's rank, **not his recorded voice**, and by his own `PO1-19` - *"doctrine is only something I
+> say"* - calling them doctrine is self-refuting.
+
 ---
 
 ## SECTION A - HIS WORDS AGAINST HIS WORDS (only he closes these)

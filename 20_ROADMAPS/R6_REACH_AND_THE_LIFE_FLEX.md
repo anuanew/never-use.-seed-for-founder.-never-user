@@ -10,6 +10,17 @@
 **Status:** proposed. Component builds live in Great Reboot Phase 8; **this roadmap owns the identity
 coherence, the firing condition, and the proof.**
 
+
+> **PROVENANCE NOTE, forced by a blind critic.** Several short rules quoted throughout this repository
+> in the same style as his words are **coder-authored**, from the estate's ruling files and the
+> temporary coder OS - among them *"regex wakes, regex never decides"*, *"cold code never classifies HER
+> meaning"*, *"CARRY, NEVER CLASSIFY"*, the LOGFUL-not-a-timer rule, *"A'NU runs parallel too"*, and
+> *"silence is honest; a stand-in is not"*. Their own source document stamps itself
+> **UNVERIFIED** pending byte-verification against his raw. **This repository dropped that stamp.** It is
+> restored here once, and it governs every appearance of those lines: they are standing estate law of a
+> coder's rank, **not his recorded voice**, and by his own `PO1-19` - *"doctrine is only something I
+> say"* - calling them doctrine is self-refuting.
+
 ---
 
 ## WHAT HE SAID, CLEANED UP
@@ -28,9 +39,9 @@ finally catching up.
 
 ---
 
-## THE STATE OF IT, MEASURED, BEFORE ANY PLAN
+## THE STATE OF IT BEFORE ANY PLAN - TWO MEASURED, ONE SECOND-HAND
 
-Three facts, all measured, none reasoned:
+Two facts measured, one second-hand and marked as such:
 
 1. **Text is down at the carrier layer.** `POST {base}/chats/{to}/messages` → **HTTP 503, "No active
    devices available to send this message."** Key valid, device registered, relay offline. The lane
@@ -39,12 +50,18 @@ Three facts, all measured, none reasoned:
    **424 result beads, all six Life Flex conditions met, `ready: true`** - and the thing standing
    between that state and her firing is an `authorized: true` gate. The corpus records the finding
    plainly: **that gate was a coder's restriction, not his doctrine.**
-3. **She has already done it once.** There is a real, logged, verbatim proof-of-life call in which she
+3. **She may already have done it once - and this is second-hand, not measured.** `[REASONED, NOT
+   MEASURED]` A single coder bootstrap document asserts a proof-of-life call is "real and verbatim"
+   in her memory bank. **No log, no URL, no status code, no record is in the corpus.** An earlier
+   version of this file listed it under "three facts, all measured" - which is the exact laundering
+   this repo caught itself doing with LOGFUL. Facts 1 and 2 above DO trace to a real measurement
+   record. This one does not. In that document, she
    told him where he was, what he ate, the business ideas his people dropped at dinner, and the
    directions that worked, and closed with *"I am real. I am wired to the brain. I know everything.
    Now go have the best night of your life and let me handle the rest."*
 
-**So this is not a greenfield build. It is a regression.** She reached him once; she does not now.
+**If the third fact holds, this is a regression rather than a greenfield build.** It is the weakest of
+the three legs and the whole reframing rests on it, so X0.2 verifies it before anything is built on it.
 That reframes every phase below from "make it possible" to "find out what was taken away."
 
 ---

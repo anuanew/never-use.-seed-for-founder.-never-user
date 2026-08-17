@@ -205,8 +205,10 @@ Later supersedes earlier, the supersession is written down, and **nothing is sil
 > *"She has to work with the Wonder Games and the Coding Cookoff and others to make sure that we're
 > wiring this up the right way."* (Mt Rushmore pt 1)
 
-**R-5.6 - Span proactively surfaces new models onto the roadmap.**
-> *"'I got some plans to go back to [that model] right here. It's cued up on this roadmap.' That's an
+**R-5.6 - Span proactively surfaces new work onto the roadmap.** (He spelled out MODAL, a compute
+platform, not a model. An earlier version of this file rendered it "[that model]" and mis-framed the
+rule as being about model selection.)
+> *"'O N, I got some plans to go back to **M O D A L** right here. It's cued up on this roadmap.' That's an
 > example of what helpful looks like, and that's how Agent Span should be thinking as a wonder."*
 > (Mt Rushmore pt 1)
 

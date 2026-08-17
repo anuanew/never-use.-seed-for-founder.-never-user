@@ -81,11 +81,11 @@ control the wonder."*
 **Status:** answerable now, and owed to him. Not yet delivered.
 
 ### R-03 - Can A'NEW join a real group text? **(`PO1-08`)**
-> *"Is it possible for us in the future to have A'NEW - especially with [WREN] or any of those other
-> ones that's in my text stack - can we have her join? Now tell me if I didn't cook there."*
+> *"Is it possible for us in the future to have A'NEW - especially with **B L O O I O** or any of those other
+> ones that's in my text sack - can we have her join? Now tell me if I didn't cook there."*
 
-**What is genuinely unknown:** whether the SMS/messaging providers already in the stack support a
-number participating in a group MMS thread as a full member - receiving every message and sending
+**What is genuinely unknown:** whether Blooio - the provider he actually named, spelled out letter by letter, and the one whose 503 is
+measured below - supports a number participating in a group MMS thread as a full member - receiving every message and sending
 into the thread - versus only 1:1 messaging. This varies by provider and by carrier and it is a real
 technical question, not a design preference.
 

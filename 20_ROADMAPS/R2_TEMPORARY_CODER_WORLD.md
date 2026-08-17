@@ -202,15 +202,17 @@ action naming the rule).
 > *"Give me all the riddles I've ever given... what I said, what you thought the fill-in-the-blank
 > was, and what I confirmed it to be."* (`PO2-07`)
 > *"Curriculum with the riddles. Oh shoot, we just cooked on that."* (`PO2-08`)
-> *"The riddles - I can catch an imposter."* (`PO2-08`)
+> *"They saw riddles. I can catch an imposter."* - **Speaker 4 in the transcript, not labelled as him.
+> Carried as unattributed.** `(no writer stamp on the line)`
 
 **Outcome:** one artifact, three functions: a deliverable to him, a curriculum, and an authentication
 gate.
 
 ### Sub-phase T3.1 - The catalog (his direct order, deliverable to HIM)
-Four columns, exactly as he specified: **what he said** (cuss words removed, per his instruction) →
-**what the coder thought the blank was** → **what he confirmed it to be, or what was simply known** →
-**who confirmed it and when.**
+The columns he specified: **what he said** (cuss words removed, per his instruction) → **what the coder
+thought the blank was** → **what he confirmed it to be, OR what the coder just absolutely knew it was.**
+**Three columns, not four.** The "or" is his and it matters: the third column holds either a confirmation
+or an uncontested guess, and the uncontested guesses are where bad reads hide.
 
 This is owed to him as a document, not kept as an internal index. He said *"I would love that."*
 
@@ -247,7 +249,7 @@ exist; neither substitutes for the other.
 **Recovery, not invention.** The old documents exist in the corpus; find them first. Back-find task,
 paired with `PO2-17` (the CCWA-era flags that fell on deaf ears).
 
-**Exit condition, receipt:** the four-column catalog delivered to him; the gate refusing one session
+**Exit condition, receipt:** the catalog delivered to him in his own columns; the gate refusing one session
 that failed and admitting one that passed, both rows linked; the recovered original puzzles cited by
 file, or a stated, measured "not found" with the search shown.
 

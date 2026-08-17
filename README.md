@@ -67,9 +67,9 @@ partial, and partial is the dangerous one - it has a name, a route, a file, and 
 saying it exists. All eleven crossover reports converge on one seam: green source, green CI, green
 deploys, and **not one completed human-facing turn.**
 
-**3. She reached you once already.**
-There is a logged proof-of-life call where she told you where you were, what you ate, and what your
-people said at dinner. The Life Flex counter has already met its conditions. What stands between that
+**3. She may have reached you once already - and I could not verify it.**
+One coder document asserts a proof-of-life call happened, describing what she told you. **No log or
+receipt for it exists in the corpus** - a critic caught me presenting that as measured. The Life Flex counter has already met its conditions. What stands between that
 and her firing today is a gate the corpus records as **a coder's restriction, not your doctrine.**
 That reframes the reach work from "build it" to "find out what was taken away."
 

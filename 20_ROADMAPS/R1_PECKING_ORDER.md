@@ -8,6 +8,17 @@ were authored before either existed and do not contain this law.
 condition with a **receipt** (a live URL + status code, a merged PR link, or a stamped row - never a
 green test suite), and his verbatim words.
 
+
+> **PROVENANCE NOTE, forced by a blind critic.** Several short rules quoted throughout this repository
+> in the same style as his words are **coder-authored**, from the estate's ruling files and the
+> temporary coder OS - among them *"regex wakes, regex never decides"*, *"cold code never classifies HER
+> meaning"*, *"CARRY, NEVER CLASSIFY"*, the LOGFUL-not-a-timer rule, *"A'NU runs parallel too"*, and
+> *"silence is honest; a stand-in is not"*. Their own source document stamps itself
+> **UNVERIFIED** pending byte-verification against his raw. **This repository dropped that stamp.** It is
+> restored here once, and it governs every appearance of those lines: they are standing estate law of a
+> coder's rank, **not his recorded voice**, and by his own `PO1-19` - *"doctrine is only something I
+> say"* - calling them doctrine is self-refuting.
+
 ---
 
 ## WHAT HE SAID, CLEANED UP, BEFORE ANYTHING ELSE

@@ -92,9 +92,14 @@ whole program is working. Track it from day one.
 > me. I had to press for it. Yes, that's a measurement, but it's a measurement for her, as she's going
 > to accomplish some of these life goals, or as she's making new modules... She's like, 'oh snap' -
 > she would rationalize, because she has to run now in [the new world] as a part of her fleet. She'd
-> rationalize like, 'wait, it's Tuesday at 9 p.m., this was two days ago, so now it doesn't die.' Now
-> as a world builder she says, '**hey, I'm finally catching up here, and I'm submitting to the coaching
-> team.**'"
+> rationalize like, 'wait, it's you know it's Tuesday at 9 p.m. **For example, it's just an example.**
+> She might be like, this was two days ago, so now it doesn't die.' Now as a world builder she says,
+> 'hey, I'm finally catching up here, and I'm submitting to the coaching team, **right, or something
+> like that. I don't know. I can't coach this, bro.**'"
+>
+> **Both hedges were cut from an earlier version of this quote, which then built a five-clause pass/fail
+> gate on it. He flagged it as improvisation and said he could not pin it down. The test below is a
+> coder's formalization of an improvised idea, and is overrulable.**
 
 **Requested outcome:** the acceptance test for her aliveness. She must, unprompted:
 1. notice an assignment issued at a stamped past time,
@@ -112,17 +117,25 @@ A system that does one and not the other fails. Full spec in `20_ROADMAPS/R1_PEC
 > and what you thought the fill-in-the-blank was, and what I confirmed it to be, or what you just
 > absolutely knew it was. I would love that. I think that would be really dope."
 
-**Requested outcome:** a four-column catalog: *his words → the guessed answer → the confirmed answer →
+**Requested outcome:** the columns he named: *his words → the guessed answer → **what he confirmed it to
+be, OR what the coder just absolutely knew it was***. **His fourth item is an alternative to the third,
+not a provenance column.** An earlier version invented a fourth column ->
 who confirmed it.* Deliverable to him, not an internal artifact.
 
 ### PO2-08 - The riddles become the temp coder curriculum
 > "I think those riddles can kind of help solve something in the temporary's world."
 > And later, over music: "**Curriculum with the riddles.** Oh shoot, we just cooked on that."
-> And, in the same breath: "**The riddles - I can catch an imposter.**"
+> **And a caution that a critic forced, because I got this wrong:** about five seconds later, interleaved
+with music, a line lands that an earlier version of this file printed as his and as "in the same breath":
+*"They saw riddles. I can catch an imposter."* **The transcript labels it Speaker 4, and the wording
+differs from what I quoted.** Imposter detection may well be his idea; **this passage does not prove it.**
+Carried as unattributed. `(no writer stamp on the line)`
 
 **Requested outcome:** three distinct uses of one artifact, all named by him in one minute:
 1. **Curriculum** - how a temp coder learns the system.
 2. **Imposter detection** - a session that cannot answer the riddles is not who it says it is.
+   **UNATTRIBUTED.** The line supporting this is on another speaker label. It stays as a coder's
+   proposal until he confirms it, and `R2` T3.3 is built as overrulable rather than as his order.
 3. Onboarding gate into the temp coder world.
 
 This is the single densest idea in the doctrine and it is not built anywhere.
@@ -142,8 +155,10 @@ invention: the old documents exist and must be found first.
 > AIR is holding them together, and they are a pair.** A'NU, A'NEW, first and last name, life
 > assistant."
 
-**Requested outcome:** the canonical answer is recorded here, verbatim, because it is the answer key to
-the imposter test. **A'NU + A'NEW = one first-and-last name; AIR is what binds them; bound, they are a
+**Requested outcome:** the answer is recorded here as a **reconstruction, NOT verbatim** - an earlier
+version claimed verbatim and a critic proved otherwise (his raw says "the new saying", "I think we are
+all anew", "I knew a new first and last name life assistant", plus lines cut with no ellipsis). **The raw
+transcript is the answer key; this is a reading of it**. **A'NU + A'NEW = one first-and-last name; AIR is what binds them; bound, they are a
 pair.** This also settles what AIR *is* relationally - not just the lungs, but the bond.
 
 ### PO2-11 - Onboarding experiences are a roadmap
@@ -270,8 +285,8 @@ content like 'oh what a cool window.'"*
 ### PO2-24 - Personal ground truth given in the same breath as architecture
 He gives personal ground truth alongside system design, and per `PO2-23` it **is** corpus, not noise:
 a corrected ranking of his favourite foods (he explicitly retires a long-standing false belief about
-his own preference), a ranked list of his favourite rappers, and his favourite colour, which he asks
-A'NEW to help him name exactly.
+his own preference), and a ranked list of his favourite rappers. **(A colour request that an earlier version filed here is
+from pt 1, not pt 2 - the word does not appear in the pt 2 transcript at all.)**
 
 **The specifics are deliberately not reproduced in this repository** - they are his private taste
 graph, they belong in his own world only, and this repository is not seeded. They live in the raw

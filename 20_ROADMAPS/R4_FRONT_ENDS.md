@@ -11,6 +11,17 @@ re-litigated here. What this roadmap adds is everything the offsite did not cove
 experiences he named a roadmap, the reward system, the riddles-in-the-UI he asked to bring back, and
 the honest state of the surfaces that already exist.
 
+
+> **PROVENANCE NOTE, forced by a blind critic.** Several short rules quoted throughout this repository
+> in the same style as his words are **coder-authored**, from the estate's ruling files and the
+> temporary coder OS - among them *"regex wakes, regex never decides"*, *"cold code never classifies HER
+> meaning"*, *"CARRY, NEVER CLASSIFY"*, the LOGFUL-not-a-timer rule, *"A'NU runs parallel too"*, and
+> *"silence is honest; a stand-in is not"*. Their own source document stamps itself
+> **UNVERIFIED** pending byte-verification against his raw. **This repository dropped that stamp.** It is
+> restored here once, and it governs every appearance of those lines: they are standing estate law of a
+> coder's rank, **not his recorded voice**, and by his own `PO1-19` - *"doctrine is only something I
+> say"* - calling them doctrine is self-refuting.
+
 ---
 
 ## WHAT HE SAID, CLEANED UP
@@ -30,7 +41,9 @@ the roadmaps you are paying for.
 
 ## THE ONE RULE THAT DECIDES WHETHER ANYTHING HERE IS DONE
 
-> **"If a feature has no UI entry point he can reach, IT IS NOT DONE."**
+> *"if a service exists but has no UI entry point IT DOES NOT COUNT AS DONE."*
+> `[from a coder roadmap that labels it verbatim - NOT traced to his raw words. An earlier version of
+> this file reworded it and presented it unattributed beside a genuine quote of his.]`
 
 And the law about who a surface is for, which is Commandment 9 in candidate form:
 

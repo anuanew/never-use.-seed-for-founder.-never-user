@@ -89,7 +89,8 @@ Named the **first thing to do**, and separately he asked what he himself meant b
 `R3` opens with an audit rather than an architecture.
 
 ### 🔥🔥 JOB DESCRIPTIONS
-> *"We've never built job descriptions. **Something's wrong.**"*
+> *"We've never built job descriptions, didn't?"* **The "something's wrong" that an earlier version
+> welded onto this is from a different passage, seven minutes earlier, about world builders.**
 
 He asked for the first and last time he ever mentioned them, as a test. **Answered: first 20260603,
 last 20260814.** → written as each wonder is born, `R5`

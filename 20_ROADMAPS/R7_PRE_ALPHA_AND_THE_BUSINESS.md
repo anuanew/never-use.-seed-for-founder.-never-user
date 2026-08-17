@@ -112,9 +112,12 @@ whoever wrote it.
 
 **The trap in this phase, named because a lane already fell into it:** the riddle recorded on 20260817
 was exactly this - a coder read *"one of her first assignments"* as meaning it was hers alone, and
-abstained. His correction:
-> *"You said it was given to a temporary host **as a test, to see when she will finally get it.** You
-> were measuring the gap. By abstaining I destroyed the measurement and called it doctrine."*
+abstained. **The answer recorded in the riddles document - written by the coder about itself, not
+spoken by him:**
+> *"You said it was given to a temporary host as a test, to see when she will finally get it. You were
+> measuring the gap. By abstaining I destroyed the measurement and called it doctrine."*
+> **`[CODER'S OWN WORDS, not his.]` His only words in that riddle were:** *"I can tell you didn't read
+> the doctrine. Re-read it and tell me what I was really saying."*
 
 **The temp coder does it now. The distance between the temp doing it and her doing it is the number he
 is after.** Abstaining does not preserve the test - it deletes it.

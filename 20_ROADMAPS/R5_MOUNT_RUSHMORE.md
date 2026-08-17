@@ -287,8 +287,8 @@ The seven steps, in order, none skippable:
    hands it a pre-filtered digest.
 7. **Only then** does it get its department.
 
-**And its JD is written as it is born, never deferred** - *"we've never built job descriptions...
-something's wrong."*
+**And its JD is written as it is born, never deferred** - *"we've never built job descriptions, didn't?"* (an earlier version of this line
+welded on "something's wrong" from an unrelated passage)
 
 ---
 

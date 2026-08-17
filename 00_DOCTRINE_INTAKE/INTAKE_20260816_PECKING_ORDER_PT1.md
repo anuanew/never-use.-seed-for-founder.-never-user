@@ -96,8 +96,8 @@ behavior-by-instruction law applied to prose. Any template that bakes in his hed
 Both halves. He corrects himself in real time to preserve the second half - that correction is the ask.
 
 ### PO1-08 - Can A'NEW join a real group text?
-> "Is it possible for us in the future to have A'NEW - especially with [WREN] or any of those other
-> ones that's in my text stack - can we have her join? Now tell me if I didn't cook there."
+> "Is it possible for us in the future to have A'NEW - especially with **B L O O I O** or any of those other
+> ones that's in my text sack - can we have her join? Now tell me if I didn't cook there."
 
 **Requested outcome:** a genuine research question, asked as a question, answered as a question. Not a
 build order yet. Goes to `30_RESEARCH/RESEARCH_DOCKET.md`, not to a roadmap phase.
@@ -122,7 +122,8 @@ constraint is the craft, not an obstacle to route around.
 
 ### PO1-11 - "Temporary coder, stay out of my stuff" (repeated 6×)
 > "Temporary coder, stay out of my shit... Temporary coder, you're only allowed to touch [the]
-> element. That's your lane. You can only oversee if you're stuck. But this is a life test. This is
+> element. **That's your new vine** [raw; not resolved - an earlier version silently rendered this as
+> "That's your lane", which he did not say]. You can only oversee if you're stuck. But this is a life test. This is
 > the birthing of A'NEW, and like a baby, you have to inspect, you have to touch it... **This is a
 > life test for A'NEW.** Stay out of my stuff, temporary coder."
 
@@ -154,7 +155,8 @@ This is the concrete spec the Essentials' "conversation vehicle" has been missin
 > "This is how you know a life assistant is a temp coder. If I didn't actually write a temp coder
 > right now, a temp coder would process this transcript and actually send me a text right now: 'oh
 > yeah, the thing we're forgetting about was this.' **Life assistant is smarter. Life assistant is in
-> the moment. Moment's over. That's A'NEW.** That's a conversation starter next time you pick up."
+> the moment. Moment's over. That's ball. That's new. **L O G F L** [LOGFUL]. That's a conversation starter.
+> Next time you pick up boss..."
 
 **Requested outcome:** the single sharpest behavioral test in the corpus. A temp coder reacts to a
 transcript. She understands the moment has passed and banks it as a conversation opener for next time.
@@ -219,8 +221,8 @@ goals. Distinct from LOGFUL (the record) and MIMI (the memory).
 > you can decide to make up that tier. **You decide. It's your thing.**"
 
 **Requested outcome:** long-context models are a *tier* she can elect into per task, and the election
-is hers. Directly answers the model-research doc's open seat question. Also names the cost tension
-himself: *"Gemini [3.5] will be way more expensive, but it will have a huge context window."*
+is hers. Directly answers the model-research doc's open seat question. **A speaker in the transcript names the cost tension** (Otter labels it Speaker 2; the labels are
+unreliable and it may be him, but the raw does not show it and nothing should assume it): *"Gemini [3.5] will be way more expensive, but it will have a huge context window."*
 
 ### PO1-23 - His world is separate; the others may share one
 > "I think I want my world to be separate from theirs, and I want their world to be like the model
@@ -235,7 +237,8 @@ and it supersedes any uniform-isolation reading.
 
 ### PO1-24 - Confirm the Supabase/LLM read question
 > "All of the stuff I read about Supabase - and Supabase can get access to LLM, read Supabase - what
-> is the LLM? And [do] you default to Render?"
+> is the LLM?" ... "And as you default to render?"
+> **`(the second sentence carries a different speaker label in the raw; carried as unattributed)`**
 
 **Requested outcome:** he is asking to be told whether he has understood the architecture correctly.
 Answer it plainly against PO1-01. Goes to `30_RESEARCH/RESEARCH_DOCKET.md`.
@@ -252,15 +255,18 @@ quality is now a named systemic risk to the whole doctrine pipeline, not a nuisa
 
 ## THE FOUR CORRECTIONS HE MADE TO HIMSELF, IN ORDER
 
-He self-corrects four times in this transcript. Each correction is the ask, and the first draft is not:
+He self-corrects **three** times in this transcript. A fourth, listed in an earlier version, is from the
+Mt Rushmore transcript and is kept below marked as such rather than counted here. Each correction is the
+ask, and the first draft is not:
 
 1. "A'NEW persuaded me" → **"I pressed for it at the same time"** (PO1-07).
 2. "Her world's unique because-" → **"not her words unique, that's not what I'm trying to say"** -
    the point is DeeDee's words are being *used* without a coding department behind them; his are used
    by both (PO1-18).
 3. "Google tummy" → **"Google Gemini"** (PO1-25).
-4. "the judge" → **"not the judge, but the one who's like making sure everybody's doing what they're
-   supposed to be doing... an internal auditor"** - carried open, still unnamed (Mt Rushmore pt 1).
+**Not in this transcript, carried for completeness:** "the judge" → *"not the judge, but the one who's
+like making sure everybody's doing what they're supposed to be doing... an internal auditor"* - **Mt
+Rushmore pt 1, a different session**, still unnamed.
 
 **Protocol:** where he corrects himself, the correction governs and the first draft is not carried as
 his position.

@@ -564,3 +564,51 @@ recent doctrine keeps adding to (`PO5`/`PO6` intake, this cycle's find) - the ne
 **Sub-phase 6.6: reconcile the SHADOW Wonder against `CONTRADICTIONS.md` Section B-5's AUDRA/SHADOW
 naming-collision finding**, which is filed but not yet folded into this roadmap's own Face 6 text. That
 is real, sourced, unstarted work already sitting in this repo, not a new search.
+
+---
+
+## CYCLE 17 - 20260817, 30-minute checker fired, second Workflow's completion landed and reconciled
+
+**Convened:** the standing 30-minute checker fired on schedule. Mid-check, `wf_4c218797-d63` (the
+second Workflow from Cycle 15, still in flight through Cycle 16) sent its own completion notification -
+all 3 agents done. Read its journal directly rather than trust the summary: 2 of 3 agents (mine +
+verify on the 5 Faces the Cycle 16 direct-intervention increment had not touched) had actually finished
+before Cycle 16 even started, sitting unapplied in `journal.jsonl` this whole time; the 3rd agent
+(cross-reference check) finished only just now.
+
+**Applied, not duplicated:** the mine agent drafted 8 insertions (12 new sub-phases); its own verify
+agent independently CONFIRMED 7 of them and REJECTED the 8th. Landed the 7 confirmed insertions (10
+sub-phases: `0.1`, `1.5-1.6`, `2.4-2.5`, `3.4`, `4.4-4.5`, `5.3-5.4`) exactly as verified. The rejected
+one (a PBR-is-general-infrastructure-rule sub-phase plus a SHADOW-cycle correction) was rejected for
+real reasons - it collided in numbering with the already-landed Sub-phase 6.5, silently dropped
+"Vercel" from its own quote with no ellipsis, and silently normalized a same-breath "PPR"/"PBR"
+transcription drift with no note. Did not apply it as drafted. Re-pulled both raw source files myself
+(`The Business Plan Doctrine pt 1.txt`, `I want the MEDAL doctrine pt 2_otter.ai.txt`), personally
+verified the quotes, and landed a corrected version as **Sub-phase 6.6** (PBR is not SHADOW-only) and
+**Sub-phase 6.7** (which cycle SHADOW watches, per the already-filed `CONTRADICTIONS.md` A-5).
+
+**A real finding survived from the Workflow's own cross-reference agent, not from this session's
+manual check:** `10_SPINE/RESOLUTIONS.md`'s `OPEN-C2` row was cited to `CONTRADICTIONS.md` Section A,
+but `OPEN-C2` does not exist in that file - only `OPEN-C1` does. `OPEN-C2` actually lives in
+`00_DOCTRINE_INTAKE/INTAKE_20260816_PECKING_ORDER_PT2.md`. Independently confirmed by direct grep of
+both files (`grep -n OPEN-C2` on each) before touching anything, then fixed. The same agent
+re-confirmed R3's `S1.1a` lettered sub-phase as the same non-issue this session's own manual check
+found last cycle - independent agreement, not a new finding.
+
+**Committed and pushed** (`57d4206`): `R5_MOUNT_RUSHMORE.md` (10 confirmed + 2 rewritten sub-phases,
+20 -> 32 total) and `RESOLUTIONS.md` (density note updated to 32; `OPEN-C2` citation fixed).
+
+**Gauntlet:** real production this cycle, not just discussion - 12 new sub-phases landed, one real
+citation bug fixed; minutes current (this entry); email still cannot send, grant absent, re-checked;
+no task stalled - the Workflow that Cycle 16 worked around finished on its own and its real output was
+reconciled in, not discarded; roadmap followed, scope held.
+
+**Checked:** env for the 911 key or a Nylas grant. **Still absent, all names.** Branch pushed at
+`57d4206`.
+
+**Decision he owes (rainbow):** none new. Standing floor unchanged.
+
+**Next cycle owns / next concrete doctrine row (renumbered, since 6.6 is now taken by real landed
+content):** **`R5_MOUNT_RUSHMORE.md` Sub-phase 6.8** - reconcile the SHADOW Wonder against
+`CONTRADICTIONS.md` Section B-5's AUDRA/SHADOW naming-collision finding, still filed but not yet folded
+into Face 6's own text. Unchanged in substance from the row named last cycle, only its number moved.

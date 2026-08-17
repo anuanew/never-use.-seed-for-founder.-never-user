@@ -339,3 +339,21 @@ absent, checked), no task stalled, roadmap held.
 **Decision he owes (rainbow):** none new.
 
 **Next cycle owns:** whatever he sends next.
+
+---
+
+## CYCLE 8 - 20260817, 12:20 PM EDT, seventh clean self-fired run, walk window nearly over
+
+**Convened:** checker fired again on schedule (`16:36:00Z`), seventh clean fire in a row. **Third
+consecutive steady-state cycle.** His stated walk window (9:30-12:30 ET) ends in ten minutes; nothing
+new has arrived since Cycle 5 closed the backlog.
+
+**Gauntlet:** steady state, no drift, minutes current (this entry), email still cannot send (grant
+absent, checked), no task stalled, roadmap held.
+
+**Checked:** env for the 911 key or a Nylas grant. **Still absent, all names.** Branch clean at
+`e67191a`, fully pushed.
+
+**Decision he owes (rainbow):** none new.
+
+**Next cycle owns:** whatever he sends next - likely the first check-in after his walk ends.

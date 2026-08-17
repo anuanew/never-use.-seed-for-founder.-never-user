@@ -1,6 +1,6 @@
 # R3 - SHARED REPOS
 
-> *"First thing we got to do is establish share repos. **We gotta go audit this.**"*
+> *"First thing we got to do is establish share repos. **We gotta go audit this, right?**"*
 > - Mt Rushmore Doctrine pt 1, 20260816
 
 > *"What the heck I've been saying with shared repo and what that means."*
@@ -66,19 +66,22 @@ the same architecture** and conflating them is how this got confusing:
 
 A single source of truth that pushes down into many worlds.
 
-> **CORRECTED BY MEASUREMENT.** An earlier version of this line called propagation *"the strongest and
-> most-repeated sense."* **The sweep measured the opposite: it is the RAREST.** That headline sentence
-> occurs exactly once in the whole corpus. R3 fan-out rests on a single occurrence too. **The most
-> repeated reading in his own words is deduplication - 31 of his 60 occurrences, across 20 sessions
-> from 20260530 to 20260813.** `[MEASURED - 50_DELIVERABLES/SHARED_REPO_SWEEP.md, predicate published]`
+> **CORRECTED BY MEASUREMENT, twice now.** An earlier version of this line called propagation *"the
+> strongest and most-repeated sense."* That was wrong: this headline sentence occurs exactly once in
+> the whole corpus. **The correction itself then overstated it as "the RAREST" - a fresh audit checked
+> the sweep's own section 6.1 directly and found Reading 3/fan-out sits at 1 occurrence, one below
+> Reading 1/propagation's 3.** Fan-out, not propagation, is the actual rarest reading; both are thin
+> next to deduplication. **The most repeated reading in his own words is deduplication - 31 of his 60
+> occurrences, across 20 sessions from 20260530 to 20260813.**
+> `[MEASURED - 50_DELIVERABLES/SHARED_REPO_SWEEP.md §6.1, predicate published]`
 >
 > **Rarity does not mean unimportant.** Propagation and fan-out are still the two readings that decide
 > the architecture, which is exactly why the question below is his and not mine. But I had the
 > frequency backwards and was arguing from it.
 
 **Reading 2 - Front-end components in one place (deduplication).**
-> *"It's called a shared repo. **The backgrounds are in the same spot.** It's called a shared repo."*
-> (Countdown pt 4)
+> *"It's called a shared repo. **The backgrounds are in the same spot.** It's called a shared repo,
+> right?"* (Countdown pt 4)
 
 Shared UI assets and components, so front ends do not each carry their own copy.
 
@@ -105,6 +108,23 @@ secure."* And `PO1-23` hardens it further: his world does not share a floor with
 or one source that everyone gets their own copy of?* Those produce different systems, and both are
 consistent with something he has said.
 
+### Sub-phase S0.4 - The false consent already on the record
+He is not the only one who has weighed in on what he meant. Roughly five and a half weeks after he
+asked, out loud, what he had been saying with "shared repo," a coder document recorded a different
+answer:
+
+> *"The founder has already said YES to the shared repo model."*
+> `[CODER DOC + AWA CLAIR_LANE_CODING_ROADMAP_AWA_CIB_CIP_20260719.md, dated 20260719]`
+
+The timeline around that sentence is measured, not argued: he asked what the term meant on 20260610,
+the sentence above was written on 20260719 (39 days later), and on 20260810-11 he said again that he
+had not been heard on it. **No occurrence anywhere in the corpus records him giving that yes.**
+`[MEASURED - 50_DELIVERABLES/SHARED_REPO_SWEEP.md section 3.4; carried forward as
+40_GOVERNANCE/CONTRADICTIONS.md B-NEW]` A recorded consent he never gave is a worse defect than a wrong
+reading, because it forecloses the argument instead of inviting it - and it already happened once with
+this exact term, which is the strongest evidence in the corpus for why S0 must close on his sentence and
+nothing softer.
+
 **Exit condition, receipt:** an occurrence table with counts and passages, the four readings with
 their evidence, and the one question above put to him plainly. **The receipt is his answer**, or the
 question standing on the board with his name on it.
@@ -113,8 +133,14 @@ question standing on the board with his name on it.
 
 ## PHASE S1 - THE REPO TOPOLOGY (contingent on S0)
 
-**Anchor:** *"Even the internal URLs we use need to be different. No old-world URL is reused
-anywhere."* (Great Reboot 0.4) - the same discipline governs repo names.
+**Anchor:** *"Even the internal URLs we use need to be different."* `[CODER RECOLLECTION, not verified -
+this is THE_GREAT_REBOOT_ROADMAP.md Phase 0.4's only actually-quoted sentence; its source document
+stamps every "His 4PM words" block, including this one, "DEGRADED... no raw transcript yet in the
+corpus... not verbatim."]` **"No old-world URL is reused anywhere" is not part of the quote at all** - it
+is the Great Reboot document's own author's added rule, appended after the quotation marks close, not
+inside them. An audit caught this file folding a coder's own sentence into his words. Both ideas are
+kept - the discipline is real either way - but attributed honestly: one degraded recollection, one
+coder's derived rule, neither his verified voice.
 
 **Outcome:** a named set of repositories with an explicit statement of what each holds, who may write
 to it, and how code moves between them.
@@ -161,6 +187,33 @@ only a project-scoped service key.
 
 **So S1 is blocked on him for credentials, not only on S0 for meaning.** Both blockers are real, both
 are his, and neither is a coder's to route around.
+
+### Sub-phase S1.5 - What the corpus already settled about this topology, and never carried forward
+Independent of which reading of "shared repo" he confirms, two things about the topology itself are
+already on the record and neither has been carried into a roadmap, an index, or a repo name until now.
+
+**A naming order, given once, in one continuous passage:**
+> *"if you're an arm, right, you have these tattoos. I want, I want, I want shared repos to be called
+> tattoos, yeah... the tattoos basically are for shared repos, right, for that, for this section,
+> right, repos, and this, how to make the perfect this and that, how to be the perfect this and that,
+> how to be the perfect this and that, and all of that stuff, and boom, tattoo."*
+> `[HIS WORDS + 1_HIS_WORDS/01_RAW_WORDS/02_20260602_SPICY_HEAT.txt]`
+
+The metaphor is not decoration - a tattoo is on the skin, it is not the arm, and it does not think, the
+same distinction he draws in the same breath about front ends carrying no mind of their own.
+
+**And the model is not greenfield - he built it once and told the room he let it lapse:**
+> *"We got to lean back into the share repo model that was really important, and we just kind of left
+> it down. We just kind of let it go."*
+> `[HIS WORDS + 1_HIS_WORDS/02_PHASE_2/The Cycle Doctrine pt 3.txt]`
+
+> *"That was a while ago when I used to preach that. I used to live and breathe by share repos, bro.
+> I've kind of let my foot off the gas a little bit on it, but that's important."*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/Find me or Fine me doctrine pt 1_otter.ai.txt]`
+
+S1's exit condition should put the tattoo name in front of him alongside the S0 question, and its
+outcome statement should be read as **restoring** a practice he says he dropped, not inventing one - a
+different task than the phase currently frames it as.
 
 **Exit condition, receipt:** the repo list live, each answering on an ACL-named URL; the grep against
 old-world names returning zero; a written statement of write-authority per repo.
@@ -226,13 +279,21 @@ by name.
 ## PHASE S3 - SHARED FRONT-END COMPONENTS
 
 **Anchor:** *"It's called a shared repo. The backgrounds are in the same spot."* (Countdown pt 4)
-Reinforced: *"Don't give me yet another app... anything you need to build and design should always be
-inside the CIB."* (MEDAL pt 2)
+Reinforced: *"Don't give me yet another app. Don't you build any scaffolds? Anything you need to build
+and design should be always inside the CIB computer and a browser."* `[HIS WORDS, restored - an earlier
+version silently reworded "should be always inside the CIB computer and a browser" to "should always be
+inside the CIB" and dropped the preceding "Don't you build any scaffolds?" sentence with no ellipsis,
+caught by a fresh audit]` (MEDAL pt 2)
 
 **Outcome:** front ends stop duplicating and start sharing. Detail lives in `R4_FRONT_ENDS.md`; this
 phase owns only the **repository mechanics**.
 
-### Sub-phase S3.1 - One component source, per Great Reboot F2
+### Sub-phase S3.1 - One component source, per `R4` F2
+
+**Corrected here** - an earlier version attributed this to "Great Reboot F2," but
+`THE_GREAT_REBOOT_ROADMAP.md` has no phase numbered F2 anywhere (its phases run 0 through 10, no
+F-prefix). The actual owner, correctly named fourteen lines below in this same file's S3 exit condition,
+is `R4_FRONT_ENDS.md` Phase F2 - "THE SHARED COMPONENT SYSTEM."
 The smallest shared visual and interaction system that carries navigation, threading, drilldown, and
 private per-HAM scope.
 
@@ -245,6 +306,19 @@ classifies is a shared defect** - the most efficient way to spread nasty cough e
 > *"Backgrounds as image URLs or self-hosted?"* (open question #31, 20260609)
 
 Unanswered. Carried into `30_RESEARCH/RESEARCH_DOCKET.md`, not decided here.
+
+### Sub-phase S3.4 - Why this phase's scope line is drawn where it is
+He drew the boundary this phase's outcome statement depends on - shared front end, isolated back end -
+himself, in one sentence:
+
+> *"the front ends at a service is all the same, it's just Share Repo front in the service, but the
+> back end is all of my stuff."*
+> `[HIS WORDS + 1_HIS_WORDS/01_RAW_WORDS/13_20260612_SPRING_WATER.txt]`
+
+This is what licenses S3's own line above - "this phase owns only the repository mechanics" - as his
+distinction rather than a coder's convenient split between R2 dedup and the isolation law. A shared
+front-end component set sitting over backends that stay per-world isolated is the shape he already
+described, not a compromise invented to reconcile S0.3's tension.
 
 **Exit condition, receipt:** the no-cold-behavior check passing on the shared component set, and the repo mechanics proven to carry it. **The two-front-ends receipt belongs to `R4` F2 and is not duplicated here** - an earlier version restated it word for word, which a critic correctly read as two roadmaps claiming one deliverable.
 
@@ -264,6 +338,21 @@ per Great Reboot 0.1-0.2.
 ### Sub-phase S4.2 - The findability test is his own sentence
 Ask the system in plain language *"where's shared repo code"* and get taken there. That is the
 acceptance criterion, and it is his, verbatim.
+
+### Sub-phase S4.3 - Why ACL-over-shared-repo is not only about findability
+Two more places he returns to this pairing, and both make a claim past "you can find it by name":
+
+> *"Almost every code in the share repo should have that ACL should define it."*
+> `[HIS WORDS + 1_HIS_WORDS/02_PHASE_2/Rebirth doctrine pt 6 Clair command center, usage, tools.txt]`
+
+> *"Think about how much better my system will be when we're actually using shared repos, but then
+> take the layer of ACL on top of it. Now, does it make more sense to you? Harder to steal."*
+> `[HIS WORDS + 1_HIS_WORDS/01_RAW_WORDS/32_20260701est_NYC_53RD_STREET_DOCTRINE_pt1.txt]`
+
+The first quote sets near-total coverage, "almost every code," not an opt-in tag for a few surfaces.
+The second states the reason it matters as security, not convenience. S4's exit condition should
+demonstrate both: a name the legend resolves, and what it denies to a reader who does not hold the ACL
+for it.
 
 **Exit condition, receipt:** the query run live, the answer returned with its ACL name resolving
 through the legend.

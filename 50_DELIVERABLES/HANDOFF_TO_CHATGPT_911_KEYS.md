@@ -17,7 +17,8 @@ alias of ABA@GlobalMajorityGroup). Never use his personal grant.
 **The state Claude already built, so do not redo it:**
 - A new-world Render env group exists and is empty on purpose:
   **name `acl.nw.seatring.v1`, id `evg-da1gtck9v7es73bd24u0`**, on his Render owner. It has 11 variable
-  names and zero values. Your job fills the values.
+  names and zero values `[MEASURED - HTTP 201, verified; see 50_DELIVERABLES/MEETING_MINUTES.md,
+  Cycle 0b for the original build receipt]`. Your job fills the values.
 
 **Your five steps:**
 

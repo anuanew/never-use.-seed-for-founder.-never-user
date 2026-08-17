@@ -378,7 +378,8 @@ it in the same shape - it carries **19** sub-phase-equivalent entries across its
 moved up from where the retraction found them, every addition carries either a verbatim corpus quote
 or a citation to an already-measured finding, and multiple phases inside each file stopped early (2
 new sub-phases instead of 4) specifically because the corpus and this repo's own deliverables ran out
-of real material to cite - not because anyone got tired of writing. Closing this fully would mean either
+of real material to cite - not because anyone got tired of writing `[CLAIR SYNTHESIS - an interpretive
+claim about cause, stamped as such rather than left reading as flat fact]`. Closing this fully would mean either
 finding more real corpus material than `1_HIS_WORDS/` currently yields on these specific subjects, or
 manufacturing generic software-engineering boilerplate to hit a number, which is the exact failure this
 whole repository exists to avoid. **Real state: 🟠 OPEN, honestly short, not padded. Owner: me. Not

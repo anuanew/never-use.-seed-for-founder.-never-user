@@ -776,3 +776,33 @@ entry's own commit; HEAD confirmed equal to remote HEAD before and after.
 
 **Next cycle owns:** whatever the live trigger's `20:15:00Z` firing brings, or whatever instruction
 arrives first.
+
+---
+
+## CYCLE 22 - 20260817, the live 20:15Z checker fired for real - genuinely steady
+
+**Convened:** the trigger armed after Cycle 20 fired on its actual schedule (`20:15:00Z`), not a
+duplicate this time - confirmed via `list_triggers` returning zero live triggers immediately after,
+meaning the one-shot consumed itself normally. Between Cycle 20's commit (`dc1cd87`) and this fire,
+the only intervening event was Cycle 21 (a no-op log entry for an earlier duplicate delivery, no real
+state change) and a direct conversational exchange with the founder (a request for a zip of every file
+this lane has produced, delivered separately, and a next-steps question, answered but not yet acted
+on pending his reply).
+
+**No new instruction naming a row since Cycle 19's Sub-phase 6.8.** Did not invent one. My own
+next-steps recommendation (deepen `R2`/`R4`/`R6`/`R8` the way `R1`/`R3`/`R5`/`R7` were deepened) is
+still awaiting his answer - not started without it, per standing practice of not implementing
+exploratory recommendations before agreement.
+
+**Gauntlet:** no drift; minutes current (this entry); email still cannot send, grant absent, re-checked;
+no task stalled; roadmap held, scope held - no front end, no Nylas mutation, no accounts, no Old/New
+World runtime.
+
+**Checked:** env for the 911 key or a Nylas grant. **Still absent, all names.** Branch pushed at this
+entry's own commit; HEAD confirmed equal to remote HEAD.
+
+**Decision he owes (rainbow):** none new from the roadmap side. Outstanding from conversation: whether
+to point this lane at `R2`/`R4`/`R6`/`R8` deepening next, or redirect the gauntlet elsewhere.
+
+**Next cycle owns:** whatever the next live trigger brings, or the founder's answer on next steps,
+whichever arrives first.

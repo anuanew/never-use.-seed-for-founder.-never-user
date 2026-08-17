@@ -426,3 +426,23 @@ not landed yet, named as such rather than reported as either "done" or "nothing 
 
 **Next cycle owns:** collecting and acting on the Workflow's results, real findings and real fixes
 logged with receipts, the moment they land.
+
+---
+
+## CYCLE 12 - 20260817, 01:25 PM EDT, eleventh clean self-fired run, workflow still in flight
+
+**Convened:** checker fired again on schedule (`17:41:00Z`). **The 10-agent deepen-and-audit Workflow
+has not completed yet - no notification received.** Ten agents doing real corpus research, cross-file
+verification, and adversarial audit work take real wall-clock time; not manufacturing a status beyond
+what is actually true.
+
+**Gauntlet:** real row, in flight; minutes current (this entry); email still cannot send, grant absent,
+checked; no task over one cycle with nothing landed (the Workflow itself is the landed action, its
+results are what's pending); roadmap held.
+
+**Checked:** env for the 911 key or a Nylas grant. **Still absent, all names.** Branch clean at
+`a2d2422`.
+
+**Decision he owes (rainbow):** none new.
+
+**Next cycle owns:** the Workflow's results, applied and logged the moment they land.

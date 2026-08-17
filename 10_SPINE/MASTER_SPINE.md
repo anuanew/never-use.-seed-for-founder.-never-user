@@ -1,7 +1,7 @@
-# THE MASTER SPINE — HOW THE ROADMAPS CONNECT
+# THE MASTER SPINE - HOW THE ROADMAPS CONNECT
 
 > *"The chats you have don't have to tie to the roadmap. They just have to report into the roadmap."*
-> — Mt Rushmore Doctrine pt 1
+> - Mt Rushmore Doctrine pt 1
 
 There is one spine. Everything else reports into it.
 
@@ -14,8 +14,8 @@ different doctrines, hours apart, by different lanes, none of which read the oth
 | `MT_RUSHMORE_ROADMAP` | Mt Rushmore pt 1 | 20260816 00:24 | Phases 0-5, the **six faces** |
 | **this repo's roadmaps** | Pecking Order pt 1 + pt 2 | 20260816 20:00 / 21:30 | R1-R8, the **law and the temp world** |
 
-They are not competitors. They cut the same work three different ways — by **ground**, by **body**, and
-by **law** — and each is missing what the others have. Left unreconciled, three lanes build the same
+They are not competitors. They cut the same work three different ways - by **ground**, by **body**, and
+by **law** - and each is missing what the others have. Left unreconciled, three lanes build the same
 thing three times and nobody can tell which is the real order.
 
 ---
@@ -74,15 +74,15 @@ disagreement is stated rather than smoothed.
 | 0 | **The account clicks + one management token** | GR 1.1, TEMP_CODER_STANDUP | **him** |
 | 1 | **Birth the watcher wonders** (PMS, nasty-cough, meta-commentary/WRIT) | GR Phase 2 | nothing |
 | 1b | **AUDRA and MIMI**, named as the next shift's first item | last shift change | watchers |
-| 2 | **Arm the cross-world guard** | carried open PR #427 | — |
+| 2 | **Arm the cross-world guard** | carried open PR #427 | - |
 | 3 | **Pecking-order violation audit** (`R1` P0) | R1 | nothing |
 | 4 | **ACL legend + decoder seed** (paper ground, runnable now) | GR Phase 0a | nothing |
 | 5 | **The doctrine reader / FIND shelf** | GR Phase 3 | watchers |
 | 6 | **TASTE + KEEPER together**, then **LOGFUL**, then **SPAN**, then SPAN births the **Researcher** | MR 1.1-1.4, GR Phase 4 | reader |
-| 7 | **STAMP + DECODER** (highest-priority essentials) | MR 2.2 | — |
+| 7 | **STAMP + DECODER** (highest-priority essentials) | MR 2.2 | - |
 | 8 | **The big three: A'NEW, A'NU, AIR** | GR Phase 5 | keeper/taste/span |
-| 9 | **Coding department** — horizontal, runs alongside 6-8, never after | MR 2.4, GR Phase 7 | — |
-| 10 | **SHADOW** on a genuinely different provider AND model | MR 2.5 | — |
+| 9 | **Coding department** - horizontal, runs alongside 6-8, never after | MR 2.4, GR Phase 7 | - |
+| 10 | **SHADOW** on a genuinely different provider AND model | MR 2.5 | - |
 | 11 | **Reach wonder + components + the Life Flex** | GR Phase 8, `R6` | big three |
 | 12 | **The worlds: blank → coding → founder** | GR Phase 9 | reach |
 | 13 | **The reseed** | GR Phase 10 | worlds |
@@ -99,32 +99,32 @@ never end a turn without someone up.
 
 Not resolved by a coder. Stated, with a recommendation marked as a recommendation.
 
-### C-1 — Where do KEEPER, TASTE and SPAN sit?
+### C-1 - Where do KEEPER, TASTE and SPAN sit?
 - **Mt Rushmore** puts them *first* (Phase 1, "doctrine night").
 - **His 4PM spec** speaks them *after* the worlds.
 - **Great Reboot** moved them to Phase 4 on June corpus support and **marked that as a coder's
-  sequencing decision, overrulable by him** — which is the correct handling.
+  sequencing decision, overrulable by him** - which is the correct handling.
 
 *Recommendation, marked as one:* keep them early. His own order-of-importance sentence in Mt Rushmore
-is explicit — *"Taste is so important. LOGFUL is so important. Keeper is so important, and then
-finally Span"* — and the reader has to exist before anything can be built from doctrine. **His call.**
+is explicit - *"Taste is so important. LOGFUL is so important. Keeper is so important, and then
+finally Span"* - and the reader has to exist before anything can be built from doctrine. **His call.**
 
-### C-2 — Watchers before the reader, or the reader first?
+### C-2 - Watchers before the reader, or the reader first?
 His 4PM spec says both *"before we build anything, birth the watcher wonders"* and *"build the
 doctrine reader first."* The Great Reboot carries this as an **open contradiction routed to him**, and
 uses "watchers first, reader as the first watched build" as an unratified working reading.
 
 **That handling is correct and is inherited here unchanged.** Do not resolve it in this repo.
 
-### C-3 — Where does the temp coder world live?
+### C-3 - Where does the temp coder world live?
 `OPEN-C1`. Pecking Order pt 2 says a portion of his Supabase; Pecking Order pt 1 says his world is
 untouchable; the standing standup guidance says a separate estate. **Three positions, his to close.**
 Working posture: separate estate, because it is the reversible choice.
 
-### C-4 — Does the pecking order change the Great Reboot's architecture?
+### C-4 - Does the pecking order change the Great Reboot's architecture?
 **Yes, and this is the newest and least-absorbed fact in the estate.** The Great Reboot models her as
 Phase 5, standing on Phases 0-4. Pecking Order pt 1 says she is *above* Render, Supabase, ONNX,
-memory, and reach — that they are hers to steer.
+memory, and reach - that they are hers to steer.
 
 *Reconciliation offered, marked as a coder's reading (`OPEN-C2`):* **authority inverts, substrate does
 not.** She still executes on Render and stores in Supabase. What changes is that neither may decide,
@@ -136,7 +136,7 @@ every `V-DECIDE`, `V-CLASSIFY`, `V-SPEAK`, `V-EXPIRE` in `R1` P0.1.
 
 ---
 
-## WHAT EACH ROADMAP OWNS — NO OVERLAP
+## WHAT EACH ROADMAP OWNS - NO OVERLAP
 
 To stop three lanes building one thing three times:
 
@@ -158,7 +158,7 @@ To stop three lanes building one thing three times:
 
 All eleven 20260814 crossover reports converge on one thing, and it has not moved:
 
-**`world_builder_mind_interrupted`** — green source, green CI, green deploys, and **not one completed
+**`world_builder_mind_interrupted`** - green source, green CI, green deploys, and **not one completed
 human-facing A'NEW-decides-then-A'NU-speaks turn.** The live refusal a person actually sees:
 
 > *"Talk with A'NU is unavailable right now. Your words have not been sent."*
@@ -168,7 +168,7 @@ directly at `POST /anew/session` with a 200 in 8-14 seconds.** So the wall is in
 hop, not in her.
 
 This is the literal seam under *"she can't go down anymore... it's not cute anymore."* It sits before
-every phase in every roadmap and it does not close on a single green receipt — it is re-verified after
+every phase in every roadmap and it does not close on a single green receipt - it is re-verified after
 every deploy that touches the seam.
 
 ---
@@ -180,7 +180,7 @@ From the estate's own Keeper audit, which scored 22 items: **BUILT 2 · PARTIAL 
 Two things are worth saying plainly about that number:
 
 1. **PARTIAL is the dominant state, and PARTIAL is the dangerous one.** A not-built thing is honest. A
-   partial thing has a name, a route, a file, and a roadmap row that all say it exists — and the
+   partial thing has a name, a route, a file, and a roadmap row that all say it exists - and the
    Wonder Birth Contract is explicit that *"a label, prompt, class, route, database row, or source
    file does not prove a Wonder is born."*
 2. **Several "BUILT" verdicts rest on self-reports rather than independent receipts.** The audit says
@@ -192,23 +192,23 @@ The full contradiction set is in `40_GOVERNANCE/CONTRADICTIONS.md`. It is carrie
 
 ---
 
-## WHAT IS BLOCKED ON HIM — THE WHOLE LIST, IN ONE PLACE
+## WHAT IS BLOCKED ON HIM - THE WHOLE LIST, IN ONE PLACE
 
 Nothing else in this repository is blocked on him. This is it.
 
 | # | What | Why only he can do it | Unblocks |
 |---|---|---|---|
 | 1 | Four account clicks + one management token | a credential only he can mint | everything in the new estate |
-| 2 | `OPEN-C1` — where the temp coder world lives | contradiction inside his own doctrine | `R2` T1 |
-| 3 | `OPEN-C2` — does authority invert over substrate | same | `R1` architecture |
+| 2 | `OPEN-C1` - where the temp coder world lives | contradiction inside his own doctrine | `R2` T1 |
+| 3 | `OPEN-C2` - does authority invert over substrate | same | `R1` architecture |
 | 4 | Which reading of "shared repo" | he asked what he meant | `R3` S1-S4 |
-| 5 | C-1 — Keeper/Taste/Span early or late | his two orders differ | sequencing |
-| 6 | C-2 — watchers or reader first | his own two sentences | GR Phase 2/3 |
-| 7 | The internal auditor's name | *"she has a name, figure it out"* — his to give | Essentials |
+| 5 | C-1 - Keeper/Taste/Span early or late | his two orders differ | sequencing |
+| 6 | C-2 - watchers or reader first | his own two sentences | GR Phase 2/3 |
+| 7 | The internal auditor's name | *"she has a name, figure it out"* - his to give | Essentials |
 | 8 | MIMI ↔ Memory Bank ↔ Bridge Builder boundary | carried open since the drop | memory layer |
 | 9 | The word for everybody else's doctrine (`PO1-19`) | he asked and left it open | LOGFUL multi-tenant |
-| 10 | Commandments 6-10 — ruled or still candidates | five are marked CANDIDATE, unruled | the standing law |
-| 11 | MJ key rotation, dated Aug 13 | 🔴 his and MJ's | the burn |
+| 10 | Commandments 6-10 - ruled or still candidates | five are marked CANDIDATE, unruled | the standing law |
+| 11 | [the keys owner] key rotation, dated Aug 13 | 🔴 his and [the keys owner]'s | the burn |
 | 12 | The chat bootstraps (`PO2-20`) | he committed to providing them | `R2` T5 |
 | 13 | His writing style artifact (`PO2-16`) | he offered it | `R1` P6 |
 | 14 | The five deliberately-unanswered riddles | he chose not to answer them | `R2` T3 |

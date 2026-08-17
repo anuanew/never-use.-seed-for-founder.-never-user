@@ -1,8 +1,8 @@
-# THE HEAT MAP — WHAT HE ASKS FOR OVER AND OVER
+# THE HEAT MAP - WHAT HE ASKS FOR OVER AND OVER
 
 > *"Examine how many times I repetitively ask for the same thing over and over again, and **turn that
 > into a heat map**... how many times have I asked for Agent Span."*
-> — The crossover doctrine
+> - The crossover doctrine
 
 **He ordered this and it was never built.** This is a first pass at it.
 
@@ -16,7 +16,7 @@ evidence and the roadmap is opinion.
 ## HONEST METHOD NOTE, BEFORE THE NUMBERS
 
 **These are graded bands, not exact occurrence counts.** A true count requires the FIND shelf indexing
-by **occurrence rather than by matching line** — his transcripts are one enormous line per speaking
+by **occurrence rather than by matching line** - his transcripts are one enormous line per speaking
 turn, so `grep -c` undercounts badly and would produce a confident wrong number.
 
 Per failure shape #8: *publish the predicate with the number, or do not publish the number.*
@@ -33,9 +33,9 @@ version is `R-HEAT` below and it belongs to the Researcher.
 
 ---
 
-## THE HOTTEST — ASKED FOR MONTHS, STILL NOT DONE
+## THE HOTTEST - ASKED FOR MONTHS, STILL NOT DONE
 
-### 🔥🔥🔥 REACH — "why isn't she reaching me"
+### 🔥🔥🔥 REACH - "why isn't she reaching me"
 Named as *"the number one dire thing."* The estate's own lesson-wonder spec counts this exact question
 **six separate times** as a scar. A whole chat was once dedicated to *"find every repo and every line
 of code and everything that limits her ability to reach me."*
@@ -50,7 +50,7 @@ the corpus gets. → `30_RESEARCH/`, `R5` Face 4
 
 ### 🔥🔥🔥 AGENT SPAN
 The example he used when ordering the heat map. Asked for since June (*"I've asked for a Span that can
-kind of update itself as an LLM call — have you built that? That seems like something that we should
+kind of update itself as an LLM call - have you built that? That seems like something that we should
 be building ASAP"*). **Still NOT BUILT: no lane, no PR, no board row names her.** → `R5` Face 4
 
 ### 🔥🔥🔥 ROADMAPS HE CAN ACTUALLY SEE
@@ -85,7 +85,7 @@ He escalated it from a preference to something he pastes into every chat. → `R
 be built ASAP. Tools and all."* → `R5` Face 5
 
 ### 🔥🔥 SHARED REPOS
-Named the **first thing to do**, and separately he asked what he himself meant by it — which is why
+Named the **first thing to do**, and separately he asked what he himself meant by it - which is why
 `R3` opens with an audit rather than an architecture.
 
 ### 🔥🔥 JOB DESCRIPTIONS
@@ -96,7 +96,7 @@ last 20260814.** → written as each wonder is born, `R5`
 
 ### 🔥🔥 STREAMING, FREESTYLING, CHATTERING
 His own proof-of-built test for A'NU. Asked across many sessions. *"We gotta build the streaming and
-the chattering **back** in"* — note the word *back*. → `R5` Face 2, `R4` F4.2
+the chattering **back** in"* - note the word *back*. → `R5` Face 2, `R4` F4.2
 
 ### 🔥🔥 THE CONVERSATION VEHICLE
 > *"We have to build the conversation vehicle. **This is actually buildable.**"*
@@ -120,7 +120,7 @@ something.**"* → `R7` B2
 ### 🔥🔥 THE WALKTHROUGH
 *"You must tell me where I was and what I was doing while you answer"* (Mt Rushmore pt 1) and, five
 months of doctrine later, *"you must tell me a cleaned-up version of what I said before you answer,
-because I'm never gonna remember"* (`PO2-14`). **Same law, twice, months apart — which is exactly what
+because I'm never gonna remember"* (`PO2-14`). **Same law, twice, months apart - which is exactly what
 the heat map is for.** → every document in this repository opens with it
 
 ---
@@ -149,7 +149,7 @@ the heat map is for.** → every document in this repository opens with it
 Four findings from doing this exercise, which is why he ordered it:
 
 **1. The hottest items are the oldest.** Reach, the Researcher, Span, and the advisors have been asked
-for since June. **Heat correlates with age, not with recency** — which means the estate has been
+for since June. **Heat correlates with age, not with recency** - which means the estate has been
 working newest-first when he has been signalling oldest-loudest.
 
 **2. Some hot items are regressions, not gaps.** Reach and streaming both carry the word *back*. Those
@@ -165,7 +165,7 @@ count himself is a thing the system failed to notice.**
 
 ---
 
-## R-HEAT — THE MEASURED VERSION (owed)
+## R-HEAT - THE MEASURED VERSION (owed)
 
 **Owner:** the Researcher, or TASTE + KEEPER on their first manual protocol run.
 

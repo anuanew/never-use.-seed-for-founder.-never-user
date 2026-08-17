@@ -398,8 +398,7 @@ Not "guarded on the shared floor." Not on it. Guard-as-only-defense is failure s
 already known to be beatable will be beaten.*
 
 ### Sub-phase P5.3 - The cohort roster is his to set
-Named in pt 1: [a partner], [a partner], [a partner], [the keys owner], [a secretary], and *"we might be able to argue [a partner]
-Sill."* The hedge is his. **Do not resolve it.**
+Named in pt 1: [a partner], [a partner], [a partner], [the keys owner], [a secretary], and *"we might be able to argue [a partner]."* The hedge is his. **Do not resolve it.**
 
 **Exit condition, receipt:** a live cross-world write attempt against the founder world refused by
 name with a status code; a live cross-HAM write inside the cohort floor refused by name with a status

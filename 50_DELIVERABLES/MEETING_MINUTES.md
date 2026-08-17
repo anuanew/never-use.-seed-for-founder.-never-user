@@ -64,3 +64,46 @@ critic re-run against the fixed tree.
 keys - is his one action.
 
 **To remove if he wants it gone:** it is env group id `evg-da1gtck9v7es73bd24u0` on his Render owner.
+
+---
+
+## CYCLE 1 - 20260817, 10:29 AM EDT, recovering and landing the fleet's work
+
+**Convened:** Claudette CLAIR-ROADMAP, alone, after a context compaction. The prior turn's summary
+claimed the R4/R6 depth agent's full output was captured; it was not actually present. Recovered it (and
+the still-unspliced R2/R8 depth agent output) directly from this session's own pre-compaction transcript
+rather than re-running the agents, confirmed the recovery byte-for-byte against the task IDs, and
+proceeded from there. **Naming this so it is not silently glossed over: my own prior summary overclaimed
+what it had on hand. Caught before anything was built on the gap.**
+
+**Landed this cycle, each independently verified by a direct grep count against the file, not the
+agent's own self-reported number:**
+- `R2_TEMPORARY_CODER_WORLD.md` - 18 new sub-phases, T0-T6, committed (`38644e8`).
+- `R4_FRONT_ENDS.md` - 24 new sub-phases, F0-F8. **The agent's own headline said 23; the file measured
+  47 total against 23 original is 24 new, not 23. Reported the counted number, not the claimed one.**
+  Committed (`e2bc0f3`).
+- `R6_REACH_AND_THE_LIFE_FLEX.md` - 16 new sub-phases, X0-X5, matching the agent's own count exactly.
+  Committed (`0d2da66`).
+- `R8_MEMORY_AND_CONTINUITY.md` - 21 new sub-phases, M0-M6, matching the agent's own count exactly.
+  Committed (`e2102a3`).
+- All four of AUDRA's self-audit findings closed: two real (his first name had regressed into
+  `THE_WATCHERS.md` and `HANDOFF_TO_CHATGPT_911_KEYS.md`; the 30-minute checker was overclaimed as a
+  real recurring trigger when it is a self-rearming one-shot chain) and two verified-false-positive
+  (`THE_RIDDLE_CATALOG.md` R19 and `SHARED_REPO_SWEEP.md`'s "Cam Burns," both checked against the raw
+  transcripts directly and found faithful). Committed (`3b34307`).
+- **Measured, not assumed: the 30-minute checker chain had already gone silent.** `list_triggers`
+  returned zero live triggers at `14:25:57Z`. Re-armed (`trig_01NJRRdqhz43oyZ1vj4AiXx1`, next fire
+  `14:57:00Z`) and the gap recorded in `THE_WATCHERS.md` itself, not just here.
+- The sibling `KEEPER` lane's independent 65-file package reconciled, not merged: 8 confirmations, 3
+  contradictions, 5 items of new material, landed as
+  `50_DELIVERABLES/RECONCILIATION_SIBLING_AUDIT_20260817.md`. Its single most important finding - a
+  naming collision between this repo's AUDRA/SHADOW and the sibling's compound `OTJT.AUDRA.SHADOW` -
+  filed as `CONTRADICTIONS.md` Section B-5, an open item for him, not resolved by coder judgment.
+  Committed (`da1a121`).
+
+**Decision he owes (rainbow):** none new this cycle beyond what is already standing in `RESOLUTIONS.md`
+and `CONTRADICTIONS.md` Section C. The AUDRA/SHADOW naming collision (B-5) joins that list.
+
+**Next cycle owns:** re-running the blind-critic gauntlet against everything landed this cycle before
+treating it as final (the established pattern - written content is never trusted until an independent
+adversarial pass has tried to refute it), and a fresh shift-change document given the volume landed here.

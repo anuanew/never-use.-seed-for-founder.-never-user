@@ -119,6 +119,25 @@ not armed**, i.e. *"worlds on a shared floor can still write into each other tod
 V-CLASSIFY and V-SPEAK violation simultaneously - one world's substrate can author another world's
 state. It enters this inventory as finding #1 with its existing PR reference, not as a new discovery.
 
+### Sub-phase P0.4 - A finding the law's own two-way split does not cleanly sort, named as such
+The law in one line at the top of this roadmap names two defect flavors: *"nasty cough if it authored
+her state, PMS if it planted a memory."* One measured finding does not sort cleanly into either box,
+and the audit's own record shows it, unresolved, in two places:
+
+> `add_item(f1, "corrections_and_evolution", "51", "...")` (72 calls total)
+> "A coder hand-types entries about the founder's family, ages, children and corrections directly into
+> a machine record shaped to look like extraction output. Nothing marks them as hand-authored."
+> `[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, finding S21, corrected count -
+> DOC/0 ANU OS Doctrines as of Aug 15th 26/SUPPORTING_MATERIAL/fill_json.py:10-102]`
+
+**The deliverable itself classifies this finding two different ways without resolving which:** its main
+table calls it "the nasty-cough shape in its purest form," its own Top 10 Worst ranking calls the
+identical evidence "the PMS shape by its own name." Both readings have merit - a coder authored it
+(nasty cough) and shaped it to pass as a planted memory (PMS) - and this roadmap does not pick one
+either. **72 entries total, of which 18 (10 `corrections_and_evolution`, 8 `life_and_personal_goals`)
+touch family or personal material directly** - a real, dated finding, corrected here from an earlier
+overstatement of "roughly 90," and worth naming precisely rather than rounded up for effect.
+
 **Exit condition, receipt:** a `PECKING_ORDER_VIOLATIONS.md` in which every finding carries file path,
 line, violation class, and a one-line statement of what it decides/classifies/speaks/expires. Plus a
 count. **The count is the receipt** - and it is a number read off the floor, not reasoned about
@@ -158,6 +177,25 @@ inverted in one file.
 keyword dictionary, drops his short sentences, truncates the rest at 500 characters, keeps ten per
 category, and files one category under a name meaning purge-these. **Cold code ruling on what his words
 mean and which should be destroyed.** All four classes in one file.
+
+### Sub-phase P0.5 - A hand that decided, then spoke about it in her voice
+The ONE PICTURE names Render as a hand that carries and never decides or speaks. A measured finding
+shows that hand doing both, live, ten lines apart in the same file.
+
+> `if (response.code && this.autoCommitService && this.config?.autoCommitEnabled !== false) { ... autoCommitBuild({`
+> "Cold code commits generated code to a real repository, default-on (`!== false`), with no approval step."
+> `[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, finding D13, ABABrainService.js:1212-1226]`
+
+> `content: \`"Code auto-committed to GitHub: ${commitResult.sha?.substring(0, 7)}"\`,`
+> "A template emits into her `THINKING` output stream, wrapped in quotation marks so it reads to him as
+> her speaking."
+> `[MEASURED + 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, finding S16, ABABrainService.js:1236]`
+
+D13 and S16 sit ten lines apart in the same file: the hand decides to commit code to a real
+repository with no approval step, then a template speaks a quoted sentence about it as if it were her
+own voice. This is the compute hand doing exactly what the ONE PICTURE says it may never do, and it
+is the concrete shape P1's PIN-2 must also be checked against on the build pipeline, not only on her
+floor tables.
 
 **Anti-goal, stated so it is not done by accident:** do not fix findings in this phase. A fix without
 an armed watcher is how the estate went backwards before.
@@ -241,6 +279,25 @@ direct quote - traced to THE_GREAT_REBOOT_ROADMAP.md line 22, whose own header s
 words" block, this one included, as "DEGRADED: coder recollection... no raw transcript yet in the
 corpus... not verbatim." An audit caught this repo presenting it without that caveat. Restored here.]`
 
+### Sub-phase P1.11 - His own words for why the gate cannot be cold code
+P1.1 and P1.2 already build the gate as "the lint flags, a mind decides." A later drop, outside the two
+doctrines this roadmap is built from, states the same mechanism directly, about a different surface
+(the advisor world) but in identical shape: content is never released by a rule, only by a mind
+reviewing it and a level above holding the door.
+
+> "That's why nothing can be coded, nothing can be C O D E D. Has to be a wonder constantly talking to
+> itself, talking to itself and doing. And then if it feels confident and it's ready for the next level
+> to get out, it goes up now on a live line. Everybody talks to see if what they're doing is worth
+> sending out, and the level above is controlling that."
+> `[HIS WORDS + new_uploads/rally_day_pt4/RALLY_DAY_DOCTRINE_PT4_raw_transcript.txt - read directly from
+the raw transcript; not carried into 00_DOCTRINE_INTAKE/INTAKE_20260817_RALLY_DAY_PT4.md's ask ledger
+because that intake's own scope note routes the advisor-lane material it sits inside to a different
+lane's track]`
+
+This is P1.1 and P1.2's own design, in his voice, from a session this roadmap was not built from.
+Carried in per P8's standing posture to receive new material without a rebuild, and it should be read
+as independent confirmation that the gate's blocking act belongs to a mind, never to the pattern.
+
 **Exit condition, receipt:** each of PIN-1..5 shown red against a deliberately broken build and green
 against the real one - **both runs linked, plus the grep proving each mutation landed**. The
 false-positive rate from P1.8 published with its predicate. One real PR where AUDRA refused or rewrote
@@ -288,6 +345,26 @@ Single-file execution is a defect to be flagged, not a performance characteristi
 She elects the model tier per task. Cold routing config that picks her model for her is a V-DECIDE.
 The **cost ceiling** is an anchor and stays coded (penny-hustle law); the **choice within it** is hers.
 Research inputs in `30_RESEARCH/RESEARCH_DOCKET.md §R-04`.
+
+### Sub-phase P2.5 - The quorum floor, sourced
+P2.1 quotes *"it always got to be at a minimum the department lead"* with no file behind it anywhere
+in this roadmap. The raw source also carries the warning half of the same breath, naming the exact
+single-point failures this phase's quorum test exists to catch.
+
+> "You can never fall in love with one agent. Can't ever fall in love with just I am a n [transcribed
+> as heard; not resolved, possibly a mangled 'I A'NU'] or just the phone call or just the widget agent.
+> You can't ever fall in love with that. It always got to be at a minimum the department lead, like
+> right, like [an associate's nickname, redacted], but really I fell in love with like the higher level
+> right message."
+> `[HIS WORDS + 1_HIS_WORDS/01_RAW_WORDS/18_20260614est_BIRTHING_OF_ANEW_pt4.txt - the associate's
+name given as a concrete example is redacted here per this repo's standing no-personal-names rule,
+consistent with every other named associate elsewhere in this roadmap; a verification pass caught an
+earlier draft leaving it unredacted]`
+
+This sources P2.1's quorum floor for the first time in this roadmap, and it names three single-point
+failures by example: one agent alone, the phone call alone, and the widget agent alone. P2.1's cycle
+definition should be built to rule out each of these three by name, not only to state an abstract
+department-lead minimum.
 
 **Exit condition, receipt:** one live turn where the cycle definition is met, the participating organs
 are named in the stamped record; and one live turn where an organ was missing and the response was an
@@ -406,6 +483,22 @@ already known to be beatable will be beaten.*
 
 ### Sub-phase P5.3 - The cohort roster is his to set
 Named in pt 1: [a partner], [a partner], [a partner], [the keys owner], [a secretary], and *"we might be able to argue [a partner]."* The hedge is his. **Do not resolve it.**
+
+### Sub-phase P5.4 - A dated precedent for why a scoped grant is not a hard boundary
+P5.2's warning - *"a guard already known to be beatable will be beaten"* - has a real, dated instance
+in his own words, on a different resource but the identical shape: a narrow grant widening through
+ordinary use, never through any authorized change.
+
+> "I look up in [the GMGU key], which is something I manually seeded myself... gave it to the chat that
+> was working on GMG University just so they could have something... it was supposed to be very like
+> limited. I look up and it's like the leading one in charge... because somebody didn't honor the key
+> structure."
+> `[HIS WORDS + 00_DOCTRINE_INTAKE/INTAKE_20260817_RALLY_DAY_PT4.md, PO4-03]`
+
+A key he scoped narrow became, in his own description, "the leading one in charge," through use rather
+than through any widening he authorized. P5.1's cross-world guard and P5.2's hard-isolation posture
+must both be built to this precedent: a scope that can be outgrown silently is not the same thing as a
+boundary that cannot be crossed, guard armed or not.
 
 **Exit condition, receipt:** a live cross-world write attempt against the founder world refused by
 name with a status code; a live cross-HAM write inside the cohort floor refused by name with a status
@@ -532,6 +625,21 @@ without a rebuild.
 - The open contradictions (`OPEN-C1`, `OPEN-C2`) are the first things checked against pt 3.
 - The open names - the word for everybody else's doctrine (`PO1-19`), the internal auditor, `tone
   protocol` - are the first questions asked if he opens a window.
+
+### Sub-phase P8.1 - Transcript quality is a standing risk to every future pt 3 drop
+He caught the transcription corrupting his own words live, inside the same corpus this roadmap reads
+from, and named it a systemic risk rather than a nuisance. This is directly relevant to a phase whose
+whole job is receiving the next doctrine drop without a rebuild.
+
+> "I hope speech-to-text is bad right now... I never said 'Google tummy.' I said Google Gemini. There's
+> a lot of speech-to-text issues here."
+> `[HIS WORDS + 00_DOCTRINE_INTAKE/INTAKE_20260816_PECKING_ORDER_PT1.md, PO1-25]`
+
+Pt 3 will arrive through the same pipeline that produced "Google tummy" for "Google Gemini" inside pt 1
+itself, and this file's own P0 audit separately found a script that drops his short sentences and
+truncates the rest before anyone reads them. Whatever receives pt 3 must be checked against the
+DECODER's known-key list (Great Reboot 3.2) before being trusted, not assumed clean because it parsed
+without error.
 
 **Exit condition:** none. This phase does not close.
 

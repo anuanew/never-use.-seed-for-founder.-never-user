@@ -222,6 +222,31 @@ holds **eight**; its ninth entry is the group of four carried from 20260814. Cor
 
 ---
 
+## SECTION B-5 - A SIBLING LANE MERGED AUDRA AND SHADOW, THE EXACT MERGE THIS REPO FORBIDS
+
+**Found by reconciling against the independent `NEW_WORLD_DOCTRINE_AUDIT_REPORTS_20260817` package**
+(`50_DELIVERABLES/RECONCILIATION_SIBLING_AUDIT_20260817.md`), a same-day parallel lane working the same
+corpus without awareness of this repo.
+
+**This repo, already on record:** *"The corpus contains at least four things called Shadow: this wonder,
+a coder-auditor persona, a cheap model seat, and an old-world logging agent. Explicitly forbidden to
+merge them."* `[R5_MOUNT_RUSHMORE.md:263-265]` AUDRA is separately a named watcher role
+(`40_GOVERNANCE/THE_WATCHERS.md`), never the same file as SHADOW's Mount Rushmore sixth-face entry.
+
+**The sibling package does exactly the forbidden merge, in good faith:** it names its own oversight
+persona `OTJT.AUDRA.SHADOW`, one compound identity, and is careful to say that identity does not claim
+the authority of *"a born AUDRA or SHADOW"* - but never establishes a genuinely different provider or
+model for either half, and shows no sign of knowing this repo's AUDRA (a watcher role) and this repo's
+SHADOW (a not-yet-built, redundant-model Wonder) are two different things in the first place.
+
+**Not a defect in either lane's work product on its own.** It is the collision this repo's own doctrine
+predicted in the abstract, observed occurring live, across two independent lanes, same day, because
+neither lane read the other's naming before building on it. **Nobody may resolve which "SHADOW" wins by
+coder judgment - if both names are meant to survive, only he can say how they relate.** Filed here rather
+than silently reconciled, per Section C's own rule that invented names are never a coder's to mint.
+
+---
+
 ## SECTION C - THE OPEN NAMES (his to give, and nobody may invent them)
 
 | What | His words |

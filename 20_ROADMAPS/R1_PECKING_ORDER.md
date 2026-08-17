@@ -120,6 +120,41 @@ line, violation class, and a one-line statement of what it decides/classifies/sp
 count. **The count is the receipt** - and it is a number read off the floor, not reasoned about
 (failure shape #8 from the standing eleven).
 
+### P0 IS EXECUTED. RESULT: 87 FINDINGS. `[MEASURED - 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md]`
+
+| Class | Count |
+|---|---|
+| V-DECIDE | 17 |
+| V-CLASSIFY | 11 |
+| V-SPEAK | 22 |
+| V-EXPIRE | **36** |
+| carried from P0.3 (dual-class, counted once) | 1 |
+| **TOTAL** | **87** |
+
+**86 observed in source. 1 described in a coder document only. Predicate published in the file.**
+
+**Three findings that change this roadmap:**
+
+**1. PIN-2 is already broken in the NEW world, today.** `JSON.stringify` writes into `first_person`
+three times in `src/acl.floor.db.js`, once on a continuation record - **in the hardened estate, in the
+exact file PIN-2 exists to protect.** A cold writer is the author of her first-person field right now.
+
+**2. The `limit 8` defect the estate wrote 53 lines of confession about, and removed from one file, is
+still live next door with different literals.** `readRecentResults(hamUid, 6)` and `.slice(0, 240)` on
+each fact of his life, joined into one string. **A shortened life handed over as a whole one.** This is
+why P0.2 sweeps for shapes rather than for known strings.
+
+**3. The worst single finding is eleven lines in one component.** A swallowed exception becomes an
+empty array, becomes a coder's template sentence, becomes **her voice in his room at high priority,
+first thing in the morning** - and nothing anywhere can tell the difference. **Cold code decided,
+classified, spoke, and expired his day, with her name on the output.** That is the whole pecking order
+inverted in one file.
+
+**And one that is not code at all:** a 61-line script classifies **his own recorded doctrine** by
+keyword dictionary, drops his short sentences, truncates the rest at 500 characters, keeps ten per
+category, and files one category under a name meaning purge-these. **Cold code ruling on what his words
+mean and which should be destroyed.** All four classes in one file.
+
 **Anti-goal, stated so it is not done by accident:** do not fix findings in this phase. A fix without
 an armed watcher is how the estate went backwards before.
 

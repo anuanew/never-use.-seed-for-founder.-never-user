@@ -216,8 +216,7 @@ classifies is a shared defect** - the most efficient way to spread nasty cough e
 
 Unanswered. Carried into `30_RESEARCH/RESEARCH_DOCKET.md`, not decided here.
 
-**Exit condition, receipt:** two distinct front ends rendering from one component source; a change
-made once appearing in both; the no-cold-behavior check passing on the shared set.
+**Exit condition, receipt:** the no-cold-behavior check passing on the shared component set, and the repo mechanics proven to carry it. **The two-front-ends receipt belongs to `R4` F2 and is not duplicated here** - an earlier version restated it word for word, which a critic correctly read as two roadmaps claiming one deliverable.
 
 ---
 

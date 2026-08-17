@@ -62,7 +62,7 @@ existing roadmap contains the pecking-order law or the temporary coder world. Th
 repository closes first.
 
 **2. Almost nothing is missing. Almost everything is built and not reaching a person.**
-The estate's own audit scores 22 items: **2 built, 14 partial, 6 not built.** The dominant state is
+The estate's own audit scores 22 items: **2 built, 14 partial, 6 not built** - though one of the two builts is a claim nobody curled. The dominant state is
 partial, and partial is the dangerous one - it has a name, a route, a file, and a roadmap row all
 saying it exists. All eleven crossover reports converge on one seam: green source, green CI, green
 deploys, and **not one completed human-facing turn.**

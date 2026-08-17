@@ -120,7 +120,9 @@ picker, is the same button in the same code that GMGU is using, or that CCWA is 
 **Outcome:** the smallest shared visual and interaction system that carries navigation, threading,
 drilldown, and private per-HAM scope.
 
-**Entry condition:** F1 live and exercised. Repo mechanics owned by `R3` S3.
+**Entry condition:** F1 live and exercised.
+
+> **OWNERSHIP, corrected.** An earlier version made this and `R3` S3 each other's entry condition, with word-for-word identical exit receipts. A critic found the cycle. **Resolved: `R4` F2 owns the component system and its receipt. `R3` S3 owns only the repository mechanics that carry it, and takes its inventory FROM F2.** The receipt lives here, once.
 
 ### Sub-phase F2.1 - Reconcile the glass canon before writing a line of CSS
 **There are three incompatible glass specifications in the corpus and no one has reconciled them:**

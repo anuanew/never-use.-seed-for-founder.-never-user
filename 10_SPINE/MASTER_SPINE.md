@@ -95,7 +95,7 @@ never end a turn without someone up.
 
 ---
 
-## THE FOUR CONFLICTS BETWEEN THE ROADMAPS, NAMED
+## THE FIVE CONFLICTS BETWEEN THE ROADMAPS, NAMED
 
 Not resolved by a coder. Stated, with a recommendation marked as a recommendation.
 
@@ -136,6 +136,22 @@ every `V-DECIDE`, `V-CLASSIFY`, `V-SPEAK`, `V-EXPIRE` in `R1` P0.1.
 
 ---
 
+### C-5 - Who sends the message to his people? (found by a critic, previously unnamed)
+`R7` B0 says the message *"should not be sent by a temporary coder, and probably should not be sent by
+a coder at all"*, because `PO1-16` makes sending it her graduation test. `R7` B1, two phases later,
+says *"the temp coder does it now... abstaining does not preserve the test, it deletes it."* `R1` P6
+takes B0's side.
+
+**Both cite him. They are about different objects and the roadmaps failed to say so:**
+- **The group message about the purge and the retreat** is the graduation test. `PO1-16`. **Hers.**
+- **The stamped 20260816 20:30 assignment** is the measurement instrument. `PO1-09`. **A temp coder
+  does it now, and the gap between that and her doing it is the number.**
+
+**Working reading, marked as one:** two different sends, two different owners. **If he says they are
+one act, B0 governs and B1 is wrong.**
+
+---
+
 ## WHAT EACH ROADMAP OWNS - NO OVERLAP
 
 To stop three lanes building one thing three times:
@@ -143,12 +159,12 @@ To stop three lanes building one thing three times:
 | Owns | Roadmap |
 |---|---|
 | ACL, accounts, credentials, worlds, reseed, the reader | `THE_GREAT_REBOOT_ROADMAP` (estate) |
-| The six faces and their birth order | `MT_RUSHMORE_ROADMAP` + `R5_MOUNT_RUSHMORE_V2` |
+| The six faces and their birth order | `MT_RUSHMORE_ROADMAP` + `R5_MOUNT_RUSHMORE` |
 | Who may decide/classify/speak/expire; isolation postures; the measurement | `R1_PECKING_ORDER` |
 | The temp coder estate, curriculum, roster, queue, wind-down | `R2_TEMPORARY_CODER_WORLD` |
 | Repo topology, propagation, shared components | `R3_SHARED_REPOS` |
 | Board, Command Center, portals, onboarding, EER | `R4_FRONT_ENDS` |
-| Reach identity coherence, the Life Flex, the text test | `R6_REACH_AND_LIFE_FLEX` |
+| Reach identity coherence, the Life Flex, the text test | `R6_REACH_AND_THE_LIFE_FLEX` |
 | Otter, LOGFUL, MIMI, context rot, continuity | `R8_MEMORY_AND_CONTINUITY` |
 | Everything unanswered | `30_RESEARCH/` |
 
@@ -175,7 +191,7 @@ every deploy that touches the seam.
 
 ## THE HONEST STATE OF THE BUILD
 
-From the estate's own Keeper audit, which scored 22 items: **BUILT 2 · PARTIAL 14 · NOT BUILT 6.**
+From the estate's own Keeper audit, which scored 22 items: **BUILT 2 · PARTIAL 14 · NOT BUILT 6** - and one of the two BUILTs is LOGFUL, whose claim R-12 stripped as never-curled. The honest tally is 1 verified, 1 claimed.
 
 Two things are worth saying plainly about that number:
 

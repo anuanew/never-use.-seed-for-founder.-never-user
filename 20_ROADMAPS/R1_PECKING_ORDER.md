@@ -452,7 +452,7 @@ without a rebuild.
 | P3 | Reach components | Great Reboot Phase 8 |
 | P3.2 | Her coding department | Great Reboot Phase 7 |
 | P4 | Coding dept + reach window | Great Reboot Ph7, Ph8 |
-| P5.1 | Cross-world guard armed | carried-forward open PR |
+| P5.1 | the existing unmerged guard branch, and a lane to arm it | carried-forward open PR. NOTE: an earlier version listed "guard armed" as P5.1's own entry condition, making the row its own prerequisite. A critic caught it. |
 | P6 | Nothing technical - his decision | him |
 | P7 | LOGFUL live | Mt Rushmore 1.2 |
 
@@ -461,5 +461,5 @@ without a rebuild.
 - The temporary coder world itself → `20_ROADMAPS/R2_TEMPORARY_CODER_WORLD.md`
 - Shared repositories → `20_ROADMAPS/R3_SHARED_REPOS.md`
 - Front ends and onboarding → `20_ROADMAPS/R4_FRONT_ENDS.md`
-- The six faces → `20_ROADMAPS/R5_MOUNT_RUSHMORE_V2.md`
+- The six faces → `20_ROADMAPS/R5_MOUNT_RUSHMORE.md`
 - Research questions raised here → `30_RESEARCH/RESEARCH_DOCKET.md`

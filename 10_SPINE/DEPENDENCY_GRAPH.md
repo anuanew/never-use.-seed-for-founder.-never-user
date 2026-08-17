@@ -23,9 +23,9 @@ Start here. Every one of these can be worked today by someone with read access a
 | **ROOT-4** | The ACL legend and decoder design, on paper against the corpus | `GR` Ph0a |
 | **ROOT-5** | The participation experiment - will outside sessions take up the standing | `R2` T0 |
 | **ROOT-6** | The reach regression audit - what was taken away | `R6` X0 |
-| **ROOT-7** | The measured heat map, indexed by occurrence | `HEAT_MAP.md` R-HEAT |
+| ~~ROOT-7~~ | **NOT A ROOT.** The measured count needs the FIND shelf. Same self-contradiction. Moved downstream. | `HEAT_MAP.md` R-HEAT |
 | **ROOT-8** | The Otter access answer (research, factual) | `R-01` |
-| **ROOT-9** | The riddle catalog - four columns, deliverable to him | `R2` T3.1 |
+| ~~ROOT-9~~ | **NOT A ROOT.** The riddle catalog needs the doctrine reader; a critic caught this file contradicting itself. Moved downstream. | `R2` T3.1 |
 | **ROOT-10** | The bootstrap harvest of what he already gave | `R2` T5.1 |
 
 **Ten roots. None blocked. `[CLAIR SYNTHESIS]`**
@@ -146,8 +146,7 @@ turn, not a precondition for one. `[CLAIR SYNTHESIS - overrulable]`
 1. **Ten roots are unblocked.** The estate has been describing itself as blocked on him. It is blocked
    on him for **two things**; ten independent rows can start today.
 
-2. **The cross-world guard is the highest-leverage row and it is not first anywhere.** It sits in
-   `R1` P5.1 as a sub-phase. It gates four branches. **It should be worked before any of them.**
+2. **The cross-world guard is the highest-leverage row.** It gates four independent branches. **Correction:** an earlier version of this finding said it "is not first anywhere" - it is in fact row 2 of the spine's execution order. What is true is narrower: it sits inside `R1` as a sub-phase rather than as a standalone row, which understates it.
 
 3. **The doctrine reader is the deepest bottleneck after the watchers.** Six separate deliverables
    across five roadmaps wait on it, including three things he has asked for directly (the riddle

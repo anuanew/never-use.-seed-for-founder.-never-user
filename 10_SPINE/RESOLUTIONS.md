@@ -354,16 +354,25 @@ and corrected before publishing). Current measured state, all seven phase-shaped
 
 | Roadmap | Sub-phases / phases | Density | Commit |
 |---|---|---|---|
-| `R1_PECKING_ORDER.md` | 33 / 9 | 3.67 | earlier this session (E1.10) |
+| `R1_PECKING_ORDER.md` | 33 / 9 | 3.67 | `bb1d8d3` (E1.10, +7 to Phase P1) |
 | `R2_TEMPORARY_CODER_WORLD.md` | 38 / 7 | 5.43 | `38644e8` |
-| `R3_SHARED_REPOS.md` | 20 / 6 | 3.33 | earlier this session |
+| `R3_SHARED_REPOS.md` | 20 / 6 | 3.33 | `9ec1b5a` (created at 19) + `e9151a7` (+1) |
 | `R4_FRONT_ENDS.md` | 47 / 9 | 5.22 | `e2bc0f3` |
 | `R6_REACH_AND_THE_LIFE_FLEX.md` | 34 / 6 | 5.67 | `0d2da66` |
-| `R7_PRE_ALPHA_AND_THE_BUSINESS.md` | 22 / 6 | 3.67 | earlier this session |
+| `R7_PRE_ALPHA_AND_THE_BUSINESS.md` | 22 / 6 | 3.67 | `c26ca6d` (created at 22, unchanged since) |
 | `R8_MEMORY_AND_CONTINUITY.md` | 35 / 7 | 5.0 | `e2102a3` |
 
+**Commit hashes corrected here** - a PMS/nasty-cough sweep flagged three rows as citing only "earlier
+this session," not independently checkable the way a hash is. Traced each via `git log -- <file>` and
+`git show <hash> -- <file> | grep -c '^+### Sub-phase'` rather than guessing: `R1`'s 7 newest sub-phases
+landed in `bb1d8d3`; `R3` was born at 19 sub-phases in `9ec1b5a` and gained one more in `e9151a7`; `R7`
+has not been touched since its original creation in `c26ca6d` - its density is what it was born with,
+not a result of this session's decomposition push, and it is stated as such rather than implied
+otherwise.
+
 (`R5_MOUNT_RUSHMORE.md` uses six Faces, not numbered Phases, so this density metric does not apply to
-it in the same shape - it carries 19 sub-phase-equivalent entries across its own structure instead.)
+it in the same shape - it carries **19** sub-phase-equivalent entries across its own structure instead,
+`[MEASURED - grep -cE '^### Sub-phase' 20_ROADMAPS/R5_MOUNT_RUSHMORE.md]`.)
 
 **Honest read: real, verified progress, still short of "roughly twelve."** Every one of these numbers
 moved up from where the retraction found them, every addition carries either a verbatim corpus quote

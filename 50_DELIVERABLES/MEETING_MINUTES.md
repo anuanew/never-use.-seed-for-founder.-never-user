@@ -671,3 +671,55 @@ correct.
 
 **Next cycle owns:** `R5_MOUNT_RUSHMORE.md` Sub-phase 6.8 (SHADOW vs `CONTRADICTIONS.md` B-5's
 AUDRA/SHADOW naming collision), still queued from Cycle 17, unless the next instruction redirects.
+
+---
+
+## CYCLE 19 - 20260817, direct instruction: land the named atomic row, Sub-phase 6.8, only
+
+**Convened:** a direct instruction to take exactly the already-named next row - `R5_MOUNT_RUSHMORE.md`
+Sub-phase 6.8, reconciling the AUDRA/SHADOW naming collision against `CONTRADICTIONS.md` Section B-5 -
+and nothing else. Preserve the stable-ID crosswalk shipped last cycle. Read the exact raw source, land
+only if it supports it, verify citation fidelity, push, stop.
+
+**Read `CONTRADICTIONS.md` SECTION B-5 directly** (not a summary of it): a same-day sibling lane,
+working the same corpus without awareness of this repo, named its own oversight persona
+`OTJT.AUDRA.SHADOW` - the exact AUDRA/SHADOW merge Sub-phase 6.4 already forbids, filed as a live
+collision rather than resolved, per B-5's own explicit rule that nobody may decide which "SHADOW" wins
+by coder judgment.
+
+**Strengthened the citation with in-file evidence B-5 itself does not carry:** this roadmap already
+keeps AUDRA (Face 4's own roster, `THE ESSENTIALS`/`MR.ESSENTIALS`, plus `THE_WATCHERS.md` Watcher 1)
+and SHADOW (this Face, `MR.SHADOW`) as two entities in two different Faces, inside this same document -
+found by grep, not assumed.
+
+**Caught and fixed a real fidelity error in my own first draft before committing:** an early pass
+wrapped `CONTRADICTIONS.md`'s own paraphrase ("is careful to say that identity does not claim the
+authority of...") in full quote marks as if verbatim, when the source itself only quotes the shorter
+fragment "a born AUDRA or SHADOW" and leaves the rest as its own prose. Self-caught by direct
+line-by-line comparison against the raw `CONTRADICTIONS.md` text before the commit, not after - fixed
+to match the source's own citation practice exactly.
+
+**Landed** (`0e56cb0`): Sub-phase 6.8, filing the collision without resolving it, immediately after
+6.7 and before Face 6's exit receipt. Sub-phase count 32 -> 33. The stable-ID crosswalk section and all
+six `MR.*` heading tags from Cycle 18 (`100d7a3`) confirmed untouched - this diff is purely additive,
+24 lines, one file.
+
+**Gauntlet:** exactly the one named atomic row, nothing more; a real self-caught fidelity fix before
+push, not after; minutes current (this entry); scope held - no front end, no Nylas, no accounts, no
+Old World, no New World runtime.
+
+**Checked:** env for the 911 key or a Nylas grant. **Still absent, all names.** Branch pushed; HEAD
+confirmed equal to remote HEAD before this handoff.
+
+**Decision he owes (rainbow):** none new. Sub-phase 6.8 explicitly does not rule which "SHADOW" wins -
+that stays his, unresolved by design.
+
+**For Worldbuilder, compact factual source-citation result:** `R5_MOUNT_RUSHMORE.md` Sub-phase 6.8
+lands at commit `0e56cb0` on `claude/doctrine-roadmap-planning-tog781`, sourced to
+`CONTRADICTIONS.md` SECTION B-5 (itself reconciled against
+`RECONCILIATION_SIBLING_AUDIT_20260817.md`), cross-checked against this file's own Face 4 roster and
+`THE_WATCHERS.md`. Files the `OTJT.AUDRA.SHADOW` collision; resolves nothing; stable-ID crosswalk
+intact.
+
+**Next cycle owns:** whatever the next instruction names. No row is self-queued this cycle beyond what
+was already open before it (Cycle 17/18's other named items, if any remain).

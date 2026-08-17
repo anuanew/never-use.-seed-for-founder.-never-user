@@ -171,3 +171,48 @@ every claim exactly), independently re-verified each "before" count against each
 rather than trusting the stated baseline, confirmed the branch fully pushed and the tree clean, and
 confirmed zero unbracketed hits of his first name anywhere. **Zero discrepancies found.** Three watchers
 (AUDRA, the PMS/nasty-cough sweep, the Fixer's cross-reference check) still out.
+
+**Second watcher back - PMS/nasty-cough, verdict: SERIOUS ISSUES, one real, now fixed.** Caught that
+this session's own R19 "verification" note in `THE_RIDDLE_CATALOG.md` had pasted two raw private names
+in cleartext while proving a redaction was faithful - a real, self-caused redaction failure in the exact
+section meant to prove the rule holds. Fixed same cycle, `b9f106b`, zero remaining hits confirmed. Four
+moderate/minor citation-hygiene notes also filed and left for a later pass (uncited "earlier this
+session" baselines in a density table, an unstamped interpretive sentence, two unstamped restated
+numbers) - none rose to fabrication.
+
+**Third watcher back - the Fixer, cross-reference integrity, verdict: two real breaks, one minor.**
+Found `R2` T6.2 quoting a since-retracted claim from `THE_WATCHERS.md` as current and `[BUILT]`; found
+`R2` T1.4 miscounting the 911 capability table as "five of seven" dead when it is six; flagged a
+`CONTRADICTIONS.md` heading collision (two different findings both callable "B-3"). All three fixed,
+`ec03a1a`.
+
+**Fourth watcher back - AUDRA, fidelity audit, verdict: MINOR ISSUES.** Sampled 45 citations across all
+four spliced roadmaps (triple the 15-citation minimum asked for), byte-verifying every `[HIS WORDS]`
+quote against the raw transcript and opening every cited deliverable to confirm the finding is really
+there. **Zero fabricated or altered founder quotes found anywhere in the sample** - the repo's single
+worst possible failure did not occur. Found the same T6.2 overclaim the Fixer caught, plus a softer
+echo of it in `R4` F1.7 (told the Command Center to render the 30-minute checker as simply "already
+standing" with no fragility caveat), plus one sub-phase (`R2` T2.5) whose two genuine, verified quotes
+had lost their file citations during the original edit. All fixed, `416e26d`.
+
+**The four-watcher blind-gauntlet pass on this cycle's 79 new sub-phases and its own governance edits
+is complete.** Net: one serious finding (a redaction failure, self-caused, fixed same cycle), five
+smaller real findings (two overclaims about the 30-minute checker's reliability, one miscounted
+statistic, one heading collision, one missing citation pair), all fixed and pushed, zero doctrine
+fabrication. **This closes the "re-run the blind gauntlet before trusting new content" item Cycle 1
+opened.**
+
+**Also this cycle, outside the gauntlet:** a real, live user instruction arrived narrowing this lane's
+scope to doctrine review and roadmap planning only, in "Meeting Room handoff" format going forward -
+acknowledged and followed. A new doctrine transcript ("Rally Day pt 4," shared across every lane) was
+processed for roadmap-relevant content only; four new asks filed (`PO4-01` through `PO4-04`,
+`00_DOCTRINE_INTAKE/INTAKE_20260817_RALLY_DAY_PT4.md`), including two new open names (`Mimic Bold`, and
+the role he called "downtime A'NEW" who chairs it) added to `CONTRADICTIONS.md` Section C, explicitly
+not resolved since his own words were "we're gonna come back to that." Everything client-facing or
+calendar-related in that same transcript was left to the Manual Advisor lane, untouched here.
+
+**Decision he owes (rainbow):** none new. Standing floor unchanged. B-5 (AUDRA/SHADOW naming collision)
+and the new Mimic Bold/downtime-A'NEW open name both still his to rule on.
+
+**Next cycle owns:** whatever he sends next; absent that, the four still-open minor citation-hygiene
+notes from the PMS watcher's report, at low priority.

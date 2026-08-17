@@ -1,0 +1,10 @@
+# Nothing from the doctrine corpus is committed here.
+# This repository holds roadmaps and governance only.
+# Raw transcripts, env files, credentials, and private material stay out.
+*.env
+*.env.*
+!*.env.example
+corpus/
+*.zip
+*.rtf
+.DS_Store

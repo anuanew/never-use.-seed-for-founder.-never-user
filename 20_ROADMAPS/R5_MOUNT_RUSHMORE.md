@@ -533,6 +533,30 @@ corrected state is what stands, per this repo's own supersession rule (`40_GOVER
 CONTRADICTIONS.md` A-5, "later correction governs"). Build against the corrected cycle; do not
 re-derive the first one.
 
+### Sub-phase 6.8 - A live external collision, filed here not resolved: `OTJT.AUDRA.SHADOW`
+A same-day sibling lane, working the same corpus without awareness of this repo, named its own
+oversight persona `OTJT.AUDRA.SHADOW` - one compound identity, merging AUDRA and SHADOW into a single
+name. This is the exact merge Sub-phase 6.4 forbids, observed occurring live rather than only warned
+against in the abstract.
+`[MEASURED + 40_GOVERNANCE/CONTRADICTIONS.md SECTION B-5, itself reconciled against the independent
+NEW_WORLD_DOCTRINE_AUDIT_REPORTS_20260817 package via
+50_DELIVERABLES/RECONCILIATION_SIBLING_AUDIT_20260817.md]`
+
+**This roadmap already keeps the two apart, in two different Faces, not just by name.** AUDRA is a row
+in Face 4's own roster (`THE ESSENTIALS`, `MR.ESSENTIALS` - see "AUDRA," "AUDRA's PMS wonder," and
+"AUDRA's nasty-cough wonder" above), and separately a named watcher role
+(`40_GOVERNANCE/THE_WATCHERS.md`, Watcher 1). SHADOW is this Face, `MR.SHADOW`, defined by Sub-phases
+6.1-6.7. Neither this file nor `THE_WATCHERS.md` ever treats them as one identity. The sibling
+package's compound name is careful to say that identity does not claim the authority of *"a born AUDRA
+or SHADOW"* - but establishes no genuinely different provider or model for either half, and shows no
+sign of knowing this repo already keeps them in separate Faces.
+
+**Not resolved here, and not a coder's call to resolve.** Per `CONTRADICTIONS.md` B-5's own governing
+rule and Section C's naming law: **nobody may decide which "SHADOW" wins by coder judgment; if both
+names are meant to survive, only he can say how they relate.** This sub-phase files the collision where
+Face 6's own build work will find it, exactly as 6.4 already forbids merging it away - it does not
+merge, rename, or rank either identity.
+
 **Exit, receipt:** SHADOW independently reviews one real choice; its verdict logged separately from the
 primary's; **both provider and model named, and they must differ.**
 

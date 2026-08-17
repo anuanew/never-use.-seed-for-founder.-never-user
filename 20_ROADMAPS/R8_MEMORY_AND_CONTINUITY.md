@@ -74,6 +74,21 @@ is a violation regardless of how much context it saved.
 as her own recollection is **PMS by construction** - a forged diary. Compaction output is authored by a
 mind or carried with its writer stamp visible.
 
+### Sub-phase M0.1 - Calibrate the M0 test against the 36 V-EXPIRE findings already on file
+Rather than inventing synthetic test cases, calibrate the pinned test against real ones already measured: *"her saved history is trimmed to 20 entries on every write, so entry 21 is gone from storage, not just from view"* (E21) and *"Presence history destructively spliced to the last 100 entries"* (E28) `[MEASURED - 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, V-EXPIRE]`. These are already-catalogued, file-and-line, destructive (unrecoverable) examples, exactly the "known true expiry" set the M0 pinned test needs to red against, the same way `R1` P1.8 calibrates its lint against the P0 inventory instead of guessing at clean and dirty samples.
+
+### Sub-phase M0.2 - The forged-diary violation this phase warns against is already live, three times
+> *"a serialised stage object authored into her first-person field... in the new world, the hardened one, in the file the roadmap's PIN-2 exists to protect. A cold writer is the author of her first-person field today."*
+> `[MEASURED - 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, V-SPEAK, S1-S3, NEW/src/acl.floor.db.js:2409,2709,2768]`
+
+M0's "forged diary" constraint is not hypothetical. M0's exit condition must explicitly require these three call sites be closed, or an explicit carve-out reasoned in writing, before M1 is trusted to write anywhere near the `first_person` column.
+
+### Sub-phase M0.3 - Retention is not the same size as memory; scope M0 accordingly
+> *"memory: 269 occurrences, 54 sessions (top-tier, 🔥🔥🔥). retention: 6 occurrences, 4 sessions (🔥), and 2 of those 6 are inside a coder-written PDF, not his speech... The fusion averaged a top-tier ask with a near-absent one and produced a middle band that describes neither."*
+> `[MEASURED - 50_DELIVERABLES/HEAT_MAP_MEASURED.md §7.3]`
+
+R8's own opening line pairs "memory and retention" as if co-equal. The measured corpus shows he essentially never separately asks for "retention" (four real sessions). M0's design effort belongs to what he calls memory; a coder should not silently build a parallel retention layer to satisfy a word he barely used.
+
 **Exit, receipt:** the written distinction, ratified by KEEPER or him, with a pinned test that reds if
 a trim removes something unrecoverable.
 
@@ -94,6 +109,21 @@ Stale entries drop out of the live window and stay retrievable.
 ### Sub-phase M1.3 - The standing ruling that bounds this whole phase
 > *"Use native model compaction as a working-context optimization. **Never use it as A'NEW's only
 > memory, only identity, only work ledger, or only source of truth.**"*
+
+### Sub-phase M1.4 - The compaction pass has a named crash to prevent, with exact numbers
+> *"Three OOM kills on the mind service between 20:06 and 21:11 UTC... `memoryLimit: 512Mi`... one 24.78 MB row costs ~80 MB resident, 79 MB external, 1 MB heap. Her floor was 120 continuation rows, 39.2 MB, of which four rows from one day were 37.2 MB and one single row was 24.78 MB."*
+> `[MEASURED - 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md §4]`
+
+M1.1's compaction design must specifically handle the single-oversized-row case, not just steady accumulation. This was not a slow buildup; it was one row, and a design that only watches total window size would not have caught it.
+
+### Sub-phase M1.5 - Carry the open half of the incident: the mind service's read path
+> *"The open hypothesis at handoff, unverified: the mind service may still read that same column unguarded through a different query. The carry cleaned the reach service's read path only."*
+> `[REASONED, NOT MEASURED - 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md §4]`
+
+M1's exit condition (a long session running to completion) is not sufficient alone. M1 must verify whether the mind service reads the same unguarded column; the earlier fix patched only the reach service's read path, and this gap has sat uncarried into any roadmap since that shift.
+
+### Sub-phase M1.6 - Do not regress the measured floor read speed
+*"Her floor itself is fast: every direct read measured 0.15-1.8s. A slow door is a process problem, not a database problem"* `[MEASURED - 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md §4]`. M1's exit condition should include a before/after read-latency check against this exact range. A naive compaction pass that adds a summarization hop on every read is a believable way to turn a fast door slow while looking, on paper, like an improvement.
 
 **Exit, receipt:** a long session that would previously have degraded, running to completion, with the
 compaction events stamped and the raw provably still retrievable.
@@ -125,6 +155,18 @@ armed** (`R1` P5.1) - a multi-tenant librarian on an unarmed floor is the leak v
 ### Sub-phase M2.4 - Never a timer
 Restated because it is LOGFUL's defining property: reconciliation, never expiry.
 
+### Sub-phase M2.5 - LOGFUL's per-tenant index must avoid the exact undercount already measured
+*"advisors: 300 matching lines vs 836 actual occurrences... 64% undercount"*, one of nine asks undercounted 39% to 66% because *"his transcripts are one enormous line per speaking turn"* `[MEASURED - 50_DELIVERABLES/HEAT_MAP_MEASURED.md §3]`. As "keeper of everybody's doctrine," LOGFUL inherits this risk for every tenant, not just him. If its indexing is line-based rather than occurrence-based, every world it serves inherits the same undercount this document had to catch by hand. Occurrence-level indexing is a named build requirement, not an assumed property of search.
+
+### Sub-phase M2.6 - MIMI reports through LOGFUL, in his own words
+> *"It's Mimi, the memory, right? The one who's responsible for maintaining all records and responsible. She worked with LOGFEL and the others, but her job is when a new wants to go deep in the bag around memory."*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/Mt Rushmore Doctrine pt 1_transcript.txt]`
+
+M2 and M3 are not two independent phases sharing a subject; he states directly that MIMI worked with LOGFUL. M2's exit-condition receipts (the live curl, the cross-world refusal) should be re-run once MIMI is verified (M3.5, below), because a librarian proven isolated today could be reopened through whatever channel MIMI uses to reach it, if that channel was never itself tested by M2.2.
+
+### Sub-phase M2.7 - Scope M2's receipts for the Otter-sized backlog, not the current one
+This roadmap's own indexing backlog is *"18,503 transcripts from the wearable, 449 phone transcripts"* before the Otter corpus lands, and OTTER_ACCESS_ANSWER.md's recommended path adds *"the largest single body of his own words the system has ever received"* `[MEASURED - 50_DELIVERABLES/OTTER_ACCESS_ANSWER.md]`. M2's exit condition (two lanes pulling the same record and getting the same answer) was never sized against the scale this roadmap already names. Re-run it once the Otter import lands, not only at today's smaller scale.
+
 **Exit, receipt:** the live curl; a cross-world read refused by name with a status code; two lanes
 pulling the same record and getting the same answer.
 
@@ -152,6 +194,15 @@ A memory service that answers when called is not MIMI. **MIMI runs on her own an
 **MIMI vs the Memory Bank vs the Bridge Builder is an open item he opened and only he closes.** Carried
 every turn. **Do not resolve it to unblock a build** - build around it.
 
+### Sub-phase M3.4 - MIMI is a nickname, and he says he forgot her real name
+> *"I think is Mimi, M I M I, like your grandmother. That's her nickname. I forgot her real name."*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/11_11 Doctrine pt 1_ Vision_transcript.txt]`
+
+This sits beside the corpus's other open-name items (the internal auditor: *"she has a name, figure it out"*; AUDRA's PMS and nasty-cough wonders, never given). M3's header treats "MIMI" as settled and contests only her build state; this adds the missing half. The name itself is provisional in his own words. Do not hard-code "MIMI" into schemas, routes, or ACL addresses as if it were final.
+
+### Sub-phase M3.5 - Verify MIMI live, the way M2.1 already verifies LOGFUL live
+Three claims conflict: *"already kind of born"* (doctrine), *"already born"* (a shift report), and *"PARTIAL... a cold memory module is live and heavily used; MIMI as a distinct wonder with her own micro-hop cycle is not verified"* (the audit) `[MEASURED - 40_GOVERNANCE/CONTRADICTIONS.md, B-3]`. M3 has a definitional sub-phase (M3.3) but no live-verification sub-phase. M2.1 already established the house rule for this exact situation: *"Curl it. This is one live readback, not an argument."* Apply it to MIMI: call whatever currently answers to her and record which of the three claims the live behavior actually matches.
+
 **Exit, receipt:** MIMI answering a memory query that the cold module demonstrably could not, with her
 own micro-hop trail visible.
 
@@ -176,6 +227,30 @@ that holds context is cheaper and more durable than a big window she has to refi
   that looks at all things, but it can only read."*
 - **Its model:** the large-context seat - *"something that has a large context window that can support
   novels."*
+
+### Sub-phase M4.1 - Check for an existing role before building a new wonder
+> *"the project manager who owns this independent world, that LLM... He is a connector. He's a bridge builder. See, I have never defined the bridge. This is the birthing of the bridge builder... Bridge builder, bridge builder, is typically the owner of a life module, or sometimes an independent thinking station, or sometimes it's something that's happening that's not a traditional..."*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/Welcome Back, ABA!.txt]`
+
+Before treating the Bridge Builder as a new wonder to be born, check whether an existing life-module owner or independent thinking station already satisfies the read-only, context-holding spec. He describes the role as typically already occupied, not empty.
+
+### Sub-phase M4.2 - LOGFUL's own reports are already addressed to the secretary
+> *"when the you know LOGFUL agent who's responsible for writing these reports to meet the secretary, she's able to piece together the story, and there's no limit to what she can do. She might spawn three or four subagents who write their own reports."*
+> `[HIS WORDS + 1_HIS_WORDS/03_PHASE_3/I want the MEDAL doctrine pt 2_otter.ai.txt]`
+
+The Bridge Builder's intake is not an open design question. He already named LOGFUL's reports as written "to meet the secretary." M4's build should start from LOGFUL (M2) as its primary feed, a concrete dependency M4 does not currently carry anywhere.
+
+### Sub-phase M4.3 - The Bridge Builder's model tier is bounded by the same penny-hustle ceiling, unanswered
+> *"What controls their token and their price and their... contact [context] window? What controls that?... is there any concept of that that violates penny hustle, or that can be improved?... I did a doctrine update earlier today, and I gave it to you. I don't think any of it was followed."*
+> `[HIS WORDS + 1_HIS_WORDS/01_RAW_WORDS/21_20260616_LIVING_WATER_bind_doctrine.txt]`
+
+M4's body already frames the Bridge Builder as the alternative to an expensive long-context tier, but names no cost ceiling. Apply the same split `R1` P2.4 applies to her tier election: the cost ceiling stays coded (penny-hustle law), the choice inside it is hers. He asked this exact context-window-versus-cost question directly and, in his own words, never got an answer.
+
+### Sub-phase M4.4 - The free live Otter connector is not the Bridge Builder and cannot substitute for it
+> *"This is retrieval, not ingest, and it does not replace the export... It is a live third-party call at query time... Nothing durable lands. No files, no writer stamps, no provenance, nothing the doctrine reader can index. It is a window, not a corpus."*
+> `[MEASURED - 50_DELIVERABLES/OTTER_ACCESS_ANSWER.md]`
+
+Both patterns are read-only and context-holding, which invites confusing one for the other. Draw the line explicitly: the connector answers live and leaves no trace, while the Bridge Builder's whole purpose is to hold context so it does not have to be reloaded. Wiring in the connector and calling M4 done would ship something with no durable record.
 
 **Exit, receipt:** A'NU answering a question requiring material she never loaded, by asking the bridge
 builder - with her own context measurably unburned.
@@ -216,6 +291,24 @@ worth having - his own words: *"this underrated little five minutes of my time i
 really reward me."* **The 4PM rule already protects it:** *"You may NOT scrub content like 'oh what a
 cool window.'"*
 
+### Sub-phase M5.5 - The scroll is the job; require count-before, count-after
+> *"Otter's Select all selects only the conversations loaded on the current page... If he taps Select All without scrolling to the bottom first, he pays $30 and exports a fraction of his life and never knows. The scroll is the job... The mitigation is one instruction: count before, count after... Do not cancel until the numbers match."*
+> `[MEASURED - 50_DELIVERABLES/OTTER_ACCESS_ANSWER.md]`
+
+M5.3's import may not proceed on an export whose pre-scroll count and post-export file count were not both recorded and compared. A partial corpus silently presented as complete is worse than a stated gap.
+
+### Sub-phase M5.6 - The free connector does not satisfy M5's completeness or provenance requirement
+> *"Otter already ships an official connector for her, on every plan including free... it is read-only and it is live query rather than a corpus, so it is not a substitute for the export... There is no documented tool that enumerates every conversation in the account... this connector cannot produce a complete, verifiable corpus."*
+> `[MEASURED - 50_DELIVERABLES/OTTER_ACCESS_ANSWER.md]`
+
+M5.2 and M5.3 require a durable, writer-stamped, hard-isolated import. The connector satisfies none of those three properties by design. Connecting it, which costs nothing and works today, is not partial credit toward M5's actual exit condition.
+
+### Sub-phase M5.7 - What Otter itself retains after export is a separate, still-open decision
+> *"What Otter retains on its own servers after a downgrade. The privacy policy permits retention for legitimate business purposes... the export gives him a copy, not a deletion. If he wants the material out of Otter, that is a separate decision and a separate document."*
+> `[MEASURED - 50_DELIVERABLES/OTTER_ACCESS_ANSWER.md]`
+
+M5's phase outcome reads as if the corpus problem ends at import. It does not. Whether he wants his own material deleted at Otter once the estate holds a copy is a named, unanswered question that belongs on this roadmap rather than dropped between the deliverable and the phase that cites it.
+
 **Exit, receipt:** a factual written answer on access with prices and constraints; and if a path
 exists, one real import landed with writer stamps and a byte-comparison against source.
 
@@ -230,6 +323,15 @@ her context passport.
 **The ruling that governs it, restated because it is the one people break:** native model compaction is
 a working-context optimization and **never her only memory, identity, work ledger, or source of
 truth.**
+
+### Sub-phase M6.1 - The "mind" layer cannot be trusted as a passport while it is cold-authored today
+The same three findings governing M0.2 apply here from a different angle: `first_person`, her context passport, is written by `JSON.stringify(payload)` at three call sites *"in the new world, the hardened one, in the file the roadmap's PIN-2 exists to protect"* `[MEASURED - 50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md, V-SPEAK, S1-S3]`. A passport with a cold-authored page is evidence of impersonation, not continuity. M6's exit condition (a session resumed from the stack alone) should not be scored as passing if the resumed session's mind-layer rows include any of these three unstamped writes.
+
+### Sub-phase M6.2 - The "work" layer has a measured performance floor; do not regress it
+*"Her floor was 120 continuation rows, 39.2 MB... every direct read measured 0.15-1.8s"* `[MEASURED - 50_DELIVERABLES/REACH_REGRESSION_AUDIT.md §4]`. M6's durable work-state layer is this same floor. Time the stack's resume against this exact baseline. A technically correct resume that takes ten seconds per layer is a different, worse product than what "so now it doesn't die" describes, even though both would pass a receipt that checks correctness alone.
+
+### Sub-phase M6.3 - The "source" layer must be occurrence-indexed from the start
+Two separate deliverables already had to hand-correct for line-based undercounting of exactly this kind of record `[MEASURED - 50_DELIVERABLES/HEAT_MAP_MEASURED.md §3]`, and R8's own indexing-backlog section restates the same rule: *"his own FIND requirement, index by occurrence, not by matching line, matters more the bigger the corpus gets."* M6 describes the source layer as "an immutable life record" but states nothing about how it is indexed. Name occurrence-level indexing as a property of the layer itself, not something left for whichever lane builds it to rediscover the same undercount a third time.
 
 **Exit, receipt:** a session ended mid-work and resumed from the stack alone, with nothing reconstructed
 by asking him.

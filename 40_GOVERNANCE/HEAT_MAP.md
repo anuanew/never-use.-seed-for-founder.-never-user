@@ -1,5 +1,12 @@
 # THE HEAT MAP - WHAT HE ASKS FOR OVER AND OVER
 
+> **SUPERSEDED 2026-08-17. DO NOT QUOTE THE BANDS BELOW.**
+> The measured count now exists at `50_DELIVERABLES/HEAT_MAP_MEASURED.md`.
+> Of the 28 banded entries below, 22 were checkable against real occurrence counts. **17 were wrong**,
+> 1 was half right, 4 were right, and one entry (the reward system) turned out to be an ask the founder
+> has **never once made** in his own words. This file is retained only as the record of what was guessed
+> and how far the guess missed. Every number that governs work now comes from the measured map.
+
 > *"Examine how many times I repetitively ask for the same thing over and over again, and **turn that
 > into a heat map**... how many times have I asked for Agent Span."*
 > - The crossover doctrine

@@ -1,3 +1,32 @@
+# MEASURED HEAT MAP
+
+> ## ⚠️ ONE HEADLINE FINDING IN THIS FILE IS REFUTED. READ THIS FIRST.
+>
+> This file reports that `\brewar\w*` returns **0 occurrences** across 110 sessions and 776,734
+> words, and concludes the "reward system" is an ask a coder invented.
+>
+> **That conclusion is wrong, and this file's own declared gap explains why.** The corpus it searched
+> was `1_HIS_WORDS/` only, and **both Pecking Order sessions are not in that tree** - the file says so
+> itself under "declared uncountable."
+>
+> **Verified against the raw transcript, independently:**
+> `grep -roi "reward system"` over the FULL corpus returns **2 hits**, both in
+> *There is a Pecking Order Doctrine pt 2*, in one sentence of his:
+>
+> > *"That's called the reward system, right? When we teach our users, we teach our users a reward
+> > system."*
+>
+> **`[MEASURED - grep run over the full corpus including the Pecking Order tree, output read back]`**
+>
+> **The reward system is his, said twice in one breath, in the newest doctrine in the corpus.** `R4` F7
+> stands. Nothing is deleted.
+>
+> **Why this is recorded here rather than quietly fixed:** a zero from a search that excluded the file
+> the term lives in is the most dangerous shape of number there is - it looks like proof of absence.
+> The seat did the honest thing and declared its gap; **the failure would have been mine, for reading
+> the headline and not the caveat.** Every other count below carries the same boundary: the two
+> Pecking Order sessions are missing from all of them.
+
 # THE MEASURED HEAT MAP
 
 > *"I want you to examine how many times I repetitively ask for the same thing over and over again, and

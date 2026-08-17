@@ -20,6 +20,48 @@ evidence and the roadmap is opinion.
 
 ---
 
+## SUPERSEDED BY MEASUREMENT - 17 OF MY 22 CHECKABLE CALLS WERE WRONG
+
+`50_DELIVERABLES/HEAT_MAP_MEASURED.md` replaced these guessed bands with counts. **The guess was mostly
+wrong, which is exactly why he ordered the measured one.** `[MEASURED - predicate published there]`
+
+**The method point, proven rather than asserted:** a single speaking turn runs to **4,176 characters**,
+so `grep -c` undercounts occurrences by **39% to 66%** on identical patterns. Advisors: 300 lines
+against **836 occurrences**.
+
+| What I guessed | What it measured | Verdict |
+|---|---|---|
+| ACL: bottom tier 🔥 | **273 occurrences, 51 sessions** | **Wrong by two bands.** Should be 🔥🔥🔥 |
+| "Nasty cough is the most-repeated constraint in the entire corpus" | 124 occurrences, **31 of 110 sessions (28%)**, and **not present before 2026-07-01** | **False.** Not "nearly every session", and not old |
+| PMS 🔥🔥🔥, implied running since June | **20 occurrences, 4 sessions, first 2026-08-12** | **Wrong.** It is a LATE ask, not an old one |
+| Conversation vehicle 🔥🔥 "asked repeatedly across several sessions" | **1 occurrence, 1 session** | **Wrong** |
+| Memory + retention fused at 🔥🔥 | memory **269/54** (🔥🔥🔥); retention **6/4**, two of six inside a coder PDF | **Wrong in both directions** |
+| Job descriptions, first 20260603 last 20260814 | first **2026-06-13**, last **2026-08-16** | **Both dates wrong** |
+| Agent SPAN as a top-tier ask | **118 occurrences, 31 sessions - 13th** | Overstated |
+| (never banded) advisors | **844 occurrences, 79 of 110 sessions** | **The #1 ask in the corpus by a wide margin** |
+| (never banded) world builder 166 · STAMP family 221 · SHADOW 150 | ten asks he says constantly | **Omitted entirely** |
+
+**And he named three asks in the very sentence ordering the heat map** - Agent Span, Agent Taste, Agent
+Transcript. **My map banded one and omitted the other two.** Taste measures 103/28; Agent Transcript
+31/17.
+
+**What survives:** the roadmaps call, the advisors band, shared repos, and the bridge builder. Reach's
+🔥🔥🔥 survives only on a loose predicate and is marked contaminated.
+
+### The one finding in the measured file that I refuted
+It reports zero occurrences of "reward" and concludes the reward system was invented. **It was not.**
+Its search excluded the two Pecking Order sessions, which is where he says it twice in one sentence.
+**Verified independently against the raw transcript.** `R4` F7 stands.
+
+### What this changes in the roadmaps
+**ACL moves up two bands**, which supports the Great Reboot putting it at Phase 0. **Advisors are the
+single loudest ask in the corpus and are currently four born chairs with three failed end-assignment
+tests.** And **finding 1 below needs qualifying**: PMS being a late ask means heat does not correlate
+with age uniformly - some of the hottest things are recent.
+
+
+---
+
 ## HONEST METHOD NOTE, BEFORE THE NUMBERS
 
 **These are graded bands, not exact occurrence counts.** A true count requires the FIND shelf indexing

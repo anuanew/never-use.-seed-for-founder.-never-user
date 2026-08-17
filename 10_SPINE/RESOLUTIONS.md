@@ -354,21 +354,25 @@ and corrected before publishing). Current measured state, all seven phase-shaped
 
 | Roadmap | Sub-phases / phases | Density | Commit |
 |---|---|---|---|
-| `R1_PECKING_ORDER.md` | 33 / 9 | 3.67 | `bb1d8d3` (E1.10, +7 to Phase P1) |
+| `R1_PECKING_ORDER.md` | 39 / 9 | 4.33 | `bb1d8d3` (+7 to P1) then `4172acd` (+6, P0/P1/P2/P5/P8) |
 | `R2_TEMPORARY_CODER_WORLD.md` | 38 / 7 | 5.43 | `38644e8` |
-| `R3_SHARED_REPOS.md` | 20 / 6 | 3.33 | `9ec1b5a` (created at 19) + `e9151a7` (+1) |
+| `R3_SHARED_REPOS.md` | 24 / 6 | 4.00 | `9ec1b5a`+`e9151a7` (19+1=20) then `e2be8db` (+4) |
 | `R4_FRONT_ENDS.md` | 47 / 9 | 5.22 | `e2bc0f3` |
 | `R6_REACH_AND_THE_LIFE_FLEX.md` | 34 / 6 | 5.67 | `0d2da66` |
-| `R7_PRE_ALPHA_AND_THE_BUSINESS.md` | 22 / 6 | 3.67 | `c26ca6d` (created at 22, unchanged since) |
+| `R7_PRE_ALPHA_AND_THE_BUSINESS.md` | 29 / 6 | 4.83 | `c26ca6d` (created at 22) then `7a77e3b` (+7) |
 | `R8_MEMORY_AND_CONTINUITY.md` | 35 / 7 | 5.0 | `e2102a3` |
 
-**Commit hashes corrected here** - a PMS/nasty-cough sweep flagged three rows as citing only "earlier
-this session," not independently checkable the way a hash is. Traced each via `git log -- <file>` and
-`git show <hash> -- <file> | grep -c '^+### Sub-phase'` rather than guessing: `R1`'s 7 newest sub-phases
-landed in `bb1d8d3`; `R3` was born at 19 sub-phases in `9ec1b5a` and gained one more in `e9151a7`; `R7`
-has not been touched since its original creation in `c26ca6d` - its density is what it was born with,
-not a result of this session's decomposition push, and it is stated as such rather than implied
-otherwise.
+**A real Workflow (10 agents: mine, verify, audit) pushed R1/R3/R7 further and fresh-audited
+R1/R3/R5/R7, `2026-08-17` afternoon.** Every proposed addition was independently verified against the
+raw corpus before landing, not applied on the drafting agent's word - two insertions were rejected
+outright by the verify pass and one required a real rewrite (R1 P0.4: the drafted "~90 calls" figure
+was itself wrong, traced to the same overstatement sitting uncorrected in
+`50_DELIVERABLES/PECKING_ORDER_VIOLATIONS.md` since it was written; fixed at the root, `3e5033d`, and
+in the roadmap, `4172acd`). The same pass caught and fixed a real unredacted associate's nickname
+(`4172acd`) and a real date-math error (`7a77e3b`). The fresh audit found and fixed 3 findings in `R1`,
+4 in `R3`, 5 in `R5`, 4 in `R7` - altered/truncated quotes with no ellipsis, coder-authored lines
+presented as his recorded voice, one misattributed phase reference, and one word corrupted from "pin"
+to "pen" that also made R5 internally inconsistent with R2's correct quote of the same line.
 
 (`R5_MOUNT_RUSHMORE.md` uses six Faces, not numbered Phases, so this density metric does not apply to
 it in the same shape - it carries **19** sub-phase-equivalent entries across its own structure instead,

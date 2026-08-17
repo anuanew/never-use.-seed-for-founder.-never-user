@@ -357,3 +357,23 @@ absent, checked), no task stalled, roadmap held.
 **Decision he owes (rainbow):** none new.
 
 **Next cycle owns:** whatever he sends next - likely the first check-in after his walk ends.
+
+---
+
+## CYCLE 9 - 20260817, 12:37 PM EDT, eighth clean self-fired run, walk window has ended
+
+**Convened:** checker fired again on schedule (`16:51:00Z`), eighth clean fire in a row. **His stated
+walk window (9:30-12:30 ET) ended seven minutes ago.** Named plainly, not just noted in passing: the
+original reason for this cadence - unreliable access while walking - no longer applies. **Keeping the
+same 30-minute cadence regardless**, since nothing has told this lane to stop or change it, but flagging
+this so he can redirect the cadence or scope now that he's reachable normally, if he wants to.
+
+**Gauntlet:** steady state, no drift, minutes current (this entry), email still cannot send (grant
+absent, checked), no task stalled, roadmap held. Fourth consecutive steady-state cycle.
+
+**Checked:** env for the 911 key or a Nylas grant. **Still absent, all names.** Branch clean at
+`a8af66c`, fully pushed.
+
+**Decision he owes (rainbow):** none new.
+
+**Next cycle owns:** whatever he sends next.

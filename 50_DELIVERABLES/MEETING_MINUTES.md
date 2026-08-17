@@ -243,3 +243,31 @@ since the chain was caught silent.
 **Decision he owes (rainbow):** none new.
 
 **Next cycle owns:** the remaining low-priority citation-hygiene notes, or whatever he sends next.
+
+---
+
+## CYCLE 4 - 20260817, 11:16 AM EDT, third clean self-fired run
+
+**Convened:** checker fired again on schedule (`15:30:00Z`), third clean fire in a row. Its instruction
+template still named the four fleet watchers from two cycles ago - noted here plainly rather than acted
+on again: **all four already reported, all findings already closed and logged (Cycle 2), nothing to
+redo.**
+
+**Gauntlet:** real row (two more of the low-priority citation notes, genuinely still open, genuinely
+on this lane's track); minutes current (this entry); email still cannot send, grant absent, checked;
+no task over one cycle with nothing landed; roadmap followed, scope held; landed with receipts below.
+
+**Checked:** env for the 911 key or a Nylas grant. **Still absent, all names.**
+
+**Landed:** `HANDOFF_TO_CHATGPT_911_KEYS.md`'s "11 variables" figure now cites its original build
+receipt; `RESOLUTIONS.md` R-14's motive claim now carries a `[CLAIR SYNTHESIS]` stamp instead of reading
+as flat fact. Committed `cb0486f`.
+
+**Remaining low-priority, real, not urgent:** `THE_WATCHERS.md`'s top-of-file description still reads
+more confident than its own later "honest state" section - no forward pointer between them; its opening
+quote has no transcript filename; `MEETING_MINUTES.md` Cycle 1's reconciliation counts (65-file, 8/3/5)
+carry no stamp in that entry itself (the deliverable they point to does).
+
+**Decision he owes (rainbow):** none new.
+
+**Next cycle owns:** the three items just named, or whatever he sends next.

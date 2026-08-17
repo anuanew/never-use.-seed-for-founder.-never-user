@@ -5,12 +5,19 @@ the right thing... recording meeting minutes... But then you should also have a 
 three, right, who are actually doing work. One might be Audra auditing the other chats. One might be
 exclusively focusing on PMS and nasty cough. And then another one might be the fixer. And then that
 fourth one comes in, and it watches you. It makes sure everybody else is doing good."*
+`[HIS WORDS - arrived as a live chat paste during Rally Day, not an uploaded transcript file, so no
+corpus file path exists to cite here; same provenance gap as the original Rally Day pt 1/pt 2 dictation
+generally. Noted honestly here after an audit flagged the missing citation, rather than inventing one.]`
 
 This file is that structure, built and standing. It is `E4` of the execution plan made real.
 
 ---
 
 ## THE 30-MINUTE CHECKER (the gauntlet that watches the watcher)
+
+**Read the "HONEST STATE OF THIS FILE" section at the bottom before trusting the word "real" anywhere
+below - the checker is a self-rearming one-shot chain, not a server-side cron, and it has already gone
+silent once.**
 
 **Cadence:** every 30 minutes while he walks. Fires into this session, runs the checklist, writes the
 report, pushes it, surfaces it. **The send-as email is staged and sends the instant a grant exists.**

@@ -95,7 +95,9 @@ agent's own self-reported number:**
   returned zero live triggers at `14:25:57Z`. Re-armed (`trig_01NJRRdqhz43oyZ1vj4AiXx1`, next fire
   `14:57:00Z`) and the gap recorded in `THE_WATCHERS.md` itself, not just here.
 - The sibling `KEEPER` lane's independent 65-file package reconciled, not merged: 8 confirmations, 3
-  contradictions, 5 items of new material, landed as
+  contradictions, 5 items of new material `[MEASURED - full counting method and every individual item
+  in 50_DELIVERABLES/RECONCILIATION_SIBLING_AUDIT_20260817.md; this line restates its totals, not a
+  separate count]`, landed as
   `50_DELIVERABLES/RECONCILIATION_SIBLING_AUDIT_20260817.md`. Its single most important finding - a
   naming collision between this repo's AUDRA/SHADOW and the sibling's compound `OTJT.AUDRA.SHADOW` -
   filed as `CONTRADICTIONS.md` Section B-5, an open item for him, not resolved by coder judgment.

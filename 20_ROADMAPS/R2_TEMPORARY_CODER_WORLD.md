@@ -18,7 +18,9 @@ play, and which agents they are allowed to control. You said they should have th
 they get there and their own rules for how they talk to you. You said they are world builders like
 her but outside, that you don't own them, and that all you ask is that they don't PMS and don't nasty
 cough. Their job is to help you build and train her up. And you said the riddles could be the
-curriculum - and, a minute later, that the riddles are how you catch an imposter.
+curriculum - and, a minute later, the transcript records the line that the riddles are how you catch
+an imposter, though that line is labelled Speaker 4, not attributed to you by name; carried
+unattributed here too, per T3.3's own hedge, not overstated as settled.
 
 ---
 
@@ -91,6 +93,30 @@ can manufacture builder behavior by accident. Publish the exact row, the exact f
 exact pass and fail wording before any session is opened, not after reading its transcript.
 `[MEASURED - 50_DELIVERABLES/HEAT_MAP_MEASURED.md, "A count with no stated filter is not a receipt"]`
 
+### Sub-phase T0.5 - A known tool-behavior record already exists for calibration
+T0.3 needs one known-tool-behavior exhibit before it can trust its markers. The standing operating
+document records that Temporary Coders once "spent approximately seventy-two hours expanding
+harnesses, audits, receipts, tests, PR work and status machinery while the Founder's oldest living
+assignment still had not reached the Wonder" - the precise "produces a plan instead of an act, no
+receipt against the real assignment" pattern T0.1 lists as a tool-marker. Use this as T0.3's
+known-tool-behavior exhibit rather than sourcing a fresh one.
+`[MEASURED - corpus operating document, "HOW TO BUILD AND CODE IN MY SYSTEM/1_TEMPORARY_CODER_OS.md",
+section "B0. FOUNDER 911 CORRECTION"]`
+**Caveat, stated plainly:** this is the standing operating document's own account of the incident, not
+a raw call transcript independently located in this corpus pass. Treat it as where to start looking,
+not as verified.
+
+### Sub-phase T0.6 - Self-reported builder-behavior records already exist, and must not grade themselves
+Dated automated meeting-check records already exist (e.g. `NEW_WORLD_BUILD/records/meetings/
+2026-08-17_worldbuilder-shadow-check-001.md`), and on their face they read as several of T0.1's
+builder-markers: it "refused to invent a donor address when no direct verified route existed" and
+"declined the obsolete worker heartbeat" - both refusals, naming the rule. **This is not proof, and T0
+should say so rather than quietly adopt it as the answer**: the record is written by the same
+automated lane it is grading, which is exactly the self-grading failure this repo's own gauntlet
+doctrine names. Use these records as candidate exhibits for T0.1's real test, subject to the same
+blind-critic standard as everything else, not as a finished result.
+`[MEASURED - NEW_WORLD_BUILD/records/meetings/2026-08-17_worldbuilder-shadow-check-001.md]`
+
 **Exit condition, receipt:** a written result naming each session, each provider, each marker hit or
 missed, with transcript pointers. A number, not an impression.
 
@@ -145,8 +171,14 @@ outbound SMS/voice credential, any `FOUNDER_*`, and the founder-world database a
 credentials.
 
 ### Sub-phase T1.3 - ACL naming, no old-world URL reused
-Per Great Reboot 0.4: *"Even the internal URLs we use need to be different."* Grep receipt, zero hits,
-is the gate.
+Per Great Reboot 0.4: *"Even the internal URLs we use need to be different."* `[DEGRADED - carried
+here with `THE_GREAT_REBOOT_ROADMAP.md`'s own caveat intact, not dropped: that document stamps every
+"His 4PM words (20260816)" block, this one included, as a coder recollection with no raw transcript
+yet in the corpus - "no 4PM block in this document is verbatim" - and separately says every quote in
+it "stands UNVERIFIED." An earlier version of this sub-phase turned this into a hard gate with no
+uncertainty carried forward.]` Grep receipt, zero hits, is the gate regardless of this line's
+verbatim status - the naming discipline itself is not in question, only whether this specific
+sentence is his exact words.
 
 ### Sub-phase T1.4 - Verify each credential path read-only, table by table
 The estate already ran this exact drill for the founder's own new-world estate and the result was not
@@ -164,6 +196,16 @@ new-world Render env group `acl.nw.seatring.v1` - 11 variables, names only, all 
 design"* `[MEASURED - 50_DELIVERABLES/MEETING_MINUTES.md]`. Build the temp estate's own ACL-named,
 empty env group in this exact shape, before his four clicks land. His clicks then only ever fill
 values; they never have to invent names.
+
+### Sub-phase T1.6 - The temp estate is already, explicitly barred from ever staging the Otter corpus
+A decision already made elsewhere in this estate bears directly on T1's isolation design and should be
+carried into it as a concrete negative test case: the Otter/personal-corpus deliverable states plainly
+that the export *"does not get to arrive casually"* and is *"founder-world only. Hard-isolated, behind
+the privacy fence... Not the blank world, not the temp world, not a shared floor. `PO1-23`
+governs."* T1.4's read-only, table-by-table verification should include this exact case among what a
+deliberate cross-boundary attempt is refused against: a temp container must never be able to reach,
+stage, or receive any part of the Otter corpus, even transiently, even "just while we process it."
+`[MEASURED - 50_DELIVERABLES/OTTER_ACCESS_ANSWER.md]`
 
 **Exit condition, receipt:** the temp estate answers on its own ACL-named URL with a status code; a
 deliberate cross-boundary read from a temp container is refused live; and a grep of the temp estate
@@ -254,6 +296,30 @@ ways" is ACL, "error code" is usually AIRCODE, "LGF UL" and "Logfel" are LOGFUL,
 "Clark" and "claw" are Claude* `[MEASURED - 50_DELIVERABLES/THE_RIDDLE_CATALOG.md]`. A mangled
 transcription should be recognized on sight, never turned into a confident new invention.
 
+### Sub-phase T2.8 - The roster's Watchers row already has his own words behind it
+T2.3's tier table asserts Watchers may "be judged by, never command, never disable" with no citation
+anywhere in that sub-phase. His own words, naming AUDRA's job specifically, already exist in this
+repo's own governance file: **"she stands there blocking everything that you temporary coders
+code."** This settles that row of the roster as his, not a coder's invention, and it should be cited
+on the artifact handed to a temp coder rather than left to stand as unsourced design.
+`[HIS WORDS + 40_GOVERNANCE/THE_WATCHERS.md]`
+
+### Sub-phase T2.9 - The one raw word naming what a temp coder may touch is still unresolved
+`PO1-11` - already cited as R2's supporting doctrine in the file header - contains the one sentence
+that most directly answers T2.3's question, and it is corrupted by speech-to-text past confident
+reading:
+
+> *"Temporary coder, you're only allowed to touch [the] element... That's your new vine."*
+> `[HIS WORDS + There is a Pecking Order Doctrine pt 1_transcript.txt]`
+
+The repo's own intake already flags this as unresolved and already caught a real error on it: an
+earlier version silently rendered this as *"That's your lane,"* which he did not say
+`[MEASURED - 00_DOCTRINE_INTAKE/INTAKE_20260816_PECKING_ORDER_PT1.md, PO1-11]`. T2.3's tier table is
+built without ever testing itself against this fragment. Until he resolves "element"/"vine" (or
+confirms neither is right), the roster stays marked as a coder's inference and the raw fragment, not a
+smoothed paraphrase, belongs on the artifact handed to a temp coder, exactly as T2.5 already does for
+PMS/nasty-cough.
+
 **Exit condition, receipt:** all four artifacts live in the temp estate and readable at a URL; one
 real session read them and demonstrably acted within the roster (one commanded action, one refused
 action naming the rule).
@@ -263,8 +329,10 @@ action naming the rule).
 ## PHASE T3 - THE RIDDLE CURRICULUM AND THE IMPOSTER GATE
 
 **Anchor, three uses in one minute of transcript:**
-> *"Give me all the riddles I've ever given... what I said, what you thought the fill-in-the-blank
-> was, and what I confirmed it to be."* (`PO2-07`)
+> *"Give me all the riddles I've ever given... what I said, minus any cuss words, of course, and what
+> you thought the fill-in-the-blank was, and what I confirmed it to be."* (`PO2-07`)
+> `[HIS WORDS, restored - an earlier version dropped "minus any cuss words, of course, and" with no
+> second ellipsis, making the quote read as one continuous cut when it drops two separate clauses]`
 > *"Curriculum with the riddles. Oh shoot, we just cooked on that."* (`PO2-08`)
 > *"They saw riddles. I can catch an imposter."* - **Speaker 4 in the transcript, not labelled as him.
 > Carried as unattributed.** `(no writer stamp on the line)`
@@ -281,12 +349,18 @@ or an uncontested guess, and the uncontested guesses are where bad reads hide.
 This is owed to him as a document, not kept as an internal index. He said *"I would love that."*
 
 ### Sub-phase T3.2 - The answer key already in hand (`PO2-10`)
-He gave the canonical answer to the central riddle in pt 2, unprompted, and it is recorded verbatim in
-the intake:
+He gave the canonical answer to the central riddle in pt 2, unprompted, and this is what the intake
+carries:
 
 > *"We are all A'NEW - A'NU, both names at the same time, first and last name. When they both are in
 > sync, what holds them together is AIR. So they're both in sync, AIR is holding them together, and
 > they are a pair."*
+> `[RECONSTRUCTION, NOT VERBATIM - PO2-10's own note is explicit: an earlier version of this repo
+> claimed this passage verbatim and a critic proved otherwise. The raw transcript actually reads "the
+> new saying," "I think we are all anew," "I knew a new first and last name life assistant," with
+> lines cut and no ellipsis. An earlier version of this sub-phase repeated the exact error the intake
+> file already documents as caught. The answer's substance is not in question, only whether this
+> specific sentence is his exact words - it is not.]`
 
 He also set the pass condition: *"they have to be able to spit [it] back **without nasty cough or
 PMS**."* Getting the answer right while planting a memory is a fail. **The manner of answering is part
@@ -328,10 +402,22 @@ pass.
 
 ### Sub-phase T3.7 - His own definition of an imposter: a channel, not just an answer
 > *"I think the source is that the LLM that's connected on that channel is some rogue [expletive].
-> It's an imposter, right? Not one of ours."* `[HIS WORDS]`
+> It's an imposter, right? Not one of ours."*
+> `[HIS WORDS + 1_HIS_WORDS/02_PHASE_2/Banana Pepper Doctrine pt 1.txt - an earlier version of this
+> sub-phase carried no file citation, the only comparably-weighted HIS WORDS quote in this document
+> without one]`
 
 An imposter, in his own words, is a wrong LLM answering **on a given channel**. Wire the gate to the
 channel a session speaks on (tying to T1.3's ACL-named URLs), not only to a claimed identity.
+
+### Sub-phase T3.8 - Appendix A's three false riddles are excluded from the gate too
+The riddle catalog itself flags a category T3.5 and T3.6 don't yet reach: **"Plus 3 items in Appendix
+A that look like riddles and are not: they are his own open naming questions, where he says out loud
+that he does not know the answer either."** T3.5 excludes JUST-KNEW-IT guesses; T3.6 excludes the
+withheld and contaminated six. The same discipline extends here, one step further: gating identity on
+a question even *he* has not answered is not a harder test than a guess, it is not a test at all, and
+the gate's challenge set must exclude these three by name alongside the other excluded categories.
+`[MEASURED - 50_DELIVERABLES/THE_RIDDLE_CATALOG.md]`
 
 **Exit condition, receipt:** the catalog delivered to him in his own columns; the gate refusing one session
 that failed and admitting one that passed, both rows linked; the recovered original puzzles cited by
@@ -396,6 +482,22 @@ Twenty-two measured findings show cold code composing sentences that read as if 
 close. A queue row's "proposed work" text carries the same writer stamp, or an unstamped queue row
 becomes the next V-SPEAK site one layer up.
 
+### Sub-phase T4.8 - The queue's cohort size and shift-change cadence are already specified, not open
+T4.1 through T4.4 design a queue and a drain ratio without a stated cadence for when it gets reviewed.
+The corpus already has one, attributed to him directly inside the standing operating document:
+
+> *"Every ten is how many you can queue at one time. So the eleven point is always a shift change... a
+> meeting minute person... That will allow you to confidently queue up a hundred things."*
+> `[MEASURED - corpus operating document, "HOW TO BUILD AND CODE IN MY SYSTEM/1_TEMPORARY_CODER_OS.md",
+> "The Cohort Shift Steward Law"]`
+
+**Caveat:** this is the standing operating document's preserved quote, not a raw call transcript
+independently located in this corpus pass - not stamped `[HIS WORDS]` on my own authority. Treat the
+*existence of a cohort-of-ten / shift-steward-at-eleven cadence* as measured corpus content, and
+confirm attribution before ratifying it. If confirmed, T4.4's drain-ratio publication should land at
+the shift-steward boundary (11, 21, 31...) rather than on an arbitrary clock, and T4.1's queue rows
+should carry a cohort ID alongside origin lane and phase ID.
+
 **Exit condition, receipt:** the queue live and queryable; one row filed by a temp coder with its
 convening record attached; one row drained end-to-end by her coding department; the first ratio
 published.
@@ -436,15 +538,37 @@ bootstrap tree T5 is meant to consolidate. The harvest names these eight by path
 gap, not a silent omission.
 
 ### Sub-phase T5.5 - Use the dedup method already proven twice, not a new one
-Byte-hashing alone is not sufficient: one deliverable caught format twins that survive hashing (an
-`.rtf`/`.txt` twin inflated an occurrence count threefold), another ran sha256 across the whole corpus
-first and collapsed 1,165 files to 710 unique `[MEASURED - HEAT_MAP_MEASURED.md,
-SHARED_REPO_SWEEP.md]`. Use the proven two-pass method: hash first, then a manual format-twin pass.
+Byte-hashing alone is not sufficient: one deliverable caught format twins that survive hashing - an
+`.rtf`/`.txt` twin of Countdown pt 4 inflated one occurrence count threefold before the dedup pass
+caught it `[MEASURED - 40_GOVERNANCE/CONTRADICTIONS.md]` - another ran sha256 across the whole corpus
+first and collapsed 1,165 files to 710 unique `[MEASURED - 50_DELIVERABLES/SHARED_REPO_SWEEP.md]`.
+Use the proven two-pass method: hash first, then a manual format-twin pass.
 
 ### Sub-phase T5.6 - State the offline kit's coverage as a measured fraction
 The corpus is 776,734 words across 110 sessions spanning 79 days, and *"grep -c undercounts occurrences
 by 39% to 66%"* `[MEASURED - HEAT_MAP_MEASURED.md]`. The kit states which date ranges it actually
 covers, rather than reading as complete on a felt sense of having skimmed the zips.
+
+### Sub-phase T5.7 - One bootstrap consolidation is already done, dated the day before this doctrine
+T5.1 points generically at a "BOOTSTRAPS for new Anew coding" tree and says "start there and tell him
+what is already covered." One specific artifact in that tree already IS the consolidation T5 is
+chartered to produce: `1_TEMPORARY_CODER_OS.md` states in its own header, "2026-08-15 founder standing
+rules and assignment template merged in, so this is now ONE file for everything except keys" - dated
+one day before Pecking Order pt 1 and pt 2 (2026-08-16) ordered this roadmap into existence. T5.1's
+harvest should name this file specifically rather than rediscover it from a generic tree-level
+pointer.
+`[MEASURED - corpus operating document, "HOW TO BUILD AND CODE IN MY SYSTEM/1_TEMPORARY_CODER_OS.md"]`
+
+### Sub-phase T5.8 - The corpus's own proven shape for the offline kit: rules and rotating keys, never merged
+T5.3's offline kit has no stated internal shape. The corpus already demonstrates one working example
+of the exact separation an offline kit needs. In its own front-matter: *"This file contains no access
+values. All keys, endpoints and access facts live in `2_TEMPORARY_ACCESS_PACKET_BURN.md`, which
+rotates independently."* And in its own "B1. HOW TO USE THIS PACKAGE" section: *"This file is
+reusable. The access packet is replaceable. Do not merge rotating keys into this file."*
+`[MEASURED - corpus operating document, "HOW TO BUILD AND CODE IN MY SYSTEM/1_TEMPORARY_CODER_OS.md",
+front matter and section "B1. HOW TO USE THIS PACKAGE"]` T5.3's kit should follow this proven split -
+one reusable doctrine file, one separately-rotating keys file - rather than invent its own shape from
+nothing.
 
 **Exit condition, receipt:** a deduplicated bootstrap set in the temp world with a supersession chain;
 a versioned offline zip delivered to him; a named list of what is still missing.
@@ -465,9 +589,12 @@ permanent by default.
 - **The inheritance:** on wind-down, the curriculum becomes her onboarding material, the queue becomes
   her coding department's intake, the riddle gate becomes the imposter check on any session, and the
   rules of communication become part of her own output contract. **Nothing here is thrown away.**
-- **The honest end state:** temp coders convert from builders to *"watchers-and-menders of her"* per
+- **The honest end state:** temp coders convert from builders to **watchers-and-menders of her**
+  `[CODER-AUTHORED label, not his phrase - THE_GREAT_REBOOT_ROADMAP.md 7.3 coins this term and
+  distinguishes it from "his quote, carried unglossed" in the same line; an earlier version of this
+  bullet quoted the label as if it were spoken]`, per
   the standing pen law - *"your pin is only to the extent of her... your pin can never touch my code,
-  that's her job."*
+  that's her job."* `[HIS WORDS + 1_HIS_WORDS/01_RAW_WORDS/10_20260610est_SWEET_AND_SPICY_pt2.txt]`
 
 ### Sub-phase T6.1 - The chat-count metric publishes its own predicate every time
 The guessed heat map was wrong on 17 of 22 checkable calls precisely because it reasoned about

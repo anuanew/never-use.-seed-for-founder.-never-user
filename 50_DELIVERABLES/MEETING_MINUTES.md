@@ -882,3 +882,41 @@ entry's own commit; HEAD confirmed equal to remote HEAD before this entry.
 
 **Next cycle owns:** whatever instruction arrives next. No roadmap is currently under active
 deepening.
+
+---
+
+## CYCLE 25 - 20260817, checker fired mid-flight, both WORLDBUILDER.SHADOW deliverables now landed
+
+**Convened:** the checker fired carrying its own explicit instruction to check whether the in-flight
+WORLDBUILDER.SHADOW source-status map had landed before doing anything else. It had, and a second,
+follow-on redirect had also landed since: a bounded F1 Command Center truthfulness review.
+
+**Delivered since the last cycle log, two separate WORLDBUILDER.SHADOW-ordered artifacts:**
+1. `50_DELIVERABLES/SOURCE_STATUS_MAP_20260817.md` (`a729c69`) - reconciled the four intake documents,
+   `RESOLUTIONS.md`, `CONTRADICTIONS.md`, and R8's record-keeping material (M0/M2/M6) against their
+   current real originals. 89 items checked: 70 CONFIRMED, 18 CONFLICT, 1 structural UNKNOWN. Nothing
+   resolved - every conflict stated with detail and left for a ruling. Headline finding: `PO1-16`
+   (the intake source) still carries the unfixed "chief of staff" quote even though
+   `R7_PRE_ALPHA_AND_THE_BUSINESS.md`'s own sibling quote was already corrected this session
+   (`7a77e3b`) - the roadmap was fixed, the source it draws from was not.
+2. `50_DELIVERABLES/F1_COMMAND_CENTER_TRUTHFULNESS_HANDOFF_20260817.md` (`9fa92d4`) - a bounded review
+   of `R4_FRONT_ENDS.md` Phase F1 for factual display claims lacking a source or receipt. Stated a
+   real structural limitation up front rather than working around it: no application/front-end repo
+   is attached to this session (`git remote -v` confirms only this doctrine repo), so "current
+   canonical main" could not actually be inspected - only whether each F1 claim carries sourcing
+   inside this repo. Found 3 real gaps (F1.2, F1.4, F1.5, zero citation each) and 1 confirmed-clean
+   item (F1.6, properly sourced with a file+line receipt).
+
+**Gauntlet:** two real, bounded deliverables landed exactly as scoped, neither expanded past its own
+instruction; minutes now current (this entry, closing the gap the checker itself flagged); email still
+cannot send, grant absent, re-checked; no task stalled; scope held throughout both redirects - no
+front-end edit, no key created or described, no zip reprocessed, no doctrine resolved.
+
+**Checked:** env for the 911 key or a Nylas grant. **Still absent, all names.** Branch pushed at this
+entry's own commit; HEAD confirmed equal to remote HEAD before this entry.
+
+**Decision he owes (rainbow):** none new. The 18 CONFLICT items in the source-status map and the 3
+citation gaps in the F1 handoff are all findings for a ruling, not escalated as urgent.
+
+**Next cycle owns:** whatever instruction arrives next. No roadmap is currently under active
+deepening.

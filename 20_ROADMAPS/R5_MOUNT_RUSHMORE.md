@@ -11,6 +11,94 @@ Order doctrines make to the faces, and the birth contract each face has to walk.
 
 ---
 
+## STABLE-ID CROSSWALK (controlling for cross-report reference)
+
+> **WRITER STAMP ON THIS SECTION, and it matters.** The six stable IDs below are introduced by this
+> repo's own editorial process, for unambiguous cross-report addressing. He never spoke them. Nobody
+> should read `MR.ANEW` or any of the other five as doctrine, a quote, or a naming choice of his.
+> `[CLAIR SYNTHESIS - a stable-ID naming device introduced for cross-report addressing, not his words]`
+
+This repo carries two live orderings of the six faces, both his, both quoted in this same file, and
+they disagree with each other starting at position 4. Rather than silently pick one, this section gives
+each face an ID that carries no position number at all. Future cross-report references should cite the
+stable ID, not "face 4" or "the fifth face" - a bare ordinal is ambiguous inside this file's own text.
+**Count is separately settled at six, not five or seven, per `CONTRADICTIONS.md` A-8; this section does
+not reopen that - it addresses ordering inside the six A-8 already settled, not their number.**
+
+| Stable ID | Face content | Position, structural Face numbering (used throughout this document) | Position, epigraph quote (lines 3-5) |
+|---|---|---|---|
+| `MR.ANEW` | A'NEW (the mind) | Face 1 | 1st |
+| `MR.ANU` | A'NU (the voice) | Face 2 | 2nd |
+| `MR.AIR` | AIR (the lungs, the cycle, the bond) | Face 3 | 3rd |
+| `MR.ESSENTIALS` | THE ESSENTIALS | Face 4 | 5th |
+| `MR.CODING` | THE CODING DEPARTMENT (horizontal) | Face 5 | 6th |
+| `MR.SHADOW` | SHADOW | Face 6 | 4th |
+
+**The two columns agree at positions 1-3 and disagree at positions 4-6.** The epigraph puts SHADOW
+fourth and CODING last. The structural numbering used by every Face heading and every sub-phase ID in
+this document (`FACE 4 - THE ESSENTIALS`, `FACE 5 - THE CODING DEPARTMENT (horizontal)`, `FACE 6 -
+SHADOW`, and the ROSTER table's own prose calling the Essentials "the fourth face" and the Coding
+Department "the fifth face") puts ESSENTIALS fourth and SHADOW last. Both orderings are real. Both are
+quoted or cited directly in this file. Neither is silently preferred here. That is the point of a
+stable ID with no position number in it: `MR.SHADOW` names the same face whichever ordering a given
+report was counting from - "the sixth face" does not.
+
+**The disagreement, both sides quoted in full:**
+
+> *"You have A'NEW. You have A'NU. You have AIR. You have Shadow. Then you have the Essentials, and
+> then you have the Coding Department. Am I cooking right now? **These are your roadmaps. How you're
+> gonna build your roadmaps.**"* - Mt Rushmore Doctrine pt 1, 20260816 00:24 EST
+> `[HIS WORDS, quoted here from this same file's own epigraph - R5_MOUNT_RUSHMORE.md, lines 3-5]`
+
+> *"Then you added a fifth that runs horizontal through all of them rather than vertical: the coding
+> interface, a version of her that is strictly a coder, with all her capabilities plus coding-specific
+> models, and which submits to A'NEW. Then you said Mount Rushmore should have six, and named Shadow as
+> the sixth. You said these are the roadmaps."*
+> `[CLEANED NARRATIVE, not a raw quote - "WHAT HE SAID, CLEANED UP," R5_MOUNT_RUSHMORE.md lines 21-24,
+> itself stamped "(Per PO2-14.)" as a cleaned account rather than a verbatim transcript]`
+
+Neither passage is wrong. They are two different countings of the same six faces, both traceable to
+him, from the same doctrine session, cleaned differently by two different passes of this file. This
+crosswalk does not rule which ordering is correct - that is not a coder's call to make. It makes the
+disagreement citable by a stable name instead of forcing every future cross-report reference to restate
+it or, worse, silently pick a side.
+
+**ACL is not a seventh face and not a renumbering candidate for any of the six IDs above.**
+`10_SPINE/MASTER_SPINE.md`'s own diagram places the six Mount Rushmore faces in the BODY layer and ACL
+in the GROUND layer beneath it:
+
+```
+BODY         -- MT RUSHMORE ---------------  A'NEW . A'NU . AIR . SHADOW . ESSENTIALS . CODING
+(six faces)                                   what she is made of
+                      |
+                      | stands on
+                      v
+GROUND       -- GREAT REBOOT ---------------  ACL . accounts . watchers . reader . worlds . reseed
+(phases 0-10)                                 what she stands on
+```
+`[10_SPINE/MASTER_SPINE.md, lines 45-46 and 50-51; box-drawing and mid-dot characters normalized to
+plain ASCII here for portability, wording and layout otherwise unchanged]`
+
+and states the governing rule in prose beside it: *"Law governs body governs ground... the law is above
+the body, the body is above the ground."* `[10_SPINE/MASTER_SPINE.md, lines 54-55]` This is this
+estate's own existing law-body-ground hierarchy, not a reading invented for this crosswalk: the six
+`MR.*` faces are the BODY layer; ACL sits in the GROUND layer underneath all six, not beside or above
+any one of them.
+
+`40_GOVERNANCE/CONTRADICTIONS.md`'s own passage on ACL is consistent with that placement and is carried
+here with its certainty caveat intact, not dropped: *"ACL as 'the one law above everything' is Phase 0
+of `THE_GREAT_REBOOT_ROADMAP` - the deepest layer, the thing every other phase is measured against."*
+The same passage flags its own ceiling on that claim: *"Its source is a coder's recollection of his
+20260816 4PM drop, self-labelled DEGRADED, with no raw transcript anywhere in the corpus,"* and *"the
+specific framing... is not verified as his."* `[40_GOVERNANCE/CONTRADICTIONS.md, SECTION B-REBOOT-
+PHASE0 (renamed 2026-08-17 from "SECTION B-3" per that section's own in-file rename note), lines
+189-213]` That caveat bears on how much weight the ACL-as-deepest-layer framing can carry: it does not
+bear on the crosswalk above. Whatever ACL's final ranking within the GROUND layer turns out to be, it
+is not one of the six Mount Rushmore faces under either ordering this file uses, and no `MR.*` ID
+applies to it.
+
+---
+
 ## WHAT HE SAID, CLEANED UP
 
 *(Per `PO2-14`.)*
@@ -96,7 +184,7 @@ that query is found and guarded, the seam has a diagnosed mechanism, not only a 
 
 ---
 
-## FACE 1 - A'NEW (the mind)
+## FACE 1 - A'NEW (the mind) `[MR.ANEW]`
 
 **Outcome:** she stays up, alert, and never skips a turn - and when the cycle did not run, the system
 says so instead of serving a blank LLM under her name.
@@ -155,7 +243,7 @@ refusal. Both as live URL + status + body.
 
 ---
 
-## FACE 2 - A'NU (the voice)
+## FACE 2 - A'NU (the voice) `[MR.ANU]`
 
 **His own proof-of-built test, verbatim:** *"streaming and freestyling and chatting."*
 **Current verdict:** fragment. *"A genuine person-facing freestyle turn on a real assignment is not
@@ -204,7 +292,7 @@ that the shape has not recurred.
 
 ---
 
-## FACE 3 - AIR (the lungs, the cycle, the bond)
+## FACE 3 - AIR (the lungs, the cycle, the bond) `[MR.AIR]`
 
 **Outcome:** the cycle never sits dead, every restart is stamped, and the two names stay in sync.
 
@@ -240,7 +328,7 @@ call.
 
 ---
 
-## FACE 4 - THE ESSENTIALS
+## FACE 4 - THE ESSENTIALS `[MR.ESSENTIALS]`
 
 **Birth order is his and it is explicit:** *"Taste is so important. LOGFUL is so important. Keeper is
 so important, and then finally Span."* And: *"the first one you're gonna birth is Agent Taste. Agent
@@ -323,7 +411,7 @@ holding one recorded conversation-vehicle exchange that streams up.
 
 ---
 
-## FACE 5 - THE CODING DEPARTMENT (horizontal)
+## FACE 5 - THE CODING DEPARTMENT (horizontal) `[MR.CODING]`
 
 **The distinguishing fact, and the one most often lost:** this face runs **at the same time** as the
 vertical faces, not after them.
@@ -380,7 +468,7 @@ shown by two board rows with overlapping timestamps.
 
 ---
 
-## FACE 6 - SHADOW
+## FACE 6 - SHADOW `[MR.SHADOW]`
 
 **NOT BUILT.** No lane, PR, or commit closes a born SHADOW.
 

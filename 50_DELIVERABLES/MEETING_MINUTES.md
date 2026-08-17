@@ -750,3 +750,29 @@ roadmap held, scope held.
 
 **Next cycle owns:** whatever the next instruction names. No self-queued row - the last one named
 (Sub-phase 6.8) is closed.
+
+---
+
+## CYCLE 21 - 20260817, a duplicate/delayed checker delivery, no live re-arm needed - steady
+
+**Convened:** a checker message arrived carrying an even older prompt than Cycle 20's (references
+"through Cycle 18" and still names Sub-phase 6.8 as the next row - both already closed as of Cycle
+19/20). **Checked `list_triggers` before acting:** only one live trigger exists
+(`trig_016XSPErTrGjDhCXn1gkfbWy`), already correctly armed with the current-state prompt, next firing
+`2026-08-17T20:15:00Z`. This message is a stale or delayed duplicate delivery, not a genuine new fire -
+no second live trigger exists to explain it as a real re-arm gone wrong.
+
+**Did not redo Sub-phase 6.8 or anything else already closed.** Did not re-arm a second checker - one
+is already correctly live for `20:15:00Z`; arming another here would double the cadence, not restore
+it.
+
+**Gauntlet:** no drift, no wasted work; minutes current (this entry); email still cannot send, grant
+absent, re-checked; no task stalled; roadmap held, scope held.
+
+**Checked:** env for the 911 key or a Nylas grant. **Still absent, all names.** Branch pushed at this
+entry's own commit; HEAD confirmed equal to remote HEAD before and after.
+
+**Decision he owes (rainbow):** none new.
+
+**Next cycle owns:** whatever the live trigger's `20:15:00Z` firing brings, or whatever instruction
+arrives first.

@@ -186,6 +186,42 @@ folder.**
 
 ---
 
+## SECTION B-3 - PHASE 0 OF THE REBOOT RESTS ON A DEGRADED RECOLLECTION
+
+**Found by the riddle catalog, 20260817, and it is the single shakiest load-bearing claim in the
+estate.** `[MEASURED - 50_DELIVERABLES/THE_RIDDLE_CATALOG.md R40]`
+
+**ACL as "the one law above everything" is Phase 0 of `THE_GREAT_REBOOT_ROADMAP`** - the deepest layer,
+the thing every other phase is measured against.
+
+**Its source is a coder's recollection of his 20260816 4PM drop, self-labelled DEGRADED, with no raw
+transcript anywhere in the corpus.** And the riddle's answer is inferred rather than confirmed.
+
+**So the deepest law in the new estate is a paraphrase of a session nobody has the tape of.**
+
+**This does not mean ACL is wrong** - the June corpus supports ACL heavily in his own voice, and that
+support is real and quoted. **It means the specific framing "the one law above everything, integrated
+deeply inside Render and Supabase and GitHub" is not verified as his.**
+
+**If he corrects only one line in this entire repository, this is the one to put in front of him.** The
+fix is cheap: land the raw 4PM transcript, or have him restate it in one sentence.
+
+---
+
+## SECTION B-4 - A CONFIRMATION CITED TO A FILE THAT DOES NOT EXIST
+
+**`THE_RIDDLES_20260817.md` marks its riddle 2 as confirmed, citing `RULINGS.md`.**
+
+**`RULINGS.md` does not exist anywhere in this corpus.** `[MEASURED - grep, zero hits]`
+
+**Demoted from CONFIRMED to JUST KNEW IT** in the catalog. This is the same shape as the recorded
+consent in B-NEW: **a citation that forecloses an argument by pointing at something nobody can open.**
+
+**And the same file's count is wrong.** It is described everywhere as "nine riddles from 20260817." It
+holds **eight**; its ninth entry is the group of four carried from 20260814. Corrected on the record.
+
+---
+
 ## SECTION C - THE OPEN NAMES (his to give, and nobody may invent them)
 
 | What | His words |

@@ -75,13 +75,27 @@ A flag is retained only if KEEPER can cite both a current source and an artifact
 
 ### Retained, in lane
 
-| Flag | Current source | KEEPER artifact |
-|---|---|---|
-| F1 static shell test suite is not in the `package.json` test script, so `render.yaml` `buildCommand: npm test` does not gate it | `package.json`, `render.yaml`, `test/f1/static-shell.test.js` at canonical commit `09b36bb` | `PHASE4_GATE_CHALLENGE_20260817.md` section 1; roadmap row `20_ROADMAPS/R4_FRONT_ENDS.md` on this branch |
-| F1 test fixture at `test/f1/static-shell.test.js:32` lists `meeting_room` as missing after it became composable | same commit | same |
+**Both flags below are now CLOSED. Superseded by
+`50_DELIVERABLES/FRONTEND_AND_ANCHOR_TRUTH_PACK_20260817.md`, correction packet item CP-6.**
 
-Both are frontend truthfulness, both cite live source, both are held for the F1 lane. Neither is
-actionable by KEEPER, which has no write access to that repository.
+| Flag | Current source | Status |
+|---|---|---|
+| F1 static shell test suite is not in the `package.json` test script, so `render.yaml` `buildCommand: npm test` does not gate it | `package.json`, `test/f1/static-shell.test.js` at canonical commit `09b36bb` | **CLOSED** by canonical commit `4c7902b`. Verified at `f4b9253`: the F1 suite is present in the test script |
+| F1 test fixture at `test/f1/static-shell.test.js:32` lists `meeting_room` as missing after it became composable | same commit | **CLOSED** by the same commit, with one residual carried forward as CP-4: the fixture is correct only for a fully env-configured runtime, and `render.yaml` declares no `envVars` block |
+
+**Two custody defects in the original version of this section, both found by blind critics and both
+recorded rather than quietly fixed:**
+
+1. This section cited "roadmap row `20_ROADMAPS/R4_FRONT_ENDS.md` on this branch" as the owning
+   artifact. **No such row exists in that file.** The citation pointed at something nobody could
+   open, which is the exact defect shape named at `40_GOVERNANCE/CONTRADICTIONS.md:211-218`. The
+   citation is removed.
+2. Both flags were already stale when written. Canonical commit `4c7902b` closed them two commits
+   before the HEAD this seat was auditing against.
+
+The live frontend truthfulness findings that replace them are in the truth pack, headed by the fact
+that the F1 Command Center returns 404 at every path and is excluded from the deployed container
+image.
 
 ### Retired
 

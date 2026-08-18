@@ -991,3 +991,25 @@ commit; HEAD to be confirmed equal to remote HEAD immediately after this commit.
 
 **Next cycle owns:** nothing, until one of the three named events arrives. This is the last cycle
 entry under the recurring-checker regime.
+
+---
+
+## EVENT-TRIGGERED ENTRY - 20260817, exact stable-crosswalk conflict event fired
+
+**Convened:** the first of the three named events since the checker cadence ended - a Founder course
+correction ordering resumption of work on the already-existing Mount Rushmore stable-ID crosswalk.
+Not a timer, no cadence resumed.
+
+**Delivered:** `50_DELIVERABLES/MR_STABLE_ID_INTEGRATION_PACKET_20260817.md` (`9e174d9`). Checked the
+"Ready and Resource mappings named in Rally Day" premise first - not found as described anywhere in
+the corpus; one real, unrelated thing was found instead (a "Ready day" rollout-schedule label) and
+named for completeness rather than forced into the requested shape. The stable-ID crosswalk itself
+(`R5_MOUNT_RUSHMORE.md` lines 14-98, `100d7a3`) was not rewritten, per instruction - this packet
+references it and adds an owner/proof-layer/acceptance-gate mapping, with "owner" explicitly scoped to
+the existing `DEPENDENCIES OUT` table's dependency chain rather than an invented personified role,
+since none exists in doctrine.
+
+**Checked:** sub-phase count re-verified at 33 before publishing, matching `RESOLUTIONS.md`'s current
+figure. Branch pushed at `9e174d9`, HEAD confirmed equal to remote HEAD.
+
+**No timer armed.** Holding again until one of the three named events.

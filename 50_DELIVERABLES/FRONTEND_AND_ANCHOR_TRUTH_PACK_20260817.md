@@ -362,6 +362,133 @@ orders. No lane can resolve this without him.
 - Canonical working tree confirmed clean, the pre-existing untracked `KEEPER_HANDOFF_20260817.md`
   left untouched.
 
+## 9. SOURCE CUSTODY ADDENDUM
+
+The fourth critic lane returned after this pack's first commit. Its findings are added here rather
+than restated elsewhere. Every item below was re-verified by this seat directly against raw source.
+
+### The headline is good news, and it is the question that mattered most
+
+**No fabricated founder quote exists anywhere in the canonical docs, and no coder-authored rule is
+presented as his recorded voice.** [RELAYED, critic grepped all 16 canonical docs for all six named
+coder-authored lines] Zero hits for every one, including loose variants. The string "regex" does not
+appear anywhere in `docs/`. Cross-checked: all six lines exist in the tree only in coder-authored
+locations and return zero hits in the founder's-words folders and in Rally Day pt 1 through 7.
+
+Canonical is clean on the exact custody failure that this lane's own roadmap files commit eight times
+over. See C-9. The contamination is entirely on this side of the fence.
+
+### CD-1. A document quoting him drops the words where he says do not quote him
+
+[MEASURED, this seat read both the doc and the raw transcript line]
+
+`docs/AUDIO_INTAKE_DECISION_CARD.md:16` quotes, as two sentences:
+"We gotta go back to the transcripts to find out" and "The transcripts are on OTTER."
+
+Raw, `Rally day pt 5_otter.ai.txt:59`:
+"We gotta go back to the transcripts to find out **when she starts**. The transcripts are on OTTER**,
+but I think we said september 1. I think is what we said. I don't remember that. Don't don't quote me
+on that.**"
+
+Both excerpts are cut mid-sentence with a period substituted and no ellipsis. The truncation removes
+his own explicit hedge. The second excerpt in particular is presented as a settled fact when the
+words immediately following it are him saying he does not remember and asking not to be quoted.
+
+This is the sharpest custody finding in the pack. The words are genuinely his and are not fabricated,
+so it is a truncation defect, not a voice defect. It is still the one place where a document makes him
+sound more certain than he was.
+
+### CD-2. Two quotes cited to the wrong line and across another speaker's turn
+
+[MEASURED, this seat verified the speaker headers directly]
+
+`docs/AUDIO_INTAKE_DECISION_CARD.md:14-15` cites the OMI device quote and the Wi-Fi recorder quote as
+"Line 17, same speaker turn."
+
+Raw structure:
+
+| Line | Content |
+|---|---|
+| 16 | header `Brandon pierce 2:31` |
+| 17 | the Agent Taste quote, **correctly cited** |
+| 19 | header `Caroline 3:35`, **a different speaker intervenes** |
+| 22 | header `Brandon pierce 3:58` |
+| 23 | the OMI and Wi-Fi recorder quotes actually live here |
+
+The words are still his, since line 23 sits under a Brandon pierce header. But "same speaker turn" is
+false: the two turns are separated by a Caroline turn. In a corpus where his wife's words have been
+misattributed before, a citation that collapses an intervening speaker is exactly the defect that
+produces a stolen-voice error later. Correct citation is "Line 23, speaker timestamp 3:58".
+
+### CD-3. A stale present-tense claim that misinforms the next builder
+
+[MEASURED, this seat read both]
+
+`docs/F1_FOUNDER_COMMAND_CENTER_ACTIVATION_MAP.md:55` states, in a column headed "Current limitation
+shown honestly": "The real production verifier and binding resolver are not composed in this root
+yet."
+
+At HEAD that is false. `src/first-turn/runtime-composition.js:8` imports
+`createEnvSignedRuntimeIdentityComposition` and wires it at `:67`. The composition landed at
+`ec78406`, after the F1 map's own commit `06fde16`.
+
+It matters because `NEW_WORLD_ESSENTIALS_SOURCE_CONTRACT.md:221` instructs the next builder to reuse
+that exact composition, while the F1 map tells them it does not exist.
+
+### CD-4. Five documents assert facts with no writer stamp
+
+[MEASURED, this seat enumerated them]
+
+`ENV_SIGNED_RUNTIME_IDENTITY_COMPOSITION_MAP.md`, `MEETING_ROOM_JOIN_PACKET.md`,
+`MESSAGE_PROTOCOL_BOUNDARY.md`, `RALLY_DAY_EXECUTION_GAUNTLET.md`, `docs/acl/ACL_ADDRESS_CONTRACT.md`.
+
+Eleven other canonical docs are stamped. The two unstamped ones that matter most are the signed
+identity map, which asserts cryptographic facts, and the message protocol boundary, which asserts
+what does and does not exist in the root.
+
+### CD-5. One unqualified claim that the code contradicts
+
+`MESSAGE_PROTOCOL_BOUNDARY.md:49`: "No provider, email, A'NU message, draft, send, delivery, read,
+reply, or acceptance runtime exists in this root."
+
+At HEAD the root contains `src/provider-acceptance/` with four source files, and
+`openrouter-current-key.js:1` hardcodes `https://openrouter.ai/api/v1/key` with a real fetch at `:62`.
+
+The critic's own caveat is carried rather than dropped: the surrounding list is messaging-shaped, so
+"provider" there may mean a message transport. Read that way the tension softens. The sentence as
+written is unqualified, the doc is unstamped, and the rest of the corpus uses "provider" to mean the
+model provider. It should be scoped.
+
+### What the addendum confirms rather than challenges
+
+Every commit hash, file path, test file, and internal doc link cited across the canonical docs
+resolves. All four cited commits exist and are ancestors of HEAD. All 15 cited source paths exist.
+The `FIRST_TURN_GATE.md` output stamped `[MEASURED]` was reproduced byte-for-byte by a critic running
+it. The Essentials contract's twelve doctrine citations were independently verified a second time and
+held, including its negative claim that ONNYX is not a canonical spelling, confirmed by zero corpus
+hits.
+
+One note that touches this seat's earlier work: the critic found zero hits for "Cerebras" across all
+seven Rally Day parts. That is consistent with, not contrary to, this seat's earlier finding. The raw
+transcript says "Serapis"; "Cerebras" appears in the roadmap document. The resolution stands and the
+absence is expected.
+
+### Correction packet additions
+
+**CP-9. Two lines, whoever owns `AUDIO_INTAKE_DECISION_CARD.md` (stamped `[CATHY SYNTHESIS]`).**
+Restore the truncated text or add ellipses, and carry his hedge. Recite the OMI and Wi-Fi quotes as
+line 23, timestamp 3:58, not "line 17, same speaker turn." Highest priority in this addendum, because
+it is the only finding that changes how certain he sounds.
+
+**CP-10. One line, F1 lane.** Scope or update `F1_FOUNDER_COMMAND_CENTER_ACTIVATION_MAP.md:55`. It is
+present-tense and false at HEAD, and it contradicts an instruction the Essentials contract gives the
+next builder.
+
+**CP-11. Five one-line additions, respective doc owners.** Add writer stamps to the five unstamped
+docs. Scope the `MESSAGE_PROTOCOL_BOUNDARY.md:49` provider sentence while doing it.
+
+---
+
 ## 8. SEAT CONDUCT
 
 No canonical file edited, no commit or push to canonical, no PR, no UI built, no duplicate runtime,
